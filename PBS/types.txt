@@ -1,0 +1,120 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[ILLUSION]
+Name = Illusion
+IconPosition = 0
+Immunities = GHOST
+#-------------------------------
+[DREAM]
+Name = Dream
+IconPosition = 1
+Weaknesses = REASON,DARK
+Resistances = ILLUSION,DREAM,HEART
+#-------------------------------
+[FLYING]
+Name = Flying
+IconPosition = 2
+Weaknesses = STEEL,WIND,ICE
+Immunities = EARTH
+Resistances = DREAM,BEAST,NATURE
+#-------------------------------
+[MIASMA]
+Name = Miasma
+IconPosition = 3
+Weaknesses = EARTH,REASON
+Resistances = MIASMA,HEART,NATURE,FAITH
+#-------------------------------
+[EARTH]
+Name = Earth
+IconPosition = 4
+Weaknesses = WATER,NATURE
+Resistances = MIASMA,FIRE
+Immunities = WIND
+#-------------------------------
+[BEAST]
+Name = Beast
+IconPosition = 5
+Weaknesses = FLYING,FIRE,WATER
+Resistances = EARTH,GHOST
+#-------------------------------
+[HEART]
+Name = Heart
+IconPosition = 6
+Weaknesses = DREAM,FAITH
+Resistances = HEART,GHOST,REASON,DARK
+#-------------------------------
+[GHOST]
+Name = Ghost
+IconPosition = 7
+IsSpecialType = true
+Weaknesses = BEAST,GHOST
+Resistances = MIASMA,REASON
+Immunities = ILLUSION,DARK
+#-------------------------------
+[STEEL]
+Name = Steel
+IconPosition = 8
+Weaknesses = DREAM,EARTH,FIRE
+Resistances = FLYING,STEEL,REASON
+Immunities = MIASMA
+#-------------------------------
+[QMARKS]
+Name = ???
+IconPosition = 9
+IsPseudoType = true
+#-------------------------------
+[FIRE]
+Name = Fire
+IconPosition = 10
+IsSpecialType = true
+Weaknesses = EARTH,WATER
+Resistances = STEEL,FIRE,NATURE
+#-------------------------------
+[WATER]
+Name = Water
+IconPosition = 11
+IsSpecialType = true
+Weaknesses = MIASMA,NATURE,WIND
+Resistances = STEEL,FIRE,WATER,ICE
+#-------------------------------
+[NATURE]
+Name = Nature
+IconPosition = 12
+IsSpecialType = true
+Weaknesses = FLYING,MIASMA,FIRE,ICE
+Resistances = EARTH,BEAST,WATER,NATURE,WIND
+#-------------------------------
+[WIND]
+Name = Wind
+IconPosition = 13
+Weaknesses = EARTH
+Resistances = FLYING,WIND
+IsSpecialType = true
+#-------------------------------
+[REASON]
+Name = Reason
+IconPosition = 14
+IsSpecialType = true
+Weaknesses = HEART,GHOST,DARK
+Resistances = DREAM,MIASMA,FAITH
+#-------------------------------
+[ICE]
+Name = Ice
+IconPosition = 15
+IsSpecialType = true
+Weaknesses = STEEL,FIRE
+Resistances = ICE
+#-------------------------------
+[FAITH]
+Name = Faith
+IconPosition = 16
+Weaknesses = BEAST,REASON
+Resistances = HEART,FIRE,WATER,WIND
+IsSpecialType = true
+#-------------------------------
+[DARK]
+Name = Dark
+IconPosition = 17
+Weaknesses = HEART,STEEL,FAITH
+Resistances = ILLUSION,DREAM,DARK
+Immunities = GHOST
