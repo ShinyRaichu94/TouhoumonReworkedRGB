@@ -23,7 +23,7 @@ Shape = Bipedal
 Category = Miko
 Pokedex = Though she is a shrine maiden, she is also a minor deity, thanks to her inherited power.
 Generation = 1
-Evolutions = SANAE,Level,16
+Evolutions = SANAE,Level,36
 #-------------------------------
 [SANAE]
 Name = Sanae
@@ -46,4 +46,52 @@ Color = Blue
 Shape = Bipedal
 Category = Miko
 Pokedex = Sanae is both a god and a human. She'll continue to live as a human if she loses all her faith.
+Generation = 1
+#-------------------------------
+[CALICE]
+Name = CAlice
+Types = REASON
+BaseStats = 70,50,70,40,80,70
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 70
+EVs = SPECIAL_ATTACK,1
+CatchRate = 45
+Happiness = 70
+Abilities = DOLLWALL,MAGICBARRIER
+Moves = 1,POUND,5,GROWL,9,PSYSHOT,14,AURORABEAM,18,MAGICKNIFE,23,PSYBEAM,27,MAGICCOAT,32,TRIATTACK
+TutorMoves = FOCUSPUNCH,TOXIC,TAUNT,ICEBEAM,BLIZZARD,LIGHTSCREEN,DETECT,SAFEGUARD,SIGNALBEAM,THUNDERBOLT,RETURN,MANABURST,DOUBLETEAM,PSYCHOCUT,SECRETPOWER,REST,ATTRACT,MINDBOMB,CUT
+EggMoves = POWERWHIP,KNOCKOFF,CONVERSION,DOUBLEKICK,MAGICALLEAF,ENDURE,GUARD
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 0.4
+Weight = 25.0
+Color = Blue
+Shape = Bipedal
+Category = Puppeteer
+Pokedex = An "indoor type" magician from the Forest of Magic who spends most of her time alone.
+Generation = 1
+Evolutions = ALICE,Level,36
+#-------------------------------
+[ALICE]
+Name = Alice
+Types = REASON
+BaseStats = 100,70,100,50,110,100
+GenderRatio = Female50Percent
+GrowthRate = Parabolic
+BaseExp = 210
+EVs = DEFENSE,1,SPECIAL_ATTACK,1,SPECIAL_DEFENSE,1
+CatchRate = 45
+Happiness = 70
+Abilities = DOLLWALL,MAGICBARRIER
+Moves = 1,FIREPUNCH,1,ICEPUNCH,1,THUNDERPUNCH,1,MAGICALLEAF,1,MIRRORCOAT,1,MYSTICWATER,1,POUND,5,GROWL,9,PSYSHOT,14,AURORABEAM,18,MAGICKNIFE,23,PSYBEAM,27,MAGICCOAT,32,TRIATTACK,36,TRICK,39,TAUNT,42,CHARGEBEAM,45,MANABURST,49,SIGNALBEAM,53,MANACHARGE,57,PSYCHUP,61,LUSTERPURGE
+TutorMoves = FOCUSPUNCH,TOXIC,TAUNT,ICEBEAM,BLIZZARD,LIGHTSCREEN,DETECT,SAFEGUARD,SIGNALBEAM,THUNDERBOLT,RETURN,MANABURST,DOUBLETEAM,PSYCHOCUT,SECRETPOWER,REST,ATTRACT,MINDBOMB,CUT
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 0.6
+Weight = 100.0
+Color = Blue
+Shape = Bipedal
+Category = Puppeteer
+Pokedex = Without Alice's constant care, the humidity from the Forest of Magic can cause damage to her dolls.
 Generation = 1
