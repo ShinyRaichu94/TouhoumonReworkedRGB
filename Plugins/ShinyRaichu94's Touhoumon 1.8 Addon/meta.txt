@@ -1,0 +1,5 @@
+Name       = SR94's Touhoumon 1.8 Addon
+Version    = 1.0
+Essentials = 21.1
+Requires   = v21.1 Hotfixes,1.0.9
+Credits    = ShinyRaichu94
