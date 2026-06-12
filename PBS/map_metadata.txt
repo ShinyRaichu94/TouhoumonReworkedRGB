@@ -433,3 +433,27 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,5,8
 BattleBack = field
+#-------------------------------
+[082] # Route 3
+Name = Route 3
+Outdoor = true
+ShowArea = true
+MapPosition = 0,6,6
+BattleBack = field
+MapSize = 4,1111
+#-------------------------------
+[083] # Route 4
+Name = Route 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,9,5
+BattleBack = field
+MapSize = 6,111111
+#-------------------------------
+[087] # Route 24
+Name = Route 24
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,3
+BattleBack = field
+MapSize = 1,11
