@@ -1,5 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[005] # Route 1
+[043] # Route 2
 Land,21
-    100,CSANAE,11,14
+    100,CLILYWHITE,4,5
