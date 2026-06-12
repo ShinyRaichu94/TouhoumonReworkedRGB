@@ -396,3 +396,40 @@ Name = Tiall Region
 Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[032] # Pallet Town
+Name = Pallet Town
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,13
+BattleBack = field
+#-------------------------------
+[033] # Route 1
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,11
+BattleBack = field
+MapSize = 1,11
+#-------------------------------
+[042] # Viridian City
+Name = Viridian City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,10
+BattleBack = field
+#-------------------------------
+[043] # Route 2
+Name = Route 2
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,7
+BattleBack = field
+MapSize = 1,111
+#-------------------------------
+[048] # Viridian Forest
+Name = Viridian Forest
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,8
+BattleBack = field
