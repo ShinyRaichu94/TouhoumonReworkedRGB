@@ -1,5 +1,23 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[CAMPER,Liam]
-LoseText = A very good battle, indeed!
-Pokemon = CSANAE,10
+[RIVAL1,Blue]
+LoseText = WHAT? Unbelievable! I picked the wrong Puppet!
+Pokemon = CALICE,5
+    AbilityIndex = 1
+    Gender = male
+#-------------------------------
+[RIVAL1,Blue,1]
+LoseText = WHAT? Unbelievable! I picked the wrong Puppet!
+Pokemon = CREISEN,5
+    AbilityIndex = 1
+    Gender = male
+#-------------------------------
+[RIVAL1,Blue,2]
+LoseText = WHAT? Unbelievable! I picked the wrong Puppet!
+Pokemon = CSANAE,5
+    AbilityIndex = 0
+    Gender = male
+#-------------------------------
+[BUGCATCHER,Sammy]
+LoseText = I give! You're good at this!
+Pokemon = CLILYBLACK,7
