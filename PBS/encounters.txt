@@ -6,9 +6,21 @@ Land,21
 #-------------------------------
 [083] # Route 4
 Land,21
-    95,CLILYWHITE,12,14
+    80,CMOMIJI,11,13
+    15,CLILYWHITE,12,14
     5,CLILYBLACK,12,15
 #-------------------------------
 [087] # Route 24
 Land,21
-    100,CMOMIJI,12,13
+    85,CMOMIJI,12,13
+    15,CSHIZUHA,14,16
+#-------------------------------
+[088] # Route 25
+Land,21
+    85,CMOMIJI,12,13
+    15,CSHIZUHA,14,16
+#-------------------------------
+[089] # Route 5
+Land,21
+    80,CMEDICINE,13
+    20,CSHIZUHA,14,15
