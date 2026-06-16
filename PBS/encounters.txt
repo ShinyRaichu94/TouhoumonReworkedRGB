@@ -2,16 +2,19 @@
 #-------------------------------
 [033] # Route 1
 Land,21
-    100,CNAZRIN,2,4
+    50,CTOKIKO,2,4
+    50,CNAZRIN,2
 #-------------------------------
 [043] # Route 2
 Land,21
-    95,CNAZRIN,2,3
+    50,CTOKIKO,2,5
+    45,CNAZRIN,2,3
     5,CLILYWHITE,4,5
 #-------------------------------
 [076] # Route 22
 Land,21
-    100,CNAZRIN,2,4
+    50,CTOKIKO,3,5
+    50,CNAZRIN,2,3
 #-------------------------------
 [083] # Route 4
 Land,21
@@ -22,15 +25,42 @@ Land,21
 #-------------------------------
 [087] # Route 24
 Land,21
-    85,CMOMIJI,12,13
+    65,CTOKIKO,12,13
+    20,CMOMIJI,12,13
     15,CSHIZUHA,14,16
 #-------------------------------
 [088] # Route 25
 Land,21
-    85,CMOMIJI,12,13
+    65,CTOKIKO,12,13
+    20,CMOMIJI,12,13
     15,CSHIZUHA,14,16
 #-------------------------------
 [089] # Route 5
 Land,21
     80,CMEDICINE,13
     20,CSHIZUHA,14,15
+#-------------------------------
+[090] # Route 6
+Land,21
+    90,CMEDICINE,13
+    10,CSHIZUHA,15
+#-------------------------------
+[092] # Route 11
+Land,21
+    75,CTOKIKO,16,18
+    20,CMOMIJI,15,18
+    5,CMOMIJI,20
+#-------------------------------
+[093] # Route 9
+Land,21
+    55,CNAZRIN,16,20
+    35,CMOMIJI,16,20
+    5,CNAZRIN,22
+    5,CMOMIJI,22
+#-------------------------------
+[094] # Route 10
+Land,21
+    65,CNAZRIN,17,20
+    25,CMOMIJI,17,20
+    5,CNAZRIN,22
+    5,CMOMIJI,22
