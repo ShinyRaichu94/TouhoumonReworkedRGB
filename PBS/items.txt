@@ -2007,13 +2007,13 @@ Price = 4000
 Flags = TypeGem
 Description = A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move only once.
 #-------------------------------
-[LIGHTBALL]
-Name = Light Ball
-NamePlural = Light Balls
+[ICEBALL]
+Name = Ice Ball
+NamePlural = Ice Balls
 Pocket = 1
 Price = 1000
 Flags = Fling_30
-Description = An item to be held by Pikachu. It is a puzzling orb that raises the Attack and Sp. Atk stat.
+Description = An item to be held by CCirno. It is a frozen orb that raises the Attack and Sp. Atk stat.
 #-------------------------------
 [LUCKYPUNCH]
 Name = Lucky Punch
