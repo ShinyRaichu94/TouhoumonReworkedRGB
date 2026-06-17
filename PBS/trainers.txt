@@ -18,6 +18,111 @@ Pokemon = CSANAE,5
     AbilityIndex = 0
     Gender = male
 #-------------------------------
+[RIVAL1,Blue,3]
+LoseText = Awww! You just lucked out!
+Pokemon = CTOKIKO,9
+    AbilityIndex = 0
+    Gender = male
+Pokemon = CALICE,8
+    AbilityIndex = 1
+    Gender = male
+#-------------------------------
+[RIVAL1,Blue,4]
+LoseText = Awww! You just lucked out!
+Pokemon = CTOKIKO,9
+    AbilityIndex = 0
+    Gender = male
+Pokemon = CREISEN,8
+    AbilityIndex = 1
+    Gender = male
+#-------------------------------
+[RIVAL1,Blue,5]
+LoseText = Awww! You just lucked out!
+Pokemon = CTOKIKO,9
+    AbilityIndex = 0
+    Gender = male
+Pokemon = CSANAE,8
+    AbilityIndex = 0
+    Gender = male
+#-------------------------------
+[RIVAL1,Blue,6]
+LoseText = Hey! Take it easy! You won already!
+Pokemon = CTOKIKO,18
+    AbilityIndex = 0
+    Gender = male
+    Moves = STOMP,AGILITY,QUICKATTACK,ENDEAVOR
+Pokemon = CMOMIJI,16
+    AbilityIndex = 1
+    Gender = male
+    Moves = BITE,HOWL,TAILWHIP,SCRATCH
+Pokemon = CALICE,19
+    AbilityIndex = 1
+    Gender = male
+    Moves = MAGICKNIFE,GROWL,PSYSHOT,AURORABEAM
+#-------------------------------
+[RIVAL1,Blue,7]
+LoseText = Hey! Take it easy! You won already!
+Pokemon = CTOKIKO,18
+    AbilityIndex = 0
+    Gender = male
+    Moves = STOMP,AGILITY,QUICKATTACK,ENDEAVOR
+Pokemon = CMOMIJI,16
+    AbilityIndex = 1
+    Gender = male
+    Moves = BITE,HOWL,TAILWHIP,SCRATCH
+Pokemon = CREISEN,19
+    AbilityIndex = 1
+    Gender = male
+    Moves = MIRRORSHOT,CONFUSERAY,PSYSHOT,TAILWHIP
+#-------------------------------
+[RIVAL1,Blue,8]
+LoseText = Hey! Take it easy! You won already!
+Pokemon = CTOKIKO,18
+    AbilityIndex = 0
+    Gender = male
+    Moves = STOMP,AGILITY,QUICKATTACK,ENDEAVOR
+Pokemon = CMOMIJI,16
+    AbilityIndex = 1
+    Gender = male
+    Moves = BITE,HOWL,TAILWHIP,SCRATCH
+Pokemon = CSANAE,19
+    AbilityIndex = 0
+    Gender = male
+    Moves = NATUREPOWER,DECISION,GUST,GROWL
+#-------------------------------
+[RIVAL2,Blue]
+LoseText = Humph! At least you're raising your Puppets!
+Pokemon = CMOMIJI,20
+    AbilityIndex = 1
+    Gender = male
+    Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
+Pokemon = CALICE,24
+    AbilityIndex = 1
+    Gender = male
+    Moves = MAGICKNIFE,GROWL,PSYBEAM,AURORABEAM
+#-------------------------------
+[RIVAL2,Blue,1]
+LoseText = Humph! At least you're raising your Puppets!
+Pokemon = CMOMIJI,20
+    AbilityIndex = 1
+    Gender = male
+    Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
+Pokemon = CREISEN,24
+    AbilityIndex = 1
+    Gender = male
+    Moves = MIRRORSHOT,CONFUSERAY,PSYSHOT,MINDBOMB
+#-------------------------------
+[RIVAL2,Blue,2]
+LoseText = Humph! At least you're raising your Puppets!
+Pokemon = CMOMIJI,20
+    AbilityIndex = 1
+    Gender = male
+    Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
+Pokemon = CSANAE,24
+    AbilityIndex = 0
+    Gender = male
+    Moves = NATUREPOWER,DECISION,GUST,WATERPULSE
+#-------------------------------
 [BUGCATCHER,Sammy]
 LoseText = I give! You're good at this!
 Pokemon = CLILYBLACK,7

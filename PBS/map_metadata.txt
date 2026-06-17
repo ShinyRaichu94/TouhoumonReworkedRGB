@@ -434,6 +434,22 @@ ShowArea = true
 MapPosition = 0,5,8
 BattleBack = field
 #-------------------------------
+[076] # Route 22
+Name = Route 22
+Outdoor = true
+ShowArea = true
+MapPosition = 0,3,10
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[077] # Route 23
+Name = Route 23
+Outdoor = true
+ShowArea = true
+MapPosition = 0,3,6
+BattleBack = field
+MapSize = 1,1111
+#-------------------------------
 [082] # Route 3
 Name = Route 3
 Outdoor = true
@@ -481,3 +497,75 @@ ShowArea = true
 MapPosition = 0,15,9
 BattleBack = field
 MapSize = 1,11
+#-------------------------------
+[092] # Route 11
+Name = Route 11
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,11
+BattleBack = field
+MapSize = 3,111
+#-------------------------------
+[093] # Route 9
+Name = Route 9
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,5
+BattleBack = field
+MapSize = 3,111
+#-------------------------------
+[094] # Route 10
+Name = Route 10
+Outdoor = true
+ShowArea = true
+MapPosition = 0,19,5
+BattleBack = field
+MapSize = 1,111
+#-------------------------------
+[096] # Route 8
+Name = Route 8
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,8
+BattleBack = field
+MapSize = 3,111
+#-------------------------------
+[097] # Route 7
+Name = Route 7
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,8
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[100] # Route 12
+Name = Route 12
+Outdoor = true
+ShowArea = true
+MapPosition = 0,19,9
+BattleBack = field
+MapSize = 1,11111
+#-------------------------------
+[101] # Route 13
+Name = Route 13
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,13
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[102] # Route 14
+Name = Route 14
+Outdoor = true
+ShowArea = true
+MapPosition = 0,16,13
+BattleBack = field
+MapSize = 1,11
+#-------------------------------
+[103] # Route 15
+Name = Route 15
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,14
+BattleBack = field
+MapSize = 2,11
