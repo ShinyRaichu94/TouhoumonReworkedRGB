@@ -181,15 +181,15 @@ Pokemon = CYUUGI,12
     IV = 12,12,12,12,12,12
 #-------------------------------
 [LEADER_Surge,Lt. Surge]
-LoseText = I took you for granted, and so I lost.
+LoseText = Now that's a shocker!
 Pokemon = CIKU,25
     AbilityIndex = 1
     Gender = male
     Moves = BIND,BATTERYCHARGE,WATERPULSE,SHOCKWAVE
-    IV = 5,5,5,5,5,5
+    IV = 12,12,12,12,12,12
 #-------------------------------
 [LEADER_Sabrina,Sabrina]
-LoseText = I took you for granted, and so I lost.
+LoseText = This loss shocks me! But, a loss is a loss.
 Pokemon = KOAKUMA,45
     AbilityIndex = 0
     Gender = female
@@ -228,3 +228,30 @@ Pokemon = AKEINE,54
     Moves = FIREPUNCH,ICEPUNCH,THUNDERPUNCH,EARTHQUAKE
     Item = LIECHIBERRY
     IV = 30,30,30,30,30,30
+#-------------------------------
+[ELITEFOUR_Lorelei,Lorelei]
+LoseText = ...Things shouldn't be this way!
+Pokemon = CIRNO,55
+    AbilityIndex = 0
+    Gender = female
+    Moves = BLIZZARD,DIG,SURF,HAIL
+    Item = SALACBERRY
+    IV = 30,30,30,30,30,30
+#-------------------------------
+[PROFESSOR,Oak]
+LoseText = Hmm... I still have a lot to learn!
+Pokemon = SANAE,70
+    AbilityIndex = 0
+    Gender = male
+    Moves = SILVERWIND,AEROBLAST,HEATWAVE,SURF
+    IV = 31,31,31,31,31,31
+Pokemon = ALICE,70
+    AbilityIndex = 0
+    Gender = male
+    Moves = ICEBEAM,LUSTERPURGE,SIGNALBEAM,SUBSTITUTE
+    IV = 31,31,31,31,31,31
+Pokemon = REISEN,70
+    AbilityIndex = 0
+    Gender = male
+    Moves = MISTBALL,SONICBOOM,MANABURST,NIGHTMARE
+    IV = 31,31,31,31,31,31

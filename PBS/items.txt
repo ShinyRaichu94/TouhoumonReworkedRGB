@@ -6005,3 +6005,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
+#-------------------------------
+[ORANGEPASS]
+Name = Orange Pass
+NamePlural = Orange Passes
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A pass for ferries between Vermilion and the Orange Islands. It features drawings of different shells.
