@@ -180,6 +180,27 @@ Pokemon = CYUUGI,12
     Item = ORANBERRY
     IV = 12,12,12,12,12,12
 #-------------------------------
+[LEADER_Surge,Lt. Surge]
+LoseText = I took you for granted, and so I lost.
+Pokemon = CIKU,25
+    AbilityIndex = 1
+    Gender = male
+    Moves = BIND,BATTERYCHARGE,WATERPULSE,SHOCKWAVE
+    IV = 5,5,5,5,5,5
+#-------------------------------
+[LEADER_Sabrina,Sabrina]
+LoseText = I took you for granted, and so I lost.
+Pokemon = KOAKUMA,45
+    AbilityIndex = 0
+    Gender = female
+    Moves = CHARGEBEAM,THUNDERWAVE,SHADOWBALL,MANABURST
+    IV = 24,24,24,24,24,24
+Pokemon = PATCHOULI,45
+    AbilityIndex = 0
+    Gender = female
+    Moves = THUNDERBOLT,FLAMETHROWER,MUDDYWATER,MANABURST
+    IV = 24,24,24,24,24,24
+#-------------------------------
 [ROCKETBOSS,Giovanni]
 LoseText = WHAT! This can't be!
 Pokemon = CKEINE,30
