@@ -8,13 +8,7 @@ Land,21
 [043] # Route 2
 Land,21
     50,CTOKIKO,2,5
-    45,CNAZRIN,2,3
-    5,CLILYWHITE,4,5
-#-------------------------------
-[048] # Viridian Forest
-Land,21
-    95,SHANGHAI,5
-    5,HOURAI,5
+    50,CNAZRIN,2,3
 #-------------------------------
 [076] # Route 22
 Land,21
@@ -23,7 +17,8 @@ Land,21
 #-------------------------------
 [082] # Route 3
 Land,21
-    100,CTOKIKO,8,10
+    70,CTOKIKO,8,10
+    30,CMYSTIA,8,9
 #-------------------------------
 [083] # Route 4
 Land,21
@@ -34,26 +29,33 @@ Land,21
 #-------------------------------
 [087] # Route 24
 Land,21
-    65,CTOKIKO,12,13
+    50,CTOKIKO,12,13
     20,CMOMIJI,12,13
     15,CSHIZUHA,14,16
+    15,CMINORIKO,14,16
 #-------------------------------
 [088] # Route 25
 Land,21
-    65,CTOKIKO,12,13
+    40,CTOKIKO,12,13
     20,CMOMIJI,12,13
     15,CSHIZUHA,14,16
+    15,CMINORIKO,14,16
+    10,CKEINE,13,16
 #-------------------------------
 [089] # Route 5
 Land,21
-    80,CMEDICINE,13
+    40,CMYSTIA,14,17
+    20,CMEDICINE,13
     20,CSHIZUHA,14,15
+    20,CMINORIKO,14,15
 #-------------------------------
 [090] # Route 6
 Land,21
-    80,CMEDICINE,13
+    50,CMYSTIA,14,17
+    20,CMEDICINE,13
     10,CCIRNO,14
     10,CSHIZUHA,15
+    10,CMINORIKO,15
 #-------------------------------
 [092] # Route 11
 Land,21
@@ -63,42 +65,81 @@ Land,21
 #-------------------------------
 [093] # Route 9
 Land,21
-    55,CNAZRIN,16,20
+    40,CNAZRIN,16,20
     35,CMOMIJI,16,20
+    15,CHATATE,18,20
     5,CNAZRIN,22
     5,CMOMIJI,22
 #-------------------------------
 [094] # Route 10
 Land,21
-    65,CNAZRIN,17,20
+    55,CNAZRIN,17,20
     25,CMOMIJI,17,20
+    10,CHATATE,18
     5,CNAZRIN,22
     5,CMOMIJI,22
 #-------------------------------
 [096] # Route 8
 Land,21
-    100,CMEDICINE,20
+    75,CMYSTIA,22
+    20,CMEDICINE,20
+    5,MYSTIA,25,28
 #-------------------------------
 [097] # Route 7
 Land,21
-    100,CMEDICINE,20
+    75,CMYSTIA,22
+    20,CMEDICINE,20
+    5,MYSTIA,25,28
 #-------------------------------
 [100] # Route 12
 Land,21
-    85,MEDICINE,25,28
+    50,CKEINE,25
+    20,MEDICINE,25,28
     15,SHIZUHA,25,29
+    15,MINORIKO,25,29
 #-------------------------------
 [101] # Route 13
 Land,21
-    85,MEDICINE,25,28
+    50,CKEINE,25
+    20,MEDICINE,25,28
     15,SHIZUHA,25,29
+    15,MINORIKO,25,29
 #-------------------------------
 [102] # Route 14
 Land,21
-    85,MEDICINE,27,30
+    50,CKEINE,25
+    20,MEDICINE,27,30
     15,SHIZUHA,28,30
+    15,MINORIKO,28,30
 #-------------------------------
 [103] # Route 15
 Land,21
-    85,MEDICINE,27,30
+    50,CKEINE,25
+    20,MEDICINE,27,30
     15,SHIZUHA,28,30
+    15,MINORIKO,28,30
+#-------------------------------
+[114] # Kindle Road
+Land,21
+    65,TOKIKO,36
+    20,MOMIJI,36
+    5,SUIKA,40,42
+    5,YUUGI,40,42
+    5,CREISEN,5
+#-------------------------------
+[115] # Cape Brink
+Land,21
+    55,TOKIKO,36,38
+    20,SHIZUHA,36,38
+    20,MINORIKO,36,38
+    5,CSANAE,5
+#-------------------------------
+[116] # Bond Bridge
+Land,21
+    25,MYSTIA,36
+    20,MEDICINE,36
+    20,SHIZUHA,36,38
+    20,MINORIKO,36,38
+    9,KEINE,36,40
+    5,CALICE,5
+    1,AKEINE,40

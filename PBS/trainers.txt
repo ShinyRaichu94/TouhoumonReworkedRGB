@@ -5,45 +5,54 @@ LoseText = WHAT? Unbelievable! I picked the wrong Puppet!
 Pokemon = CALICE,5
     AbilityIndex = 1
     Gender = male
+    IV = 0,0,0,0,0,0
 #-------------------------------
 [RIVAL1,Blue,1]
 LoseText = WHAT? Unbelievable! I picked the wrong Puppet!
 Pokemon = CREISEN,5
     AbilityIndex = 1
     Gender = male
+    IV = 0,0,0,0,0,0
 #-------------------------------
 [RIVAL1,Blue,2]
 LoseText = WHAT? Unbelievable! I picked the wrong Puppet!
 Pokemon = CSANAE,5
     AbilityIndex = 0
     Gender = male
+    IV = 0,0,0,0,0,0
 #-------------------------------
 [RIVAL1,Blue,3]
 LoseText = Awww! You just lucked out!
 Pokemon = CTOKIKO,9
     AbilityIndex = 0
     Gender = male
+    IV = 5,5,5,5,5,5
 Pokemon = CALICE,8
     AbilityIndex = 1
     Gender = male
+    IV = 0,0,0,0,0,0
 #-------------------------------
 [RIVAL1,Blue,4]
 LoseText = Awww! You just lucked out!
 Pokemon = CTOKIKO,9
     AbilityIndex = 0
     Gender = male
+    IV = 5,5,5,5,5,5
 Pokemon = CREISEN,8
     AbilityIndex = 1
     Gender = male
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL1,Blue,5]
 LoseText = Awww! You just lucked out!
 Pokemon = CTOKIKO,9
     AbilityIndex = 0
     Gender = male
+    IV = 5,5,5,5,5,5
 Pokemon = CSANAE,8
     AbilityIndex = 0
     Gender = male
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL1,Blue,6]
 LoseText = Hey! Take it easy! You won already!
@@ -51,14 +60,17 @@ Pokemon = CTOKIKO,18
     AbilityIndex = 0
     Gender = male
     Moves = STOMP,AGILITY,QUICKATTACK,ENDEAVOR
+    IV = 5,5,5,5,5,5
 Pokemon = CMOMIJI,16
     AbilityIndex = 1
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
+    IV = 5,5,5,5,5,5
 Pokemon = CALICE,19
     AbilityIndex = 1
     Gender = male
     Moves = MAGICKNIFE,GROWL,PSYSHOT,AURORABEAM
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL1,Blue,7]
 LoseText = Hey! Take it easy! You won already!
@@ -66,14 +78,17 @@ Pokemon = CTOKIKO,18
     AbilityIndex = 0
     Gender = male
     Moves = STOMP,AGILITY,QUICKATTACK,ENDEAVOR
+    IV = 5,5,5,5,5,5
 Pokemon = CMOMIJI,16
     AbilityIndex = 1
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
+    IV = 5,5,5,5,5,5
 Pokemon = CREISEN,19
     AbilityIndex = 1
     Gender = male
     Moves = MIRRORSHOT,CONFUSERAY,PSYSHOT,TAILWHIP
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL1,Blue,8]
 LoseText = Hey! Take it easy! You won already!
@@ -81,14 +96,17 @@ Pokemon = CTOKIKO,18
     AbilityIndex = 0
     Gender = male
     Moves = STOMP,AGILITY,QUICKATTACK,ENDEAVOR
+    IV = 5,5,5,5,5,5
 Pokemon = CMOMIJI,16
     AbilityIndex = 1
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
+    IV = 5,5,5,5,5,5
 Pokemon = CSANAE,19
     AbilityIndex = 0
     Gender = male
     Moves = NATUREPOWER,DECISION,GUST,GROWL
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL2,Blue]
 LoseText = Humph! At least you're raising your Puppets!
@@ -96,10 +114,17 @@ Pokemon = CMOMIJI,20
     AbilityIndex = 1
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
+    IV = 5,5,5,5,5,5
+Pokemon = CYAMAME,21
+    AbilityIndex = 0
+    Gender = male
+    Moves = STUNSPORE,TOXICGAS,PURSUIT,DIG
+    IV = 5,5,5,5,5,5
 Pokemon = CALICE,24
     AbilityIndex = 1
     Gender = male
     Moves = MAGICKNIFE,GROWL,PSYBEAM,AURORABEAM
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL2,Blue,1]
 LoseText = Humph! At least you're raising your Puppets!
@@ -107,10 +132,17 @@ Pokemon = CMOMIJI,20
     AbilityIndex = 1
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
+    IV = 5,5,5,5,5,5
+Pokemon = CYAMAME,21
+    AbilityIndex = 0
+    Gender = male
+    Moves = STUNSPORE,TOXICGAS,PURSUIT,DIG
+    IV = 5,5,5,5,5,5
 Pokemon = CREISEN,24
     AbilityIndex = 1
     Gender = male
     Moves = MIRRORSHOT,CONFUSERAY,PSYSHOT,MINDBOMB
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [RIVAL2,Blue,2]
 LoseText = Humph! At least you're raising your Puppets!
@@ -118,11 +150,60 @@ Pokemon = CMOMIJI,20
     AbilityIndex = 1
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
+    IV = 5,5,5,5,5,5
+Pokemon = CYAMAME,21
+    AbilityIndex = 0
+    Gender = male
+    Moves = STUNSPORE,TOXICGAS,PURSUIT,DIG
+    IV = 5,5,5,5,5,5
 Pokemon = CSANAE,24
     AbilityIndex = 0
     Gender = male
     Moves = NATUREPOWER,DECISION,GUST,WATERPULSE
+    IV = 5,5,5,5,5,5
 #-------------------------------
 [BUGCATCHER,Sammy]
 LoseText = I give! You're good at this!
 Pokemon = CLILYBLACK,7
+#-------------------------------
+[LEADER_Brock,Brock]
+LoseText = I took you for granted, and so I lost.
+Pokemon = CSUIKA,10
+    AbilityIndex = 0
+    Gender = male
+    Moves = KARATECHOP,MIST,ROCKTOMB
+    IV = 5,5,5,5,5,5
+Pokemon = CYUUGI,12
+    AbilityIndex = 0
+    Gender = male
+    Moves = KARATECHOP,ROCKTOMB
+    Item = ORANBERRY
+    IV = 12,12,12,12,12,12
+#-------------------------------
+[ROCKETBOSS,Giovanni]
+LoseText = WHAT! This can't be!
+Pokemon = CKEINE,30
+    AbilityIndex = 0
+    Gender = male
+    Moves = SHARPEN,ZENHEADBUTT,HEADBUTT,TACKLE
+    IV = 30,30,30,30,30,30
+Pokemon = CSUIKA,31
+    AbilityIndex = 0
+    Gender = male
+    Moves = ROCKSLIDE,FIREPUNCH,KARATECHOP,SANDSTORM
+    IV = 30,30,30,30,30,30
+#-------------------------------
+[LEADER_Giovanni,Giovanni]
+LoseText = Ha! That was a truly intense fight.
+Pokemon = MOMIJI,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = CUT,KILLINGBITE,AGILITY,EARTHQUAKE
+    Item = SCOPELENS
+    IV = 30,30,30,30,30,30
+Pokemon = AKEINE,54
+    AbilityIndex = 0
+    Gender = male
+    Moves = FIREPUNCH,ICEPUNCH,THUNDERPUNCH,EARTHQUAKE
+    Item = LIECHIBERRY
+    IV = 30,30,30,30,30,30

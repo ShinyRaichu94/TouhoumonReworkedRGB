@@ -433,6 +433,7 @@ Outdoor = true
 ShowArea = true
 MapPosition = 0,5,8
 BattleBack = field
+Environment = Forest
 #-------------------------------
 [076] # Route 22
 Name = Route 22
@@ -569,3 +570,42 @@ ShowArea = true
 MapPosition = 0,14,14
 BattleBack = field
 MapSize = 2,11
+#-------------------------------
+[079] # Altering Cave
+Name = Altering Cave
+ShowArea = true
+MapPosition = 3,19,5
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[113] # Pattern Bush
+Name = Pattern Bush
+Outdoor = true
+ShowArea = true
+MapPosition = 3,21,6
+BattleBack = field
+Environment = Forest
+#-------------------------------
+[114] # Kindle Road
+Name = Kindle Road
+Outdoor = true
+ShowArea = true
+MapPosition = 1,6,6
+BattleBack = field
+MapSize = 1,111111
+#-------------------------------
+[115] # Cape Brink
+Name = Cape Brink
+Outdoor = true
+ShowArea = true
+MapPosition = 1,13,10
+BattleBack = field
+MapSize = 1,11
+#-------------------------------
+[116] # Bond Bridge
+Name = Bond Bridge
+Outdoor = true
+ShowArea = true
+MapPosition = 1,18,15
+BattleBack = field
+MapSize = 4,1111
