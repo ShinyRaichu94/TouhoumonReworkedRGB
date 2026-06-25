@@ -166,6 +166,53 @@ Pokemon = CSANAE,24
 LoseText = I give! You're good at this!
 Pokemon = CLILYBLACK,7
 #-------------------------------
+[CAMPER,Liam]
+LoseText = Darn! Light-years isn't time... It measures distance!
+Pokemon = CYAMAME,9
+    Moves = POISONSTING,DEFENSECURL
+Pokemon = CSUIKA,9
+    Moves = KARATECHOP,SEISMICTOSS
+#-------------------------------
+[LASS,Janice]
+LoseText = You're mean!
+Pokemon = CTOKIKO,9
+Pokemon = CTOKIKO,9
+#-------------------------------
+[BUGCATCHER,Sammy,1]
+LoseText = You beat me again!
+Pokemon = CLILYBLACK,10
+#-------------------------------
+[YOUNGSTER,Ben]
+LoseText = I don't believe it!
+Pokemon = CNAZRIN,11
+Pokemon = CMOMIJI,11
+#-------------------------------
+[BUGCATCHER,Greg]
+LoseText = If I had new Puppets, I would've won!
+Pokemon = CYAMAME,9
+#-------------------------------
+[YOUNGSTER,Calvin]
+LoseText = Lost! Lost! Lost!
+Pokemon = CTOKIKO,14
+#-------------------------------
+[LASS,Sally]
+LoseText = Be nice!
+Pokemon = CNAZRIN,10
+#-------------------------------
+[BUGCATCHER,James]
+LoseText = Done like dinner!
+Pokemon = CLILYWHITE,9
+Pokemon = CLILYBLACK,9
+#-------------------------------
+[LASS,Robin]
+LoseText = That's it?
+Pokemon = CMYSTIA,14
+#-------------------------------
+[LASS,Crissy]
+LoseText = After all I did to catch them!
+Pokemon = MEDICINE,32
+Pokemon = RUMIA,32
+#-------------------------------
 [LEADER_Brock,Brock]
 LoseText = I took you for granted, and so I lost.
 Pokemon = CSUIKA,10
@@ -186,6 +233,14 @@ Pokemon = CIKU,25
     AbilityIndex = 1
     Gender = male
     Moves = BIND,BATTERYCHARGE,WATERPULSE,SHOCKWAVE
+    IV = 12,12,12,12,12,12
+#-------------------------------
+[LEADER_Erika,Erika]
+LoseText = Oh! I concede defeat.
+Pokemon = CKAGUYA,33
+    AbilityIndex = 1
+    Gender = female
+    Moves = PSYBEAM,MAGICALLEAF,COTTONSPORE,CHARGEBEAM
     IV = 12,12,12,12,12,12
 #-------------------------------
 [LEADER_Sabrina,Sabrina]

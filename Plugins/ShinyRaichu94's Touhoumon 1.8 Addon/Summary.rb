@@ -1383,12 +1383,12 @@ class PokemonSummaryScreen
   def pbStartForgetScreen(party, partyindex, move_to_learn)
     ret = -1
     @scene.pbStartForgetScene(party, partyindex, move_to_learn)
-    loop do
+    #loop do
       ret = @scene.pbChooseMoveToForget(move_to_learn)
-      break if ret < 0 || !move_to_learn
-      break if $DEBUG || !party[partyindex].moves[ret].hidden_move?
-      pbMessage(_INTL("HM moves can't be forgotten now.")) { @scene.pbUpdate }
-    end
+      #break if ret < 0 || !move_to_learn
+      #break if $DEBUG || !party[partyindex].moves[ret].hidden_move?
+      #pbMessage(_INTL("HM moves can't be forgotten now.")) { @scene.pbUpdate }
+    #end
     @scene.pbEndScene
     return ret
   end
