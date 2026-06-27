@@ -162,9 +162,32 @@ Pokemon = CSANAE,24
     Moves = NATUREPOWER,DECISION,GUST,WATERPULSE
     IV = 5,5,5,5,5,5
 #-------------------------------
+[BUGCATCHER,Rick]
+LoseText = No! CSunny couldn't hack it!
+Pokemon = CLUNA,6
+Pokemon = CSUNNY,6
+#-------------------------------
+[BUGCATCHER,Doug]
+LoseText = Huh? I ran out of Puppets!
+Pokemon = CSTAR,7
+Pokemon = CLUNA,7
+Pokemon = CDAIYOUSEI,7
+#-------------------------------
+[BUGCATCHER,Anthony]
+LoseText = Oh, boo. Nothing went right.
+Pokemon = CSTAR,7
+Pokemon = CSUNNY,8
+#-------------------------------
+[BUGCATCHER,Charlie]
+LoseText = Oh! I lost!
+Pokemon = CSUNNY,7
+Pokemon = CSTAR,7
+Pokemon = CLUNA,7
+#-------------------------------
 [BUGCATCHER,Sammy]
 LoseText = I give! You're good at this!
-Pokemon = CLILYBLACK,7
+Pokemon = CLILYBLACK,9
+Pokemon = CWRIGGLE,8
 #-------------------------------
 [CAMPER,Liam]
 LoseText = Darn! Light-years isn't time... It measures distance!
@@ -227,6 +250,25 @@ Pokemon = CYUUGI,12
     Item = ORANBERRY
     IV = 12,12,12,12,12,12
 #-------------------------------
+[LEADER_Misty,Misty]
+LoseText = I took you for granted, and so I lost.
+Pokemon = CKOMACHI,19
+    AbilityIndex = 1
+    Gender = female
+    Moves = SCRATCH,PAYDAY,AQUAJET,WATERPULSE
+    IV = 5,5,5,5,5,5
+Pokemon = CSUWAKO,18
+    AbilityIndex = 0
+    Gender = female
+    Moves = MUDSLAP,SECRETPOWER,DIZZYPUNCH,WATERPULSE
+    IV = 5,5,5,5,5,5
+Pokemon = STAR,22
+    AbilityIndex = 0
+    Gender = female
+    Moves = AURORABEAM,NATUREPOWER,WATERPULSE
+    Item = PETAYABERRY
+    IV = 12,12,12,12,12,12
+#-------------------------------
 [LEADER_Surge,Lt. Surge]
 LoseText = Now that's a shocker!
 Pokemon = CIKU,25
@@ -237,23 +279,72 @@ Pokemon = CIKU,25
 #-------------------------------
 [LEADER_Erika,Erika]
 LoseText = Oh! I concede defeat.
+Pokemon = CYUUKA,32
+    AbilityIndex = 0
+    Gender = female
+    Moves = NEEDLEARM,TAUNT,STOMP,GIGADRAIN
+    IV = 12,12,12,12,12,12
 Pokemon = CKAGUYA,33
     AbilityIndex = 1
     Gender = female
     Moves = PSYBEAM,MAGICALLEAF,COTTONSPORE,CHARGEBEAM
     IV = 12,12,12,12,12,12
 #-------------------------------
+[LEADER_Erika,Erika,1]
+LoseText = Oh! I concede defeat.
+Pokemon = YUUKA,42
+    AbilityIndex = 0
+    Gender = female
+    Moves = NEEDLEARM,STUNSPORE,STOMP,GIGADRAIN
+    IV = 24,24,24,24,24,24
+#-------------------------------
+[LEADER_Erika,Erika,2]
+LoseText = Oh! I concede defeat.
+Pokemon = YUUKA,49
+    AbilityIndex = 0
+    Gender = female
+    Moves = NEEDLEARM,STUNSPORE,CRUSHCLAW,MUDSHOT
+    IV = 24,24,24,24,24,24
+#-------------------------------
 [LEADER_Sabrina,Sabrina]
 LoseText = This loss shocks me! But, a loss is a loss.
-Pokemon = KOAKUMA,45
+Pokemon = KOAKUMA,41
     AbilityIndex = 0
     Gender = female
     Moves = CHARGEBEAM,THUNDERWAVE,SHADOWBALL,MANABURST
     IV = 24,24,24,24,24,24
-Pokemon = PATCHOULI,45
+Pokemon = PATCHOULI,42
     AbilityIndex = 0
     Gender = female
-    Moves = THUNDERBOLT,FLAMETHROWER,MUDDYWATER,MANABURST
+    Moves = THUNDERBOLT,MUDDYWATER,REFLECT,MANABURST
+    IV = 24,24,24,24,24,24
+Pokemon = SATORI,42
+    AbilityIndex = 0
+    Gender = female
+    Moves = SIGNALBEAM,DARKPULSE,CALMMIND,MANABURST
+    IV = 24,24,24,24,24,24
+#-------------------------------
+[LEADER_Sabrina,Sabrina,1]
+LoseText = This loss shocks me! But, a loss is a loss.
+Pokemon = KOAKUMA,48
+    AbilityIndex = 0
+    Gender = female
+    Moves = CHARGEBEAM,THUNDERWAVE,SHADOWBALL,MANABURST
+    IV = 24,24,24,24,24,24
+Pokemon = PATCHOULI,48
+    AbilityIndex = 0
+    Gender = female
+    Moves = THUNDERBOLT,MUDDYWATER,REFLECT,MANABURST
+    IV = 24,24,24,24,24,24
+Pokemon = SATORI,49
+    AbilityIndex = 0
+    Gender = female
+    Moves = SIGNALBEAM,DARKPULSE,CALMMIND,MANABURST
+    IV = 24,24,24,24,24,24
+Pokemon = BYAKUREN,49
+    AbilityIndex = 0
+    Gender = female
+    Moves = CHARGEBEAM,EXTRASENSORY,CALMMIND,MANABURST
     IV = 24,24,24,24,24,24
 #-------------------------------
 [ROCKETBOSS,Giovanni]

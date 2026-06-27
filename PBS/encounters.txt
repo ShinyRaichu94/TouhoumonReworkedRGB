@@ -7,13 +7,46 @@ Land,21
 #-------------------------------
 [043] # Route 2
 Land,21
-    50,CTOKIKO,2,5
-    50,CNAZRIN,2,3
+    45,CTOKIKO,2,5
+    40,CNAZRIN,2,3
+    5,CSUNNY,4,5
+    5,CLUNA,4,5
+    5,CSTAR,4,5
+#-------------------------------
+[048] # Viridian Forest
+Land,21
+    28,CSUNNY,3,5
+    28,CLUNA,3,5
+    28,CSTAR,3,5
+    11,CDAIYOUSEI,3,5
+    5,WRIGGLE,3,6
 #-------------------------------
 [076] # Route 22
 Land,21
     50,CTOKIKO,3,5
-    50,CNAZRIN,2,3
+    40,CNAZRIN,2,3
+    10,CDAIYOUSEI,3,4
+Water,2
+    95,CKOMACHI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
 #-------------------------------
 [082] # Route 3
 Land,21
@@ -22,10 +55,31 @@ Land,21
 #-------------------------------
 [083] # Route 4
 Land,21
-    60,CNAZRIN,11,13
+    50,CNAZRIN,11,13
     20,CMOMIJI,11,13
     15,CLILYWHITE,12,14
+    10,CKOGASA,14
     5,CLILYBLACK,12,15
+Water,2
+    95,CMURASA,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
 #-------------------------------
 [087] # Route 24
 Land,21
@@ -33,6 +87,26 @@ Land,21
     20,CMOMIJI,12,13
     15,CSHIZUHA,14,16
     15,CMINORIKO,14,16
+Water,2
+    95,CMURASA,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
 #-------------------------------
 [088] # Route 25
 Land,21
@@ -41,83 +115,230 @@ Land,21
     15,CSHIZUHA,14,16
     15,CMINORIKO,14,16
     10,CKEINE,13,16
+Water,2
+    95,CKOMACHI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
 #-------------------------------
 [089] # Route 5
 Land,21
-    40,CMYSTIA,14,17
+    25,CMYSTIA,14,17
     20,CMEDICINE,13
     20,CSHIZUHA,14,15
     20,CMINORIKO,14,15
+    10,CCHEN,15
+    5,CTEWI,15,17
 #-------------------------------
 [090] # Route 6
 Land,21
-    50,CMYSTIA,14,17
+    25,CMYSTIA,14,17
     20,CMEDICINE,13
+    10,CDAIYOUSEI,14
     10,CCIRNO,14
     10,CSHIZUHA,15
     10,CMINORIKO,15
+    10,CCHEN,16
+    5,CTEWI,15,17
+Water,2
+    60,CCIRNO,10,25
+    35,CKOMACHI,10,30
+    5,CIRNO,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
 #-------------------------------
 [092] # Route 11
 Land,21
-    75,CTOKIKO,16,18
+    60,CTOKIKO,16,18
     20,CMOMIJI,15,18
+    15,CKOGASA,18,19
     5,CMOMIJI,20
+Water,2
+    95,CMURASA,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
 #-------------------------------
 [093] # Route 9
 Land,21
-    40,CNAZRIN,16,20
-    35,CMOMIJI,16,20
+    30,CNAZRIN,16,20
+    30,CMOMIJI,16,20
+    15,CAYA,18,20
     15,CHATATE,18,20
     5,CNAZRIN,22
     5,CMOMIJI,22
 #-------------------------------
 [094] # Route 10
 Land,21
-    55,CNAZRIN,17,20
+    45,CNAZRIN,17,20
     25,CMOMIJI,17,20
+    10,CAYA,18
     10,CHATATE,18
     5,CNAZRIN,22
     5,CMOMIJI,22
 #-------------------------------
 [096] # Route 8
 Land,21
-    75,CMYSTIA,22
+    40,CMYSTIA,22
     20,CMEDICINE,20
+    10,CCHEN,20
+    10,CMEILING,18
+    10,CPATCHOULI,18
+    5,CTEWI,19,24
     5,MYSTIA,25,28
 #-------------------------------
 [097] # Route 7
 Land,21
-    75,CMYSTIA,22
+    40,CMYSTIA,22
     20,CMEDICINE,20
+    10,CCHEN,20
+    20,CICHIRIN,19
+    5,CTEWI,19,24
     5,MYSTIA,25,28
 #-------------------------------
 [100] # Route 12
 Land,21
-    50,CKEINE,25
+    25,CWRIGGLE,25
+    20,CKEINE,25
     20,MEDICINE,25,28
     15,SHIZUHA,25,29
     15,MINORIKO,25,29
+    5,WRIGGLE,29,30
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
 #-------------------------------
 [101] # Route 13
 Land,21
-    50,CKEINE,25
+    20,CWRIGGLE,25
+    20,CKEINE,25
     20,MEDICINE,25,28
     15,SHIZUHA,25,29
     15,MINORIKO,25,29
+    5,CTENSHI,25,27
+    5,WRIGGLE,29,30
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
 #-------------------------------
 [102] # Route 14
 Land,21
-    50,CKEINE,25
+    20,CWRIGGLE,26
+    20,CKEINE,26
     20,MEDICINE,27,30
     15,SHIZUHA,28,30
     15,MINORIKO,28,30
+    5,CYUUKA,25,27
+    5,WRIGGLE,30,33
 #-------------------------------
 [103] # Route 15
 Land,21
-    50,CKEINE,25
+    25,CWRIGGLE,26
+    20,CKEINE,26
     20,MEDICINE,27,30
     15,SHIZUHA,28,30
     15,MINORIKO,28,30
+    5,WRIGGLE,30,33
+#-------------------------------
+[104] # Route 16
+Land,21
+    30,CNAZRIN,22,24
+    30,CTOKIKO,22,23
+    20,CCHEN,22,23
+    5,TOKIKO,25
+    5,NAZRIN,25
+    5,CHEN,25
+    5,CRAN,23,25
+#-------------------------------
+[105] # Route 17
+Land,21
+    20,TOKIKO,27
+    15,NAZRIN,27
+    15,CHEN,28
+    15,LILYWHITE,29,30
+    10,CAYA,28
+    10,CHATATE,28
+    5,LILYBLACK,29,30
+    5,CRAN,25,28
+    5,CEIRIN,23,25
 #-------------------------------
 [114] # Kindle Road
 Land,21
