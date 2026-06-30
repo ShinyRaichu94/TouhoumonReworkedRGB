@@ -29,6 +29,20 @@ class Battle::Move::HitOncePerUserTeamMember < Battle::Move
 end
 
 #===============================================================================
+# Rage (Touhoumon Version)
+#===============================================================================
+class Battle::Move::BurnUser < Battle::Move
+  def pbEffectAgainstTarget(user, target)
+    user.pbBurn(user)
+  end
+
+  def pbAdditionalEffect(user, target)
+    return if user.damageState.substitute
+    user.pbBurn(user) if user.pbCanBurn?(user, false, self)
+  end
+end
+
+#===============================================================================
 # Rapid Spin/Twister (Touhoumon Version)
 #===============================================================================
 class Battle::Move::RemoveUserBindingAndEntryHazards < Battle::Move::StatUpMove
@@ -71,5 +85,53 @@ class Battle::Move::RemoveUserBindingAndEntryHazards < Battle::Move::StatUpMove
 
   def pbAdditionalEffect(user, target)
     super if Settings::MECHANICS_GENERATION >= 9
+  end
+end
+
+#===============================================================================
+# Recollection
+#===============================================================================
+class Battle::Move::CopyTarget < Battle::Move
+  def pbMoveFailed?(user, targets)
+    if user.effects[PBEffects::Transform] || user.effects[PBEffects::Recollection]
+      @battle.pbDisplay(_INTL("But it failed!"))
+      return true
+    end
+    return false
+  end
+
+  def pbFailsAgainstTarget?(user, target, show_message)
+    if target.effects[PBEffects::Transform] ||
+       target.effects[PBEffects::Recollection] ||
+       target.effects[PBEffects::Illusion]
+      @battle.pbDisplay(_INTL("But it failed!")) if show_message
+      return true
+    end
+    return false
+  end
+
+  def pbEffectAgainstTarget(user, target)
+    user.pbRecollection(target)
+  end
+
+  def pbShowAnimation(id, user, targets, hitNum = 0, showAnimation = true)
+    super
+  end
+end
+
+#===============================================================================
+# Hits target when using Shadow Dive.
+#===============================================================================
+class Battle::Move::HitsTargetInShadow < Battle::Move
+  def hitsShadowTargets?; return true; end
+    
+  def pbBaseDamage(baseDmg, user, target)
+    case @id
+    when :SHADOWPUNCH
+      baseDmg *= 2 if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableRemoveProtections")
+    when :SHADOWSNEAK
+      baseDmg *= 2 if target.inTwoTurnAttack?("TwoTurnAttackInvulnerableRemoveProtections")
+    end
+    return baseDmg
   end
 end

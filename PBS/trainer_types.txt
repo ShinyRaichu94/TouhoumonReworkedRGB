@@ -329,6 +329,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+Flags = Surge
 #-------------------------------
 [LEADER_Erika]
 Name = Gym Leader
@@ -336,6 +337,7 @@ Gender = Female
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+Flags = Erika
 #-------------------------------
 [LEADER_Koga]
 Name = Gym Leader
@@ -343,6 +345,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+Flags = Koga
 #-------------------------------
 [LEADER_Sabrina]
 Name = Gym Leader
@@ -350,6 +353,7 @@ Gender = Female
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+Flags = Sabrina
 #-------------------------------
 [LEADER_Blaine]
 Name = Gym Leader
@@ -357,6 +361,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+Flags = Blaine
 #-------------------------------
 [LEADER_Giovanni]
 Name = Gym Leader
@@ -364,6 +369,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader
 VictoryBGM = Battle victory leader
+Flags = Giovanni
 #-------------------------------
 [ELITEFOUR_Lorelei]
 Name = Elite Four
@@ -371,6 +377,7 @@ Gender = Female
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
+Flags = Lorelei
 #-------------------------------
 [ELITEFOUR_Bruno]
 Name = Elite Four
@@ -378,6 +385,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
+Flags = Bruno
 #-------------------------------
 [ELITEFOUR_Agatha]
 Name = Elite Four
@@ -385,6 +393,7 @@ Gender = Female
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
+Flags = Agatha
 #-------------------------------
 [ELITEFOUR_Lance]
 Name = Elite Four
@@ -392,6 +401,7 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Elite
 VictoryBGM = Battle victory leader
+Flags = Lance
 #-------------------------------
 [CHAMPION]
 Name = Champion

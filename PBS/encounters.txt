@@ -48,6 +48,16 @@ SuperRod
     5,NITORI,35
     5,KOMACHI,35
 #-------------------------------
+[079] # Altering Cave
+Cave,5
+    100,KEDAMA,10,50
+#-------------------------------
+[079,1] # Altering Cave
+Cave,5
+    45,CREIMU,10
+    45,CMARISA,10
+    10,CBYAKUREN,10
+#-------------------------------
 [082] # Route 3
 Land,21
     70,CTOKIKO,8,10
@@ -60,6 +70,28 @@ Land,21
     15,CLILYWHITE,12,14
     10,CKOGASA,14
     5,CLILYBLACK,12,15
+Water,2
+    95,CMURASA,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
+[086] # Cerulean City
 Water,2
     95,CMURASA,10,30
     5,MURASA,35
@@ -340,6 +372,10 @@ Land,21
     5,CRAN,25,28
     5,CEIRIN,23,25
 #-------------------------------
+[113] # Pattern Bush
+Land,21
+    100,GOLIATH,54
+#-------------------------------
 [114] # Kindle Road
 Land,21
     65,TOKIKO,36
@@ -364,3 +400,64 @@ Land,21
     9,KEINE,36,40
     5,CALICE,5
     1,AKEINE,40
+#-------------------------------
+[118] # Cerulean Cave
+Cave,7
+    75,PARSEE,61,64
+    20,CHEN,61,65
+    4,RAN,63,64
+    1,YUKARI,65
+Water,2
+    100,KOMACHI,60,65
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    40,HINA,60
+    40,NITORI,60
+    15,KOMACHI,60
+    5,SUWAKO,60
+#-------------------------------
+[119] # Cerulean Cave
+Cave,7
+    75,PARSEE,61,64
+    20,SUIKA,64
+    20,YUUGI,64
+    4,RAN,63,64
+    1,YUKARI,65
+#-------------------------------
+[120] # Cerulean Cave
+Cave,7
+    50,PARSEE,61,64
+    20,RIN,65
+    10,SATORI,63,64
+    5,SAKUYA,63,64
+    5,UTSUHO,64
+    5,NUE,63
+    4,REMILIA,64
+    1,FLANDRE,65
+Water,2
+    100,KOMACHI,60,65
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    40,HINA,60
+    40,NITORI,60
+    14,KOMACHI,60
+    5,SUWAKO,60
+    1,KOISHI,60

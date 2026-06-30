@@ -28,41 +28,57 @@
 31,South,32,23,North,0
 # Route 3 (31) - Ingido Plateau outside (35)
 31,West,0,35,East,10
+# Pallet Town (32) - Route 1 (33)
+32,North,0,33,South,0
+# Route 1 (33) - Viridian City (42)
+33,North,0,42,South,6
+# Route 22 (76) - Route 1 (33)
+76,South,59,33,North,0
 # Ingido Plateau outside (35) - Route 4 (39)
 35,West,11,39,East,0
 # Route 5 (41) - Route 4 Cycling Road (40)
 41,North,0,40,South,0
 # Route 5 (41) - Route 6 Cycling Road (45)
 41,South,6,45,North,0
-# Route 7 (47) - Battle Frontier (52)
-47,East,8,52,West,0
-# Route 8 (69) - Safari Zone outside (66)
-69,North,0,66,South,10
-# Route 1 (33) - Viridian City (42)
-33,North,0,42,South,6
-# Route 2 (43) - Viridian City (42)
-43,South,0,42,North,0
+# Viridian City (42) - Route 2 (43)
+42,North,0,43,South,0
 # Route 22 (76) - Viridian City (42)
 76,East,0,42,West,10
 # Route 23 (77) - Viridian City (42)
 77,East,150,42,West,0
-# Pallet Town (32) - Route 1 (33)
-32,North,0,33,South,0
-# Route 22 (76) - Route 1 (33)
-76,South,59,33,North,0
+# Route 2 (43) - Pewter City (81)
+43,North,0,81,South,0
 # Route 22 (76) - Route 2 (43)
 76,East,0,43,West,90
 # Route 23 (77) - Route 2 (43)
 77,East,70,43,West,0
-# Pewter City (81) - Route 2 (43)
-81,South,0,43,North,0
+# Route 7 (47) - Battle Frontier (52)
+47,East,8,52,West,0
+# Route 8 (69) - Safari Zone outside (66)
+69,North,0,66,South,10
+# Route 22 (76) - Pewter City (81)
+76,East,0,81,West,134
 # Route 23 (77) - Route 22 (76)
 77,South,1,76,North,0
-# Pewter City (81) - Route 22 (76)
-81,West,134,76,East,0
-# Pewter City (81) - Route 23 (77)
-81,West,0,77,East,26
-# Route 3 (82) - Pewter City (81)
-82,West,0,81,East,15
-# Route 4 (83) - Route 3 (82)
-83,South,0,82,North,60
+# Route 23 (77) - Pewter City (81)
+77,East,26,81,West,0
+# Pewter City (81) - Route 3 (82)
+81,East,15,82,West,0
+# Route 3 (82) - Route 4 (83)
+82,North,60,83,South,0
+# Route 9 (93) - Route 3 (82)
+93,South,0,82,North,216
+# Cerulean City (86) - Route 4 (83)
+86,West,10,83,East,0
+# Route 5 (89) - Route 4 (83)
+89,West,0,83,East,30
+# Route 5 (89) - Cerulean City (86)
+89,North,0,86,South,0
+# Route 9 (93) - Cerulean City (86)
+93,West,0,86,East,10
+# Route 9 (93) - Route 5 (89)
+93,West,30,89,East,0
+# Route 6 (90) - Vermilion City (91)
+90,South,0,91,North,12
+# Route 11 (92) - Vermilion City (91)
+92,West,0,91,East,10

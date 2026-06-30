@@ -467,6 +467,13 @@ MapPosition = 0,9,5
 BattleBack = field
 MapSize = 6,111111
 #-------------------------------
+[086] # Cerulean City
+Name = Cerulean City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,5
+BattleBack = field
+#-------------------------------
 [087] # Route 24
 Name = Route 24
 Outdoor = true
@@ -609,3 +616,10 @@ ShowArea = true
 MapPosition = 1,18,15
 BattleBack = field
 MapSize = 4,1111
+#-------------------------------
+[118] # Cerulean Cave
+Name = Cerulean Cave
+ShowArea = true
+MapPosition = 0,15,5
+BattleBack = cave1
+Environment = Cave
