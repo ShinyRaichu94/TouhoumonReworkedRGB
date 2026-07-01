@@ -211,6 +211,29 @@ SuperRod
     5,NITORI,35
     5,KOMACHI,35
 #-------------------------------
+[091] # Vermilion City
+Water,2
+    95,CMURASA,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
 [092] # Route 11
 Land,21
     60,CTOKIKO,16,18

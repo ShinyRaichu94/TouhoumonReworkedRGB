@@ -506,6 +506,13 @@ MapPosition = 0,15,9
 BattleBack = field
 MapSize = 1,11
 #-------------------------------
+[091] # Vermilion City
+Name = Vermilion City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,11
+BattleBack = field
+#-------------------------------
 [092] # Route 11
 Name = Route 11
 Outdoor = true
