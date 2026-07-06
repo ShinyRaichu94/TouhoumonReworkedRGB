@@ -350,6 +350,16 @@ LoseText = After all I did to catch them!
 Pokemon = MEDICINE,32
 Pokemon = RUMIA,32
 #-------------------------------
+[CRUSHKIN,Kai & Ada]
+LoseText = Kai: You're too much for us to face!
+Pokemon = CSARA,18
+Pokemon = CMEILING,18
+#-------------------------------
+[CRUSHKIN,Kai & Ada,1]
+LoseText = Ada: We've been destroyed...
+Pokemon = CSARA,18
+Pokemon = CMEILING,18
+#-------------------------------
 [LEADER_Brock,Brock]
 LoseText = I took you for granted, and so I lost.
 Pokemon = CSUIKA,10
@@ -385,11 +395,22 @@ Pokemon = STAR,22
 #-------------------------------
 [LEADER_Surge,Lt. Surge]
 LoseText = Now that's a shocker!
+Pokemon = CTOJIKO,24
+    AbilityIndex = 0
+    Gender = male
+    Moves = FEINTATTACK,CONFUSERAY,DOUBLETEAM,SHOCKWAVE
+    IV = 12,12,12,12,12,12
 Pokemon = CIKU,25
     AbilityIndex = 1
     Gender = male
     Moves = BIND,BATTERYCHARGE,WATERPULSE,SHOCKWAVE
     IV = 12,12,12,12,12,12
+Pokemon = TLUNA,26
+    AbilityIndex = 0
+    Gender = male
+    Moves = FAKEOUT,DOUBLETEAM,NATUREPOWER,SHOCKWAVE
+    Item = SALACBERRY
+    IV = 24,24,24,24,24,24
 #-------------------------------
 [LEADER_Erika,Erika]
 LoseText = Oh! I concede defeat.
@@ -403,22 +424,123 @@ Pokemon = CKAGUYA,33
     Gender = female
     Moves = PSYBEAM,MAGICALLEAF,COTTONSPORE,CHARGEBEAM
     IV = 12,12,12,12,12,12
+Pokemon = SWRIGGLE,31
+    AbilityIndex = 0
+    Gender = female
+    Moves = TWISTER,FLASH,AGILITY,GIGADRAIN
+    IV = 12,12,12,12,12,12
+Pokemon = AMINORIKO,35
+    AbilityIndex = 0
+    Gender = female
+    Moves = HEATWAVE,EXTRASENSORY,STUNSPORE,GIGADRAIN
+    Item = SITRUSBERRY
+    IV = 24,24,24,24,24,24
 #-------------------------------
 [LEADER_Erika,Erika,1]
 LoseText = Oh! I concede defeat.
+Pokemon = AMINORIKO,41
+    AbilityIndex = 0
+    Gender = female
+    Moves = HEATWAVE,EXTRASENSORY,EARTHPOWER,GIGADRAIN
+    IV = 24,24,24,24,24,24
+Pokemon = SWRIGGLE,42
+    AbilityIndex = 0
+    Gender = female
+    Moves = TWISTER,FLASH,AGILITY,GIGADRAIN
+    IV = 24,24,24,24,24,24
 Pokemon = YUUKA,42
     AbilityIndex = 0
     Gender = female
     Moves = NEEDLEARM,STUNSPORE,STOMP,GIGADRAIN
     IV = 24,24,24,24,24,24
+Pokemon = DKAGUYA,43
+    AbilityIndex = 1
+    Gender = female
+    Moves = SIGNALBEAM,WATERPULSE,REST,GIGADRAIN
+    Item = CHESTOBERRY
+    IV = 30,30,30,30,30,30
 #-------------------------------
 [LEADER_Erika,Erika,2]
 LoseText = Oh! I concede defeat.
+Pokemon = SWRIGGLE,48
+    AbilityIndex = 0
+    Gender = female
+    Moves = TWISTER,FLASH,OMINOUSWIND,GIGADRAIN
+    IV = 24,24,24,24,24,24
+Pokemon = SSHIZUHA,48
+    AbilityIndex = 0
+    Gender = female
+    Moves = SLEEPPOWDER,EARTHPOWER,SUNNYDAY,GIGADRAIN
+    IV = 24,24,24,24,24,24
+Pokemon = AMINORIKO,49
+    AbilityIndex = 0
+    Gender = female
+    Moves = HEATWAVE,EXTRASENSORY,EARTHPOWER,GIGADRAIN
+    IV = 24,24,24,24,24,24
 Pokemon = YUUKA,49
     AbilityIndex = 0
     Gender = female
     Moves = NEEDLEARM,STUNSPORE,CRUSHCLAW,MUDSHOT
     IV = 24,24,24,24,24,24
+Pokemon = DKAGUYA,50
+    AbilityIndex = 1
+    Gender = female
+    Moves = SIGNALBEAM,MUDDYWATER,REST,GIGADRAIN
+    Item = CHESTOBERRY
+    IV = 30,30,30,30,30,30
+#-------------------------------
+[LEADER_Koga,Koga]
+LoseText = Humph! You have proven your worth!
+Pokemon = SMEDICINE,42
+    AbilityIndex = 0
+    Gender = male
+    Moves = GIGADRAIN,POISONBOMB,SPIKES,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = SRUMIA,41
+    AbilityIndex = 0
+    Gender = male
+    Moves = POISONBOMB,FLAMETHROWER,SHADOWBALL,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = TPARSEE,42
+    AbilityIndex = 0
+    Gender = male
+    Moves = SIGNALBEAM,SHADOWBALL,DOUBLETEAM,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = TNUE,43
+    AbilityIndex = 1
+    Gender = male
+    Moves = AIRSLASH,ICEPUNCH,CROSSPOISON,TOXIC
+    Item = SITRUSBERRY
+    IV = 30,30,30,30,30,30
+#-------------------------------
+[LEADER_Koga,Koga,1]
+LoseText = Humph! You have proven your worth!
+Pokemon = SMEDICINE,49
+    AbilityIndex = 0
+    Gender = male
+    Moves = NATURESOUND,POISONBOMB,SPIKES,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = HLUNASA,48
+    AbilityIndex = 0
+    Gender = male
+    Moves = POISONBOMB,SHADOWBALL,ICYWIND,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = SRUMIA,48
+    AbilityIndex = 0
+    Gender = male
+    Moves = POISONBOMB,FLAMETHROWER,SHADOWBALL,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = TPARSEE,49
+    AbilityIndex = 0
+    Gender = male
+    Moves = SIGNALBEAM,SHADOWBALL,DOUBLETEAM,TOXIC
+    IV = 24,24,24,24,24,24
+Pokemon = TNUE,50
+    AbilityIndex = 1
+    Gender = male
+    Moves = AIRSLASH,ICEPUNCH,CROSSPOISON,TOXIC
+    Item = SITRUSBERRY
+    IV = 30,30,30,30,30,30
 #-------------------------------
 [LEADER_Sabrina,Sabrina]
 LoseText = This loss shocks me! But, a loss is a loss.
@@ -437,6 +559,12 @@ Pokemon = SATORI,42
     Gender = female
     Moves = SIGNALBEAM,DARKPULSE,CALMMIND,MANABURST
     IV = 24,24,24,24,24,24
+Pokemon = ASHIKIEIKI,43
+    AbilityIndex = 0
+    Gender = female
+    Moves = DECISION,MIRRORSHOT,CALMMIND,MANABURST
+    Item = PETAYABERRY
+    IV = 30,30,30,30,30,30
 #-------------------------------
 [LEADER_Sabrina,Sabrina,1]
 LoseText = This loss shocks me! But, a loss is a loss.
@@ -460,19 +588,94 @@ Pokemon = BYAKUREN,49
     Gender = female
     Moves = CHARGEBEAM,EXTRASENSORY,CALMMIND,MANABURST
     IV = 24,24,24,24,24,24
+Pokemon = ASHIKIEIKI,50
+    AbilityIndex = 0
+    Gender = female
+    Moves = EXTRASENSORY,MIRRORSHOT,CALMMIND,MANABURST
+    Item = PETAYABERRY
+    IV = 30,30,30,30,30,30
+#-------------------------------
+[LEADER_Blaine,Blaine]
+LoseText = I have burned down to nothing! Not even ashes remain!
+Pokemon = TKISUME,51
+    AbilityIndex = 1
+    Gender = male
+    Moves = BUBBLEBEAM,ROCKBULLET,WILLOWISP,FIREBLAST
+    IV = 30,30,30,30,30,30
+Pokemon = ASUNNY,51
+    AbilityIndex = 0
+    Gender = male
+    Moves = SOLARBEAM,SONICBOOM,SUNNYDAY,FIREBLAST
+    IV = 30,30,30,30,30,30
+Pokemon = YUKI,52
+    AbilityIndex = 1
+    Gender = male
+    Moves = DARKPULSE,SHADOWBALL,WILLOWISP,FIREBLAST
+    IV = 30,30,30,30,30,30
+Pokemon = SUTSUHO,52
+    AbilityIndex = 1
+    Gender = male
+    Moves = THUNDERPUNCH,FLY,STEELWING,FIREBLAST
+    IV = 30,30,30,30,30,30
+Pokemon = AMOKOU,53
+    AbilityIndex = 1
+    Gender = male
+    Moves = BRICKBREAK,SOLARBEAM,SUNNYDAY,FIREBLAST
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
 #-------------------------------
 [ROCKETBOSS,Giovanni]
 LoseText = WHAT! This can't be!
-Pokemon = CKEINE,30
-    AbilityIndex = 0
+Pokemon = CRIN,29
+    AbilityIndex = 1
     Gender = male
-    Moves = SHARPEN,ZENHEADBUTT,HEADBUTT,TACKLE
+    Moves = FLAMEWHEEL,CONFUSERAY,BITE,FIRESPIN
     IV = 30,30,30,30,30,30
 Pokemon = CSUIKA,31
     AbilityIndex = 0
     Gender = male
     Moves = ROCKSLIDE,FIREPUNCH,KARATECHOP,SANDSTORM
     IV = 30,30,30,30,30,30
+Pokemon = CKEINE,30
+    AbilityIndex = 0
+    Gender = male
+    Moves = SHARPEN,ZENHEADBUTT,HEADBUTT,TACKLE
+    IV = 30,30,30,30,30,30
+Pokemon = KURUMI,32
+    AbilityIndex = 0
+    Gender = male
+    Moves = DARKPULSE,AGILITY,STEELWING,GUST
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[ROCKETBOSS,Giovanni,1]
+LoseText = Arrgh!! I lost again!?
+Pokemon = SMEILING,44
+    AbilityIndex = 1
+    Gender = male
+    Moves = BULKUP,FAKEOUT,DRAINPUNCH,POISONJAB
+    IV = 30,30,30,30,30,30
+Pokemon = SKOMACHI,44
+    AbilityIndex = 1
+    Gender = male
+    Moves = SWORDSDANCE,ICEPUNCH,WILLOWISP,SPLASHING
+    IV = 30,30,30,30,30,30
+Pokemon = ATENSHI,45
+    AbilityIndex = 1
+    Gender = male
+    Moves = ROCKBLAST,ROCKSMASH,CUT,BODYSLAM
+    IV = 30,30,30,30,30,30
+Pokemon = TSHOU,45
+    AbilityIndex = 1
+    Gender = male
+    Moves = THUNDERBOLT,DECISION,CRUSHCLAW,ENERGYLIGHT
+    IV = 30,30,30,30,30,30
+Pokemon = YUMEKO,46
+    AbilityIndex = 1
+    Gender = male
+    Moves = HEARTBREAK,FURYCUTTER,POISONJAB,PSYCHOCUT
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
 #-------------------------------
 [LEADER_Giovanni,Giovanni]
 LoseText = Ha! That was a truly intense fight.
@@ -482,28 +685,46 @@ Pokemon = MOMIJI,53
     Moves = CUT,KILLINGBITE,AGILITY,EARTHQUAKE
     Item = SCOPELENS
     IV = 30,30,30,30,30,30
+Pokemon = TCHEN,53
+    AbilityIndex = 1
+    Gender = male
+    Moves = DIG,CROSSPOISON,SOAR,DOUBLEEDGE
+    Item = SALACBERRY
+    IV = 30,30,30,30,30,30
 Pokemon = AKEINE,54
     AbilityIndex = 0
     Gender = male
     Moves = FIREPUNCH,ICEPUNCH,THUNDERPUNCH,EARTHQUAKE
     Item = LIECHIBERRY
     IV = 30,30,30,30,30,30
+Pokemon = ARAN,55
+    AbilityIndex = 1
+    Gender = male
+    Moves = BINDINGVOICE,EARTHPOWER,THUNDERBOLT,EXTRASENSORY
+    Item = SITRUSBERRY
+    IV = 30,30,30,30,30,30
+Pokemon = AREMILIA,55
+    AbilityIndex = 1
+    Gender = male
+    Moves = FIREPUNCH,PSYCHOCUT,HEARTBREAK,BRICKBREAK
+    Item = LUMBERRY
+    IV = 31,31,31,31,31,31
 #-------------------------------
 [ELITEFOUR_Lorelei,Lorelei]
 LoseText = ...Things shouldn't be this way!
-Pokemon = NITORI,56
+Pokemon = ANITORI,56
     AbilityIndex = 0
     Gender = female
     Moves = ICEPUNCH,IRONDEFENSE,WATERFALL,PSYCHOCUT
     Item = THICKFUR
     IV = 30,30,30,30,30,30
-Pokemon = CIRNO,55
+Pokemon = SCIRNO,55
     AbilityIndex = 0
     Gender = female
     Moves = BLIZZARD,DIG,SURF,HAIL
     Item = SALACBERRY
     IV = 30,30,30,30,30,30
-Pokemon = LETTY,55
+Pokemon = DLETTY,55
     AbilityIndex = 0
     Gender = female
     Moves = EARTHPOWER,NATUREPOWER,WATERPULSE,ICEBEAM
@@ -522,7 +743,7 @@ Pokemon = ICHIRIN,56
     Moves = FIREPUNCH,LIGHTSCREEN,CROSSCHOP,HEADBUTT
     Item = SITRUSBERRY
     IV = 30,30,30,30,30,30
-Pokemon = YUUGI,57
+Pokemon = AYUUGI,57
     AbilityIndex = 0
     Gender = male
     Moves = VITALTHROW,THUNDERPUNCH,ICEPUNCH,BRICKBREAK
@@ -584,3 +805,9 @@ Pokemon = REISEN,70
     Gender = male
     Moves = MISTBALL,SONICBOOM,MANABURST,NIGHTMARE
     IV = 31,31,31,31,31,31
+#-------------------------------
+[SAILOR,Alberto]
+LoseText = It's all over! I surrender!
+Pokemon = CSANAE,1
+Pokemon = CSANAE,1
+Pokemon = CSANAE,1

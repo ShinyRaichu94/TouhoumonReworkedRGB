@@ -630,3 +630,8 @@ ShowArea = true
 MapPosition = 0,15,5
 BattleBack = cave1
 Environment = Cave
+#-------------------------------
+[127] # Trainer Tower
+Name = Trainer Tower
+MapPosition = 3,9,9
+Flags = TrainerTower

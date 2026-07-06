@@ -19,7 +19,7 @@ Land,21
     28,CLUNA,3,5
     28,CSTAR,3,5
     11,CDAIYOUSEI,3,5
-    5,WRIGGLE,3,6
+    5,CWRIGGLE,3,6
 #-------------------------------
 [076] # Route 22
 Land,21
@@ -58,10 +58,16 @@ Cave,5
     45,CMARISA,10
     10,CBYAKUREN,10
 #-------------------------------
+[079,2] # Altering Cave
+Cave,5
+    100,AKYUU,50,55
+#-------------------------------
 [082] # Route 3
 Land,21
-    70,CTOKIKO,8,10
+    35,CTOKIKO,8,10
     30,CMYSTIA,8,9
+    25,CNAZRIN,8,9
+    10,CKYOUKO,8,10
 #-------------------------------
 [083] # Route 4
 Land,21
@@ -213,8 +219,10 @@ SuperRod
 #-------------------------------
 [091] # Vermilion City
 Water,2
-    95,CMURASA,10,30
+    60,CMURASA,10,30
+    30,CCHIYURI,10,30
     5,MURASA,35
+    5,CHIYURI,35
 OldRod
     70,CHINA,2,3
     30,CNITORI,2,3
@@ -236,13 +244,16 @@ SuperRod
 #-------------------------------
 [092] # Route 11
 Land,21
-    60,CTOKIKO,16,18
+    45,CTOKIKO,16,18
     20,CMOMIJI,15,18
+    15,CSARA,16,18
     15,CKOGASA,18,19
     5,CMOMIJI,20
 Water,2
-    95,CMURASA,10,30
+    60,CMURASA,10,30
+    30,CCHIYURI,10,30
     5,MURASA,35
+    5,CHIYURI,35
 OldRod
     70,CHINA,2,3
     30,CNITORI,2,3
@@ -273,12 +284,14 @@ Land,21
 #-------------------------------
 [094] # Route 10
 Land,21
-    45,CNAZRIN,17,20
+    30,CNAZRIN,17,20
     25,CMOMIJI,17,20
     10,CAYA,18
     10,CHATATE,18
+    10,CRIKA,18,20
     5,CNAZRIN,22
     5,CMOMIJI,22
+    5,CTOJIKO,18,22
 #-------------------------------
 [096] # Route 8
 Land,21
@@ -295,18 +308,27 @@ Land,21
     40,CMYSTIA,22
     20,CMEDICINE,20
     10,CCHEN,20
-    20,CICHIRIN,19
+    10,CLOUISE,19
+    10,CICHIRIN,19
     5,CTEWI,19,24
     5,MYSTIA,25,28
 #-------------------------------
 [100] # Route 12
 Land,21
-    25,CWRIGGLE,25
-    20,CKEINE,25
-    20,MEDICINE,25,28
-    15,SHIZUHA,25,29
-    15,MINORIKO,25,29
+    20,CWRIGGLE,25
+    15,CKEINE,25
+    15,CSARA,25,27
+    10,SHIZUHA,25,29
+    10,MINORIKO,25,29
+    10,MEDICINE,25,28
+    10,CCHIYURI,25,29
+    5,SARA,28
     5,WRIGGLE,29,30
+Water,2
+    60,CMURASA,10,30
+    30,CCHIYURI,10,30
+    5,MURASA,35
+    5,CHIYURI,35
 OldRod
     70,CHINA,2,3
     30,CNITORI,2,3
@@ -330,11 +352,18 @@ SuperRod
 Land,21
     20,CWRIGGLE,25
     20,CKEINE,25
-    20,MEDICINE,25,28
-    15,SHIZUHA,25,29
-    15,MINORIKO,25,29
+    15,CSARA,25,27
+    10,SHIZUHA,25,29
+    10,MINORIKO,25,29
+    10,MEDICINE,25,28
     5,CTENSHI,25,27
+    5,SARA,28
     5,WRIGGLE,29,30
+Water,2
+    60,CMURASA,10,30
+    30,CCHIYURI,10,30
+    5,MURASA,35
+    5,CHIYURI,35
 OldRod
     70,CHINA,2,3
     30,CNITORI,2,3
@@ -358,9 +387,9 @@ SuperRod
 Land,21
     20,CWRIGGLE,26
     20,CKEINE,26
-    20,MEDICINE,27,30
-    15,SHIZUHA,28,30
-    15,MINORIKO,28,30
+    20,SHIZUHA,28,30
+    20,MINORIKO,28,30
+    10,MEDICINE,27,30
     5,CYUUKA,25,27
     5,WRIGGLE,30,33
 #-------------------------------
@@ -368,9 +397,9 @@ Land,21
 Land,21
     25,CWRIGGLE,26
     20,CKEINE,26
-    20,MEDICINE,27,30
-    15,SHIZUHA,28,30
-    15,MINORIKO,28,30
+    20,SHIZUHA,28,30
+    20,MINORIKO,28,30
+    10,MEDICINE,27,30
     5,WRIGGLE,30,33
 #-------------------------------
 [104] # Route 16
@@ -426,8 +455,15 @@ Land,21
 #-------------------------------
 [118] # Cerulean Cave
 Cave,7
-    75,PARSEE,61,64
+    25,PARSEE,61,64
     20,CHEN,61,65
+    10,ELLY,61
+    10,RIKA,62
+    10,TENSHI,63
+    10,ACHEN,61,65
+    10,TCHEN,61,65
+    5,ATENSHI,63
+    5,DTENSHI,63
     4,RAN,63,64
     1,YUKARI,65
 Water,2
@@ -450,11 +486,18 @@ SuperRod
 #-------------------------------
 [119] # Cerulean Cave
 Cave,7
-    75,PARSEE,61,64
-    20,SUIKA,64
-    20,YUUGI,64
-    4,RAN,63,64
-    1,YUKARI,65
+    20,YAMAME,63,65
+    20,PARSEE,61,64
+    10,SYAMAME,63,65
+    10,TYAMAME,63,65
+    5,SUIKA,62,64
+    5,YUUGI,62,64
+    5,ASUIKA,64
+    5,TSUIKA,64
+    5,AYUUGI,64
+    5,DYUUGI,64
+    5,MUGETSU,65
+    5,GENGETSU,65
 #-------------------------------
 [120] # Cerulean Cave
 Cave,7
