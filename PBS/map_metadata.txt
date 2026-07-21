@@ -631,7 +631,73 @@ MapPosition = 0,15,5
 BattleBack = cave1
 Environment = Cave
 #-------------------------------
+[122] # Faraway place
+Name = Faraway place
+ShowArea = false
+BattleBack = water
+#-------------------------------
+[123] # Faraway place
+Name = Faraway place
+ShowArea = false
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
 [127] # Trainer Tower
 Name = Trainer Tower
 MapPosition = 3,9,9
 Flags = TrainerTower
+#-------------------------------
+[136] # Two Island
+Name = Two Island
+Outdoor = true
+ShowArea = true
+MapPosition = 1,13,12
+BattleBack = field
+#-------------------------------
+[137] # Marine Cavern
+Name = Marine Cavern
+MapPosition = 1,13,12
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[138] # Marine Cavern
+Name = Marine Cavern
+MapPosition = 1,13,12
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[139] # Marine Cavern
+Name = Marine Cavern
+MapPosition = 1,13,12
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[140] # Marine Cavern
+Name = Marine Cavern
+MapPosition = 1,13,12
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[141] # Marine Cove
+Name = Marine Cove
+Outdoor = true
+ShowArea = true
+MapPosition = 1,14,12
+BattleBack = water
+MapSize = 1,111
+#-------------------------------
+[142] # Rainfall Chamber
+Name = Rainfall Chamber
+MapPosition = 1,14,14
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[143] # Rainfall Chamber
+Name = Rainfall Chamber
+MapPosition = 1,14,14
+BattleBack = cave3
+Environment = Cave

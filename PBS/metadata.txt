@@ -3,9 +3,9 @@
 [0]
 StartMoney = 3000
 StartItemStorage = POTION
-Home = 3,7,5,8
+Home = 133,7,5,8
 StorageCreator = Bill
-WildBattleBGM = Battle wild
+WildBattleBGM = Doll Judgment - The Girl who Played with People's Shapes.ogg
 TrainerBattleBGM = Battle trainer
 WildVictoryBGM = Battle victory wild
 TrainerVictoryBGM = Battle victory trainer

@@ -24,11 +24,13 @@ BaseMoney = 60
 Name = Rival
 Gender = Male
 BaseMoney = 16
+BattleBGM = The Youkai Mountain - Mysterious Mountain.ogg
 #-------------------------------
 [RIVAL2]
 Name = Rival
 Gender = Male
 BaseMoney = 36
+BattleBGM = The Youkai Mountain - Mysterious Mountain.ogg
 #-------------------------------
 [AROMALADY]
 Name = Aroma Lady
@@ -127,6 +129,8 @@ BaseMoney = 48
 Name = Professor
 Gender = Male
 BaseMoney = 100
+BattleBGM = Necrofantasia.ogg
+VictoryBGM = Battle victory leader
 #-------------------------------
 [ROCKER]
 Name = Rocker
@@ -313,21 +317,21 @@ BaseMoney = 100
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
 [LEADER_Misty]
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 #-------------------------------
 [LEADER_Surge]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Surge
 #-------------------------------
@@ -335,7 +339,7 @@ Flags = Surge
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Erika
 #-------------------------------
@@ -343,7 +347,7 @@ Flags = Erika
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Koga
 #-------------------------------
@@ -351,7 +355,7 @@ Flags = Koga
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Sabrina
 #-------------------------------
@@ -359,7 +363,7 @@ Flags = Sabrina
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Blaine
 #-------------------------------
@@ -367,7 +371,7 @@ Flags = Blaine
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Gym Leader
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Giovanni
 #-------------------------------
@@ -375,7 +379,7 @@ Flags = Giovanni
 Name = Elite Four
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Lorelei
 #-------------------------------
@@ -383,7 +387,7 @@ Flags = Lorelei
 Name = Elite Four
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Bruno
 #-------------------------------
@@ -391,7 +395,7 @@ Flags = Bruno
 Name = Elite Four
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Agatha
 #-------------------------------
@@ -399,7 +403,7 @@ Flags = Agatha
 Name = Elite Four
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Elite
+BattleBGM = U.N.Owen was Her.ogg
 VictoryBGM = Battle victory leader
 Flags = Lance
 #-------------------------------
@@ -407,5 +411,5 @@ Flags = Lance
 Name = Champion
 Gender = Male
 BaseMoney = 100
-BattleBGM = Battle Champion
+BattleBGM = Necrofantasia.ogg
 VictoryBGM = Battle victory leader

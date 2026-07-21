@@ -1,5 +1,29 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[032] # Pallet Town
+Water,2
+    70,CMURASA,10,30
+    25,CFUTO,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
 [033] # Route 1
 Land,21
     50,CTOKIKO,2,4
@@ -292,6 +316,25 @@ Land,21
     5,CNAZRIN,22
     5,CMOMIJI,22
     5,CTOJIKO,18,22
+Water,2
+    60,CNITORI,10,30
+    30,CTOJIKO,10,30
+    5,NITORI,35
+    5,TOJIKO,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    35,CNITORI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+SuperRod
+    45,CHINA,25,30
+    40,CNITORI,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
 #-------------------------------
 [096] # Route 8
 Land,21
@@ -416,13 +459,59 @@ Land,21
 Land,21
     20,TOKIKO,27
     15,NAZRIN,27
-    15,CHEN,28
-    15,LILYWHITE,29,30
+    10,CHEN,28
+    10,LILYWHITE,29,30
     10,CAYA,28
     10,CHATATE,28
+    10,CRIKA,28,30
     5,LILYBLACK,29,30
     5,CRAN,25,28
-    5,CEIRIN,23,25
+    5,CEIRIN,27,31
+#-------------------------------
+[106] # Route 18
+Land,21
+    20,TOKIKO,27
+    14,NAZRIN,27
+    10,CHEN,28
+    10,LILYWHITE,30,32
+    10,CAYA,28
+    10,CHATATE,28
+    10,CRIKA,28,30
+    5,LILYBLACK,30,32
+    5,CRAN,28,30
+    5,CEIRIN,30,32
+    1,CYUMEMI,30
+#-------------------------------
+[111] # Route 21
+Land,21
+    20,TOKIKO,29
+    20,NAZRIN,28
+    15,SUNNY,28,30
+    15,LUNA,28,30
+    15,STAR,28,30
+    15,DAIYOUSEI,28,30
+Water,2
+    70,CMURASA,10,30
+    25,CFUTO,10,30
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
 #-------------------------------
 [113] # Pattern Bush
 Land,21
@@ -438,10 +527,12 @@ Land,21
 #-------------------------------
 [115] # Cape Brink
 Land,21
-    55,TOKIKO,36,38
+    50,TOKIKO,36,38
     20,SHIZUHA,36,38
     20,MINORIKO,36,38
     5,CSANAE,5
+    4,CKANAKO,38
+    1,KANAKO,40
 #-------------------------------
 [116] # Bond Bridge
 Land,21
@@ -527,3 +618,326 @@ SuperRod
     14,KOMACHI,60
     5,SUWAKO,60
     1,KOISHI,60
+#-------------------------------
+[129] # Safari Zone
+Land,21
+    25,SUNNY,35
+    16,KEDAMA,32
+    10,SHANGHAI,32
+    10,MEDICINE,35,36
+    10,CYUUKA,34
+    5,AMEDICINE,35,36
+    5,SMEDICINE,35,36
+    5,TMEDICINE,35,36
+    5,YUUKA,35
+    3,AYUUKA,35
+    3,TYUUKA,35
+    2,GOLIATH,32,35
+    1,CSHIKIEIKI,35
+Water,2
+    85,CKOMACHI,10,30
+    10,GENJI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    30,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
+    5,NAMAZU,35
+#-------------------------------
+[130] # Safari Zone
+Land,21
+    25,LUNA,35
+    16,KEDAMA,32
+    11,HOURAI,32
+    10,KOGASA,35,36
+    10,CHEN,35,36
+    5,CRAN,36
+    5,SKOGASA,35,36
+    5,TKOGASA,35,36
+    5,ACHEN,35,36
+    5,TCHEN,35
+    2,GOLIATH,32,35
+    1,CSHIKIEIKI,35
+Water,2
+    85,CKOMACHI,10,30
+    10,GENJI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    30,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
+    5,NAMAZU,35
+#-------------------------------
+[131] # Safari Zone
+Land,21
+    25,DAIYOUSEI,35
+    16,KEDAMA,32
+    10,SHANGHAI,32
+    10,KYOUKO,35,36
+    5,MYSTIA,35,36
+    5,TEWI,35,36
+    5,ATEWI,35,36
+    5,DTEWI,35,36
+    5,AMYSTIA,35,36
+    5,HMYSTIA,35,36
+    5,CEIRIN,35
+    2,GOLIATH,32,35
+    1,CKAGUYA,35
+    1,CSHIKIEIKI,35
+Water,2
+    85,CKOMACHI,10,30
+    10,GENJI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    30,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
+    5,NAMAZU,35
+#-------------------------------
+[132] # Safari Zone
+Land,21
+    25,STAR,35
+    16,KEDAMA,32
+    10,HOURAI,32
+    10,CRIN,33
+    5,KOAKUMA,35,36
+    5,CTENSHI,35
+    5,CSAKUYA,35
+    5,RIN,34,35
+    5,CSATORI,35
+    5,HKOAKUMA,35,36
+    2,GOLIATH,32,35
+    1,CSHIKIEIKI,35
+Water,2
+    85,CKOMACHI,10,30
+    10,GENJI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    30,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
+    5,NAMAZU,35
+#-------------------------------
+[137] # Marine Cavern
+Cave,5
+    25,RUMIA,36,38
+    20,KISUME,36,38
+    20,KURUMI,36,38
+    10,NITORI,36,38
+    10,PARSEE,36,38
+    10,KOGASA,36,38
+    5,YUUGI,40,42
+Water,2
+    35,CNITORI,10,30
+    35,CMURASA,10,30
+    20,RUMIA,30
+    5,NITORI,35
+    5,MURASA,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
+[138] # Marine Cavern
+Cave,5
+    25,RUMIA,50,52
+    20,KISUME,50,52
+    20,KURUMI,50,52
+    10,NITORI,50,52
+    10,PARSEE,50,52
+    10,KOGASA,50,52
+    5,YUUGI,53,55
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+Water,2
+    35,NITORI,50,55
+    35,MURASA,50,55
+    30,RUMIA,50,55
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
+[139] # Marine Cavern
+Cave,5
+    25,RUMIA,50,52
+    20,KISUME,50,52
+    20,KURUMI,50,52
+    10,NITORI,50,52
+    10,PARSEE,50,52
+    10,KOGASA,50,52
+    5,YUUGI,53,55
+Water,2
+    35,NITORI,50,55
+    35,MURASA,50,55
+    30,RUMIA,50,55
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
+[140] # Marine Cavern
+Cave,5
+    20,RUMIA,50,52
+    20,KISUME,50,52
+    20,KURUMI,50,52
+    10,NITORI,50,52
+    10,PARSEE,50,52
+    10,KOGASA,50,52
+    5,YUUGI,53,55
+    5,NUE,55
+Water,2
+    35,NITORI,50,55
+    30,MURASA,50,55
+    30,RUMIA,50,55
+    5,NUE,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    40,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
+#-------------------------------
+[141] # Marine Cove
+Land,21
+    27,TOKIKO,50,52
+    26,NITORI,50,52
+    10,ATOKIKO,50,52
+    10,ANITORI,50,52
+    10,TNITORI,50,52
+    10,CHIYURI,50,52
+    5,KANAKO,53,55
+    1,AKANAKO,53,55
+    1,DKANAKO,53,55
+Water,2
+    75,MURASA,50,55
+    25,CHIYURI,50,55
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CMURASA,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CMURASA,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CMURASA,25,30
+    5,CIKU,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,MURASA,35
