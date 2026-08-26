@@ -1,4 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[HOURAI,1]
-PokedexForm = 0
+[TCIRNO,1]
+FormName = Tan Cirno
+Types = ICE,NATURE
+Abilities = WALLOFICE,CHLOROPHYLL

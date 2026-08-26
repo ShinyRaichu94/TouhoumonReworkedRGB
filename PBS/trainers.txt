@@ -66,7 +66,7 @@ Pokemon = CMOMIJI,16
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,16
+Pokemon = CWRIGGLE,17
     AbilityIndex = 0
     Gender = male
     Moves = TACKLE,QUICKATTACK,FEINTATTACK,AGILITY
@@ -89,7 +89,7 @@ Pokemon = CMOMIJI,16
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,16
+Pokemon = CWRIGGLE,17
     AbilityIndex = 0
     Gender = male
     Moves = TACKLE,QUICKATTACK,FEINTATTACK,AGILITY
@@ -112,7 +112,7 @@ Pokemon = CMOMIJI,16
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,16
+Pokemon = CWRIGGLE,17
     AbilityIndex = 0
     Gender = male
     Moves = TACKLE,QUICKATTACK,FEINTATTACK,AGILITY
@@ -316,10 +316,10 @@ Pokemon = TSUIKA,44
     Gender = male
     Moves = DRAINPUNCH,FLAMETHROWER,ROCKTOMB,METALPUNCH
     IV = 24,24,24,24,24,24
-Pokemon = SHOU,43
+Pokemon = AKEINE,43
     AbilityIndex = 0
     Gender = male
-    Moves = HEATWAVE,THUNDERBOLT,KNOCKOFF,LIGHTSCREEN
+    Moves = CRUSHCLAW,ROCKSLIDE,ZENHEADBUTT,HEADBUTT
     IV = 24,24,24,24,24,24
 Pokemon = YUYUKO,44
     AbilityIndex = 0
@@ -359,6 +359,105 @@ Pokemon = ASANAE,46
     Gender = male
     Moves = RAZORWIND,EXTRASENSORY,RAINDANCE,MUDDYWATER
     IV = 24,24,24,24,24,24
+#-------------------------------
+[RIVAL2,Blue,9]
+LoseText = What!? I was just careless, you!
+Pokemon = WRIGGLE,52
+    AbilityIndex = 0
+    Gender = male
+    Moves = POWERWHIP,SOAR,SHADOWHIT,FLASH
+    IV = 30,30,30,30,30,30
+Pokemon = AKOMACHI,52
+    AbilityIndex = 1
+    Gender = male
+    Moves = DRAWNLINE,SHADOWHIT,SURF,ROCKTOMB
+    IV = 30,30,30,30,30,30
+Pokemon = TSATORI,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = DARKPULSE,SIGNALBEAM,ICEBEAM,THUNDERBOLT
+    IV = 30,30,30,30,30,30
+Pokemon = TOJIKO,52
+    AbilityIndex = 0
+    Gender = male
+    Moves = AGILITY,THUNDERBOLT,SHADOWBALL,RAZORWIND
+    IV = 30,30,30,30,30,30
+Pokemon = TENSHI,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = DRAWNLINE,EARTHQUAKE,ROCKSMASH,BODYSLAM
+    IV = 30,30,30,30,30,30
+Pokemon = AALICE,55
+    AbilityIndex = 1
+    Gender = male
+    Moves = SIGNALBEAM,THUNDERBOLT,LUSTERPURGE,ICEBEAM
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[RIVAL2,Blue,10]
+LoseText = What!? I was just careless, you!
+Pokemon = TREISEN,55
+    AbilityIndex = 1
+    Gender = male
+    Moves = MISTBALL,JAMMING,MANABURST,SHADOWBALL
+    IV = 31,31,31,31,31,31
+Pokemon = DHATATE,52
+    AbilityIndex = 1
+    Gender = male
+    Moves = SOAR,WEATHERBALL,MANABURST,HYPNOSIS
+    IV = 30,30,30,30,30,30
+Pokemon = TSUIKA,52
+    AbilityIndex = 1
+    Gender = male
+    Moves = THUNDERPUNCH,FLAMETHROWER,EARTHPOWER,METALPUNCH
+    IV = 30,30,30,30,30,30
+Pokemon = FUTO,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = ZENHEADBUTT,WATERPULSE,THUNDERWAVE,FLAMETHROWER
+    IV = 30,30,30,30,30,30
+Pokemon = YUMEKO,52
+    AbilityIndex = 0
+    Gender = male
+    Moves = HEARTBREAK,CUT,PSYCHOCUT,ICEPUNCH
+    IV = 30,30,30,30,30,30
+Pokemon = YUYUKO,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = SHADOWBALL,ENERGYLIGHT,ICEBEAM,CONFUSERAY
+    IV = 30,30,30,30,30,30
+#-------------------------------
+[RIVAL2,Blue,11]
+LoseText = What!? I was just careless, you!
+Pokemon = SYAMAME,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = POISONBOMB,EARTHQUAKE,NEEDLEARM,BATONPASS
+    IV = 30,30,30,30,30,30
+Pokemon = SMEILING,52
+    AbilityIndex = 1
+    Gender = male
+    Moves = FAKEOUT,DRAINPUNCH,ICEPUNCH,BULKUP
+    IV = 30,30,30,30,30,30
+Pokemon = RAN,52
+    AbilityIndex = 0
+    Gender = male
+    Moves = NASTYPLOT,THUNDERBOLT,FLAMETHROWER,BINDINGVOICE
+    IV = 30,30,30,30,30,30
+Pokemon = YOUMU,53
+    AbilityIndex = 0
+    Gender = male
+    Moves = DRAWNLINE,ROCKTOMB,VITALTHROW,SHADOWHIT
+    IV = 30,30,30,30,30,30
+Pokemon = SUTSUHO,52
+    AbilityIndex = 0
+    Gender = male
+    Moves = WILLOWISP,SOAR,THUNDERPUNCH,FIREPUNCH
+    IV = 30,30,30,30,30,30
+Pokemon = ASANAE,55
+    AbilityIndex = 0
+    Gender = male
+    Moves = RAZORWIND,SILVERWIND,RAINDANCE,AQUASHOWER
+    IV = 31,31,31,31,31,31
 #===============================
 # VIRIDIAN FOREST
 #===============================
@@ -407,7 +506,9 @@ Pokemon = CTOKIKO,9
 #-------------------------------
 [BUGCATCHER,Sammy,1]
 LoseText = You beat me again!
+Pokemon = CSTAR,10
 Pokemon = CLILYBLACK,10
+Pokemon = CWRIGGLE,10
 #-------------------------------
 [YOUNGSTER,Ben]
 LoseText = I don't believe it!
@@ -416,7 +517,10 @@ Pokemon = CMOMIJI,11
 #-------------------------------
 [BUGCATCHER,Greg]
 LoseText = If I had new Puppets, I would've won!
+Pokemon = CSUNNY,9
+Pokemon = CLUNA,9
 Pokemon = CYAMAME,9
+Pokemon = CWRIGGLE,9
 #-------------------------------
 [YOUNGSTER,Calvin]
 LoseText = Lost! Lost! Lost!
@@ -425,22 +529,342 @@ Pokemon = CTOKIKO,14
 [LASS,Sally]
 LoseText = Be nice!
 Pokemon = CNAZRIN,10
+Pokemon = CKYOUKO,10
 #-------------------------------
 [BUGCATCHER,James]
 LoseText = Done like dinner!
 Pokemon = CLILYWHITE,9
+Pokemon = CDAIYOUSEI,9
 Pokemon = CLILYBLACK,9
 #-------------------------------
 [LASS,Robin]
 LoseText = That's it?
 Pokemon = CMYSTIA,14
 #===============================
+# MT. MOON (1F)
+#===============================
+[BUGCATCHER,Kent]
+LoseText = You got me!
+Pokemon = CWRIGGLE,11
+Pokemon = CYAMAME,11
+#-------------------------------
+[LASS,Iris]
+LoseText = I lost?
+Pokemon = CTEWI,14
+#-------------------------------
+[SUPERNERD,Jovan]
+LoseText = My Puppets won't do!
+Pokemon = CNITORI,11
+Pokemon = CNITORI,12
+#-------------------------------
+[BUGCATCHER,Robby]
+LoseText = I lost.
+Pokemon = CLILYWHITE,11
+Pokemon = CLUNA,11
+#-------------------------------
+[LASS,Miriam]
+LoseText = Oh! I lost it!
+Pokemon = CSHIZUHA,11
+Pokemon = CMINORIKO,11
+#-------------------------------
+[YOUNGSTER,Josh]
+LoseText = Losing stinks! It's so uncool.
+Pokemon = CNAZRIN,10
+Pokemon = CKOGASA,10
+Pokemon = CRUMIA,10
+#-------------------------------
+[HIKER,Marcos]
+LoseText = Wow! Shocked again!
+Pokemon = CYAMAME,10
+Pokemon = CMOMIJI,10
+Pokemon = CYUUGI,10
+#-------------------------------
+[TWINS,Liz & Liv]
+LoseText = Liz: That was really fun!
+Pokemon = CKISUME,10
+Pokemon = CYAMAME,10
+#-------------------------------
+[TWINS,Liz & Liv,1]
+LoseText = Liv: Did we do our best, Liz?
+Pokemon = CKISUME,10
+Pokemon = CYAMAME,10
+#===============================
+# MT. MOON (B2F)
+#===============================
+[TEAMROCKET_M,Grunt] # Star Piece Room
+LoseText = I blew it!
+Pokemon = CYAMAME,11
+Pokemon = CNAZRIN,11
+Pokemon = CRUMIA,11
+#-------------------------------
+[TEAMROCKET_F,Grunt] # TM Room
+LoseText = So, you are good...
+Pokemon = CRUMIA,11
+Pokemon = CPARSEE,11
+#-------------------------------
+[TEAMROCKET_M,Grunt,1] # First Grunt in Fossil Path
+LoseText = I'm steamed!
+Pokemon = CNAZRIN,13
+Pokemon = CPARSEE,13
+#-------------------------------
+[TEAMROCKET_F,Grunt,1] # Second Grunt in Fossil Path
+LoseText = Urgh! Now I'm mad!
+Pokemon = CKOGASA,13
+Pokemon = CKURUMI,13
+#-------------------------------
+[SUPERNERD,Miguel]
+LoseText = Okay! I'll share!
+Pokemon = CHINA,12
+Pokemon = CNITORI,12
+Pokemon = CRIKA,12
+#===============================
 # ROUTE 4
 #===============================
 [LASS,Crissy]
 LoseText = After all I did to catch them!
+Pokemon = KURUMI,32
 Pokemon = MEDICINE,32
 Pokemon = RUMIA,32
+#===============================
+# CERULEAN CITY
+#===============================
+[TEAMROCKET_M,Grunt,2]
+LoseText = Stop! I give up! I'll leave quietly!
+Pokemon = CKOAKUMA,17
+Pokemon = CMEILING,17
+#===============================
+# CERULEAN GYM
+#===============================
+[SWIMMER_M,Luis]
+LoseText = Done like dinner!
+Pokemon = CMURASA,16
+Pokemon = CNITORI,16
+#-------------------------------
+[PICNICKER,Diana]
+LoseText = Done like dinner!
+Pokemon = CCHIYURI,19
+#===============================
+# ROUTE 24
+#===============================
+[BUGCATCHER,Cale]
+LoseText = Whoo! Good stuff!
+Pokemon = CLILYWHITE,14
+Pokemon = CLILYBLACK,14
+#-------------------------------
+[LASS,Ali]
+LoseText = How could I lose?
+Pokemon = CMEDICINE,15
+Pokemon = CKYOUKO,15
+#-------------------------------
+[YOUNGSTER,Timmy]
+LoseText = Ow! Stomped flat!
+Pokemon = CNAZRIN,14
+Pokemon = CYAMAME,14
+Pokemon = CRUMIA,14
+#-------------------------------
+[LASS,Reli]
+LoseText = I lost, too!
+Pokemon = CMYSTIA,16
+Pokemon = CKEINE,16
+#-------------------------------
+[CAMPER,Ethan]
+LoseText = Whoa! Too much!
+Pokemon = CMEILING,18
+#-------------------------------
+[TEAMROCKET_M,Grunt,3]
+LoseText = Arrgh! You are good!
+Pokemon = CKURUMI,15
+Pokemon = CPARSEE,15
+#-------------------------------
+[CAMPER,Shane]
+LoseText = I thought not!
+Pokemon = CYAMAME,15
+Pokemon = CNITORI,15
+#===============================
+# ROUTE 25
+#===============================
+[HIKER,Franklin]
+LoseText = You worked hard!
+Pokemon = CKISUME,16
+Pokemon = CSARA,16
+#-------------------------------
+[HIKER,Wayne]
+LoseText = You're something.
+Pokemon = CYUUGI,18
+#-------------------------------
+[YOUNGSTER,Joey]
+LoseText = You're decent.
+Pokemon = CMOMIJI,16
+Pokemon = CTOKIKO,16
+#-------------------------------
+[YOUNGSTER,Dan]
+LoseText = I'm not mad!
+Pokemon = CNITORI,18
+#-------------------------------
+[PICNICKER,Kelsey]
+LoseText = My conditioning isn't the best...
+Pokemon = CCHEN,19
+#-------------------------------
+[HIKER,Nob]
+LoseText = You done got me, and real good, too!
+Pokemon = CYAMAME,15
+Pokemon = CMOMIJI,15
+Pokemon = CMEILING,15
+Pokemon = CSUIKA,15
+#-------------------------------
+[CAMPER,Flint]
+LoseText = Aww, darn...
+Pokemon = CNITORI,15
+Pokemon = CYUUGI,15
+#-------------------------------
+[YOUNGSTER,Chad]
+LoseText = I knew I'd lose, too!
+Pokemon = CCIRNO,16
+Pokemon = CLETTY,16
+#-------------------------------
+[LASS,Haley]
+LoseText = I'm not so jealous!
+Pokemon = CSHIZUHA,16
+Pokemon = CMEDICINE,16
+Pokemon = CSHIZUHA,16
+#===============================
+# ROUTE 6
+#===============================
+[BUGCATCHER,Keigo]
+LoseText = No! You're kidding!
+Pokemon = CLUNA,18
+Pokemon = CWRIGGLE,18
+#-------------------------------
+[CAMPER,Ricky]
+LoseText = I just can't win!
+Pokemon = CMINORIKO,16
+Pokemon = CNITORI,16
+#-------------------------------
+[PICNICKER,Nancy]
+LoseText = Ugh! I hate losing.
+Pokemon = CSUNNY,16
+Pokemon = CCIRNO,16
+#-------------------------------
+[BUGCATCHER,Elijah]
+LoseText = You're too good!
+Pokemon = CYAMAME,18
+Pokemon = CLILYWHITE,18
+#-------------------------------
+[PICNICKER,Isabelle]
+LoseText = Things just didn't work...
+Pokemon = CMEDICINE,16
+Pokemon = CTEWI,16
+Pokemon = CMYSTIA,16
+#-------------------------------
+[CAMPER,Jeff]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMOMIJI,16
+Pokemon = CAYA,16
+Pokemon = CHATATE,16
+#===============================
+# S.S. ANNE (1F)
+#===============================
+[GENTLEMAN,Thomas]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CKOAKUMA,18
+Pokemon = CRIN,18
+#-------------------------------
+[GENTLEMAN,Arthur]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMEILING,19
+Pokemon = CLOUISE,19
+#-------------------------------
+[LASS,Ann]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMYSTIA,18
+Pokemon = CKYOUKO,18
+#-------------------------------
+[YOUNGSTER,Tyler]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMOMIJI,21
+#===============================
+# S.S. ANNE (B1F)
+#===============================
+[FISHERMAN,Barny]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CNITORI,18
+Pokemon = CCHIYURI,18
+Pokemon = CMURASA,18
+#-------------------------------
+[SAILOR,Phillip]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CSARA,20
+#-------------------------------
+[SAILOR,Huey]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMURASA,19
+Pokemon = CCHIYURI,19
+#-------------------------------
+[SAILOR,Dylan]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMURASA,18
+Pokemon = CKOMACHI,18
+Pokemon = CIKU,18
+#-------------------------------
+[SAILOR,Duncan]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CSTAR,18
+Pokemon = CMURASA,18
+Pokemon = CCHIYURI,18
+#-------------------------------
+[SAILOR,Leonard]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CKOMACHI,21
+#===============================
+# S.S. ANNE (2F)
+#===============================
+[FISHERMAN,Dale]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CNITORI,18
+Pokemon = CNITORI,18
+Pokemon = CKOMACHI,18
+#-------------------------------
+[GENTLEMAN,Brooks]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CSHIZUHA,22
+Pokemon = CMOMIJI,22
+#-------------------------------
+[LASS,Dawn]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CTEWI,21
+#-------------------------------
+[GENTLEMAN,Lamar]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CRIN,18
+Pokemon = CYUKI,18
+#===============================
+# S.S. ANNE (DECK)
+#===============================
+[SAILOR,Trevor]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CMEILING,18
+Pokemon = CMURASA,18
+#-------------------------------
+[SAILOR,Edmond]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CSARA,19
+Pokemon = CCHIYURI,19
+#===============================
+# VERMILION GYM
+#===============================
+[SAILOR,Dwayne]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CIKU,24
+#-------------------------------
+[ENGINEER,Baily]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CTOJIKO,22
+Pokemon = CIKU,22
+#-------------------------------
+[GENTLEMAN,Tucker]
+LoseText = This stinks... I couldn't beat your challenge...
+Pokemon = CLUNA,22
+Pokemon = LUNA,22
 #===============================
 # ROUTE 11
 #===============================
@@ -453,6 +877,59 @@ Pokemon = CMEILING,18
 LoseText = Ada: We've been destroyed...
 Pokemon = CSARA,18
 Pokemon = CMEILING,18
+#===============================
+# CELADON GYM
+#===============================
+[LASS,Kay]
+LoseText = You're too rough!
+Pokemon = SHIZUHA,28
+    Moves = INGRAIN,RAZORLEAF,SLEEPPOWDER,LOWKICK
+Pokemon = MINORIKO,28
+    Moves = INGRAIN,MAGICALLEAF,STUNSPORE,EARTHPOWER
+#-------------------------------
+[BEAUTY,Bridget]
+LoseText = My makeup!
+Pokemon = CYUUKA,29
+    Moves = NEEDLEARM,STOMP,SMILE,TAUNT
+Pokemon = MEDICINE,29
+    Moves = STUNSPORE,GROWTH,TOXICGAS,MEGADRAIN
+Pokemon = DAIYOUSEI,29
+    Moves = MAGICALLEAF,BUBBLEBEAM,GUST,REFRESH
+#-------------------------------
+[COOLTRAINER_F,Mary]
+LoseText = Oh! Beaten!
+Pokemon = WRIGGLE,29
+    Moves = FAKEOUT,NEEDLEARM,QUICKATTACK,JUMPKICK
+Pokemon = TMEDICINE,29
+    Moves = DISABLE,POISONPOWDER,MEGADRAIN,TOXICGAS
+Pokemon = DWRIGGLE,29
+    Moves = NEEDLEARM,AGILITY,JUMPKICK,FEINTATTACK
+#-------------------------------
+[LASS,Lisa]
+LoseText = Oh! You!
+Pokemon = DDAIYOUSEI,29
+    Moves = BUBBLEBEAM,MAGICALLEAF,GUST,ATTRACT
+Pokemon = SWRIGGLE,29
+    Moves = FAKEOUT,NEEDLEARM,JUMPKICK,FEINTATTACK
+#-------------------------------
+[PICNICKER,Tina]
+LoseText = You're an eye-opener!
+Pokemon = CYUUKA,29
+    Moves = NEEDLEARM,TAUNT,STOMP,BULLETSEED
+Pokemon = STAR,29
+    Moves = ICYWIND,BUBBLEBEAM,NATUREPOWER,MIST
+#-------------------------------
+[BEAUTY,Lori]
+LoseText = Oh! Splendid!
+Pokemon = SSHIZUHA,32
+    Moves = BURNPOWDER,LOWKICK,RAZORLEAF,COTTONSPORE
+#-------------------------------
+[BEAUTY,Tamia]
+LoseText = No!
+Pokemon = DMINORIKO,30
+    Moves = STUNSPORE,BODYSLAM,EXTRASENSORY,MEGADRAIN
+Pokemon = AMEDICINE,30
+    Moves = STUNSPORE,POISONBOMB,MEGADRAIN,LEECHSEED
 #===============================
 # ROUTE 12
 #===============================
@@ -468,6 +945,15 @@ LoseText = Darn! That Puppet I just saw ran off during our battle!
 Pokemon = CCHIYURI,29
 Pokemon = CSUIKA,29
 Pokemon = CYOUMU,29
+#===============================
+# ROUTE 21
+#===============================
+[CUEBALL_SWIMMER,Chase]
+LoseText = Cheap shot!
+Pokemon = TEWI,42
+    Moves = FEINTATTACK,NASTYPLOT,BITE,SURF
+Pokemon = AMURASA,42
+Pokemon = TENSHI,42
 #===============================
 # MARINE CAVERN
 #===============================
@@ -522,7 +1008,7 @@ Pokemon = TAYA,60
 Pokemon = TNUE,60
     Moves = FLY,ICEBEAM,THUNDERBOLT,POISONJAB
 #===============================
-# GYM LEADER BATTLES
+# GYM LEADER/GIOVANNI/ELITE FOUR BATTLES
 #===============================
 [LEADER_Brock,Brock]
 LoseText = I took you for granted, and so I lost.
@@ -577,7 +1063,7 @@ Pokemon = TLUNA,26
     IV = 24,24,24,24,24,24
 #-------------------------------
 [LEADER_Erika,Erika]
-LoseText = Oh! I concede defeat.
+LoseText = Oh! I concede defeat. You are remarkably strong.
 Pokemon = CYUUKA,32
     AbilityIndex = 0
     Gender = female
@@ -601,7 +1087,7 @@ Pokemon = AMINORIKO,35
     IV = 24,24,24,24,24,24
 #-------------------------------
 [LEADER_Erika,Erika,1]
-LoseText = Oh! I concede defeat.
+LoseText = Oh! I concede defeat. You are remarkably strong.
 Pokemon = AMINORIKO,41
     AbilityIndex = 0
     Gender = female
@@ -620,12 +1106,12 @@ Pokemon = YUUKA,42
 Pokemon = DKAGUYA,43
     AbilityIndex = 1
     Gender = female
-    Moves = SIGNALBEAM,WATERPULSE,REST,GIGADRAIN
+    Moves = SIGNALBEAM,WATERPULSE,REST,SOLARBEAM
     Item = CHESTOBERRY
     IV = 30,30,30,30,30,30
 #-------------------------------
 [LEADER_Erika,Erika,2]
-LoseText = Oh! I concede defeat.
+LoseText = Oh! I concede defeat. You are remarkably strong.
 Pokemon = SWRIGGLE,48
     AbilityIndex = 0
     Gender = female
@@ -634,7 +1120,7 @@ Pokemon = SWRIGGLE,48
 Pokemon = SSHIZUHA,48
     AbilityIndex = 0
     Gender = female
-    Moves = SLEEPPOWDER,EARTHPOWER,SUNNYDAY,GIGADRAIN
+    Moves = BURNPOWDER,DOUBLEKICK,SUNNYDAY,LEAFBLADE
     IV = 24,24,24,24,24,24
 Pokemon = AMINORIKO,49
     AbilityIndex = 0
@@ -649,7 +1135,7 @@ Pokemon = YUUKA,49
 Pokemon = DKAGUYA,50
     AbilityIndex = 1
     Gender = female
-    Moves = SIGNALBEAM,MUDDYWATER,REST,GIGADRAIN
+    Moves = SIGNALBEAM,MUDDYWATER,REST,SOLARBEAM
     Item = CHESTOBERRY
     IV = 30,30,30,30,30,30
 #-------------------------------
@@ -1074,6 +1560,127 @@ Pokemon = AREIMU,81
     Item = LEFTOVERS
     IV = 31,31,31,31,31,31
 #-------------------------------
+[TRAINER_Renko,Renko]
+LoseText = What an amazing battle! Shame that Merry's not here to see this.
+Pokemon = ALILYBLACK,64
+    AbilityIndex = 0
+    Gender = female
+    Moves = DOUBLEEDGE,RAGE,ROCKSMASH,STEELWING
+    Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+Pokemon = SMARISA,65
+    AbilityIndex = 1
+    Gender = female
+    Moves = TRIATTACK,THUNDERBOLT,MANABURST,LIGHTSCREEN
+    Item = SALACBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = AKAGUYA,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = EARTHQUAKE,BLASTBURN,SOLARBEAM,REFLECT
+    Item = SCOPELENS
+    IV = 31,31,31,31,31,31
+Pokemon = GOLIATH,64
+    AbilityIndex = 1
+    Gender = female
+    Moves = PSYCHOCUT,BRAVER,STRENGTH,SWORDSDANCE
+    Item = LIECHIBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = TKOGASA,64
+    AbilityIndex = 0
+    Gender = female
+    Moves = AQUASHOWER,SHADOWBALL,ICEBEAM,RAINDANCE
+    Item = SWIMSUIT
+    IV = 31,31,31,31,31,31
+Pokemon = SHINKI,67
+    AbilityIndex = 0
+    Gender = female
+    Moves = MANABURST,EXTRASENSORY,DARKPULSE,FLAMETHROWER
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
+#===============================
+# GYM LEADER/ELITE FOUR REMATCHES
+#===============================
+[LEADER_Brock,Brock,1]
+LoseText = I took you for granted, and so I lost.
+Pokemon = SYAMAME,64
+    AbilityIndex = 0
+    Gender = male
+    Moves = GUNKSHOT,TAILWIND,SCREECH,BATONPASS
+    Item = SALACBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = ASUIKA,64
+    AbilityIndex = 0
+    Gender = male
+    Moves = THUNDERPUNCH,DYNAMICPUNCH,ROCKWRECKER,SPIKES
+    Item = LIECHIBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = DYUUGI,65
+    AbilityIndex = 0
+    Gender = male
+    Moves = BELLYDRUM,EARTHQUAKE,DYNAMICPUNCH,RAGE
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = ATENSHI,64
+    AbilityIndex = 0
+    Gender = male
+    Moves = SWORDSDANCE,POISONJAB,EARTHQUAKE,DRAWNLINE
+    Item = FIGYBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = DKANAKO,64
+    AbilityIndex = 0
+    Gender = male
+    Moves = HEADBUTT,THUNDERBOLT,NATUREPOWER,SCARYFACE
+    Item = PETAYABERRY
+    IV = 31,31,31,31,31,31
+Pokemon = TTOYOHIME,65
+    AbilityIndex = 0
+    Gender = male
+    Moves = ANCIENTPOWER,SURF,ICESHARD,REST
+    Item = CHESTOBERRY
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[LEADER_Erika,Erika,3]
+LoseText = Oh! I concede defeat. You are remarkably strong.
+Pokemon = SWRIGGLE,64
+    AbilityIndex = 0
+    Gender = female
+    Moves = RAZORWIND,SIGNALBEAM,OMINOUSWIND,NATURESOUND
+    Item = SCOPELENS
+    IV = 31,31,31,31,31,31
+Pokemon = SSHIZUHA,64
+    AbilityIndex = 0
+    Gender = female
+    Moves = BURNPOWDER,EARTHQUAKE,TRIPLEKICK,POWERWHIP
+    Item = SALACBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = AMINORIKO,64
+    AbilityIndex = 0
+    Gender = female
+    Moves = HEATWAVE,EXTRASENSORY,EARTHPOWER,SOLARBEAM
+    Item = PETAYABERRY
+    IV = 31,31,31,31,31,31
+Pokemon = YUUKA,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = POWERWHIP,STUNSPORE,CRUSHCLAW,MUDSHOT
+    Item = LIECHIBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = DYUYUKO,64
+    AbilityIndex = 0
+    Gender = female
+    Moves = ENERGYLIGHT,WILLOWISP,ICEBEAM,SHADOWBALL
+    Item = KIMONO
+    IV = 31,31,31,31,31,31
+Pokemon = DKAGUYA,65
+    AbilityIndex = 1
+    Gender = female
+    Moves = ICEBEAM,MUDDYWATER,REST,SOLARBEAM
+    Item = CHESTOBERRY
+    IV = 31,31,31,31,31,31
+#===============================
+# TRAINER TOWER FLOORS
+#===============================
 [YOUNGSTER,Cole]
 LoseText = Hiyah! Done in totally!
 Pokemon = CSANAE,1

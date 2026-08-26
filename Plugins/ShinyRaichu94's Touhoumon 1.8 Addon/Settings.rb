@@ -438,8 +438,11 @@ module Settings
   # automatically.
   def self.game_credits
     return [
-      _INTL("My Game by:"),
-      "Maruno",
+      _INTL("Game created by:"),
+      "ShinyRaichu94",
+      "",
+      _INTL("Sprites:"),
+      "BonFlanCake<s>Slot Machine sprites",
       "",
       _INTL("Also involved were:"),
       "A. Lee Uss<s>Anne O'Nymus",
@@ -448,7 +451,15 @@ module Settings
       "Sue Donnim<s>",
       "",
       _INTL("Special thanks to:"),
-      "Pizza"
+      "Pokémon Legacy Team",
+      "For Inspirations",
+      "",
+      "SmithPlays Pokémon",
+      "For Inspirations",
+      "",
+      "Spike",
+      "(Pokémon FireRed Reignited/LeafGreen Regrown)",
+      "For Inspirations"
     ]
   end
 end

@@ -4639,7 +4639,7 @@ Price = 250
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_FIRE_80
-Description = It may be used or held by a Pokémon to recover from paralysis.
+Description = It may be used or held by a Puppet to recover from paralysis.
 #-------------------------------
 [CHESTOBERRY]
 Name = Chesto Berry
@@ -4649,7 +4649,7 @@ Price = 300
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_WATER_80
-Description = It may be used or held by a Pokémon to recover from sleep.
+Description = It may be used or held by a Puppet to recover from sleep.
 #-------------------------------
 [PECHABERRY]
 Name = Pecha Berry
@@ -4659,7 +4659,7 @@ Price = 250
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
-Description = It may be used or held by a Pokémon to recover from poison.
+Description = It may be used or held by a Puppet to recover from poison.
 #-------------------------------
 [RAWSTBERRY]
 Name = Rawst Berry
@@ -4669,7 +4669,7 @@ Price = 300
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_GRASS_80
-Description = It may be used or held by a Pokémon to recover from a burn.
+Description = It may be used or held by a Puppet to recover from a burn.
 #-------------------------------
 [ASPEARBERRY]
 Name = Aspear Berry
@@ -4679,7 +4679,7 @@ Price = 300
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_ICE_80
-Description = It may be used or held by a Pokémon to defrost it.
+Description = It may be used or held by a Puppet to defrost it.
 #-------------------------------
 [LEPPABERRY]
 Name = Leppa Berry
@@ -4689,7 +4689,7 @@ Price = 1500
 FieldUse = OnPokemon
 BattleUse = OnMove
 Flags = Berry,Fling_10,NaturalGift_FIGHTING_80
-Description = It may be used or held by a Pokémon to restore a move's PP by 10.
+Description = It may be used or held by a Puppet to restore a move's PP by 10.
 #-------------------------------
 [ORANBERRY]
 Name = Oran Berry
@@ -4699,7 +4699,7 @@ Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_POISON_80
-Description = It may be used or held by a Pokémon to heal the user by just 10 HP.
+Description = It may be used or held by a Puppet to heal the user by just 10 HP.
 #-------------------------------
 [PERSIMBERRY]
 Name = Persim Berry
@@ -4708,7 +4708,7 @@ Pocket = 5
 Price = 250
 BattleUse = OnBattler
 Flags = Berry,Fling_10,NaturalGift_GROUND_80
-Description = It may be used or held by a Pokémon to recover from confusion.
+Description = It may be used or held by a Puppet to recover from confusion.
 #-------------------------------
 [LUMBERRY]
 Name = Lum Berry
@@ -4718,7 +4718,7 @@ Price = 1000
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_FLYING_80
-Description = It may be used or held by a Pokémon to recover from any status problem.
+Description = It may be used or held by a Puppet to recover from any status problem.
 #-------------------------------
 [SITRUSBERRY]
 Name = Sitrus Berry
@@ -4728,7 +4728,7 @@ Price = 600
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_PSYCHIC_80
-Description = It may be used or held by a Pokémon to heal the user's HP a little.
+Description = It may be used or held by a Puppet to heal the user's HP a little.
 #-------------------------------
 [FIGYBERRY]
 Name = Figy Berry
@@ -4736,7 +4736,7 @@ NamePlural = Figy Berries
 Pocket = 5
 Price = 900
 Flags = Berry,Fling_10,NaturalGift_BUG_80
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held by a Puppet, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 #-------------------------------
 [WIKIBERRY]
 Name = Wiki Berry
@@ -4744,7 +4744,7 @@ NamePlural = Wiki Berries
 Pocket = 5
 Price = 900
 Flags = Berry,Fling_10,NaturalGift_ROCK_80
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held by a Puppet, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 #-------------------------------
 [MAGOBERRY]
 Name = Mago Berry
@@ -4752,7 +4752,7 @@ NamePlural = Mago Berries
 Pocket = 5
 Price = 900
 Flags = Berry,Fling_10,NaturalGift_GHOST_80
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held by a Puppet, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 #-------------------------------
 [AGUAVBERRY]
 Name = Aguav Berry
@@ -4760,7 +4760,7 @@ NamePlural = Aguav Berries
 Pocket = 5
 Price = 900
 Flags = Berry,Fling_10,NaturalGift_DRAGON_80
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held by a Puppet, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 #-------------------------------
 [IAPAPABERRY]
 Name = Iapapa Berry
@@ -4768,7 +4768,7 @@ NamePlural = Iapapa Berries
 Pocket = 5
 Price = 900
 Flags = Berry,Fling_10,NaturalGift_DARK_80
-Description = If held by a Pokémon, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
+Description = If held by a Puppet, it restores the user's HP in a pinch, but will cause confusion if it hates the taste.
 #-------------------------------
 [RAZZBERRY]
 Name = Razz Berry
@@ -4817,7 +4817,7 @@ Pocket = 5
 Price = 2000
 FieldUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_ICE_90
-Description = Using it on a Pokémon makes it more friendly, but it also lowers its base HP.
+Description = Using it on a Puppet makes it more friendly, but it also lowers its base HP.
 #-------------------------------
 [KELPSYBERRY]
 Name = Kelpsy Berry
@@ -4826,7 +4826,7 @@ Pocket = 5
 Price = 2000
 FieldUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_FIGHTING_90
-Description = Using it on a Pokémon makes it more friendly, but it also lowers its base Attack stat.
+Description = Using it on a Puppet makes it more friendly, but it also lowers its base Attack stat.
 #-------------------------------
 [QUALOTBERRY]
 Name = Qualot Berry
@@ -4835,7 +4835,7 @@ Pocket = 5
 Price = 2000
 FieldUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_POISON_90
-Description = Using it on a Pokémon makes it more friendly, but it also lowers its base Defense stat.
+Description = Using it on a Puppet makes it more friendly, but it also lowers its base Defense stat.
 #-------------------------------
 [HONDEWBERRY]
 Name = Hondew Berry
@@ -4844,7 +4844,7 @@ Pocket = 5
 Price = 2000
 FieldUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_GROUND_90
-Description = Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Atk stat.
+Description = Using it on a Puppet makes it more friendly, but it also lowers its base Sp. Atk stat.
 #-------------------------------
 [GREPABERRY]
 Name = Grepa Berry
@@ -4853,7 +4853,7 @@ Pocket = 5
 Price = 2000
 FieldUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_FLYING_90
-Description = Using it on a Pokémon makes it more friendly, but it also lowers its base Sp. Def stat.
+Description = Using it on a Puppet makes it more friendly, but it also lowers its base Sp. Def stat.
 #-------------------------------
 [TAMATOBERRY]
 Name = Tamato Berry
@@ -4862,7 +4862,7 @@ Pocket = 5
 Price = 2000
 FieldUse = OnPokemon
 Flags = Berry,Fling_10,NaturalGift_PSYCHIC_90
-Description = Using it on a Pokémon makes it more friendly, but it also lowers its base Speed stat.
+Description = Using it on a Puppet makes it more friendly, but it also lowers its base Speed stat.
 #-------------------------------
 [CORNNBERRY]
 Name = Cornn Berry

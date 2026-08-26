@@ -413,3 +413,18 @@ Gender = Male
 BaseMoney = 100
 BattleBGM = Necrofantasia.ogg
 VictoryBGM = Battle victory leader
+#-------------------------------
+[TRAINER_Renko]
+Name = Trainer
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[TRAINER_Maribel]
+Name = Trainer
+Gender = Female
+BaseMoney = 100
+#-------------------------------
+[CUEBALL_SWIMMER]
+Name = Cue Ball
+Gender = Male
+BaseMoney = 24

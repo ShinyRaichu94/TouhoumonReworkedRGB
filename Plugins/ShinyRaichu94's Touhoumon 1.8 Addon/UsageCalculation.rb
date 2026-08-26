@@ -491,7 +491,7 @@ class Battle::Move
   # Additional effect chance
   #=============================================================================
   def pbAdditionalEffectChance(user, target, effectChance = 0)
-    return 0 if target.hasActiveAbility?(:SHIELDDUST) && !@battle.moldBreaker
+    return 0 if target.hasActiveAbility?(:ADVENT) && !@battle.moldBreaker
     ret = (effectChance > 0) ? effectChance : @addlEffect
     return ret if ret > 100
     if (Settings::MECHANICS_GENERATION >= 6 || @function_code != "EffectDependsOnEnvironment") &&
@@ -506,7 +506,7 @@ class Battle::Move
   #       not here.
   def pbFlinchChance(user, target)
     return 0 if flinchingMove?
-    return 0 if target.hasActiveAbility?(:SHIELDDUST) && !@battle.moldBreaker
+    return 0 if target.hasActiveAbility?(:ADVENT) && !@battle.moldBreaker
     ret = 0
     if user.hasActiveAbility?(:STENCH, true) ||
        user.hasActiveItem?([:KINGSROCK, :RAZORFANG], true)

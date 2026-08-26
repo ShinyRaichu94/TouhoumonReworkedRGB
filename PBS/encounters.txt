@@ -29,6 +29,29 @@ Land,21
     50,CTOKIKO,2,4
     50,CNAZRIN,2
 #-------------------------------
+[042] # Viridian City
+Water,2
+    95,CKOMACHI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
+#-------------------------------
 [043] # Route 2
 Land,21
     45,CTOKIKO,2,5
@@ -72,6 +95,40 @@ SuperRod
     5,NITORI,35
     5,KOMACHI,35
 #-------------------------------
+[077] # Route 23
+Land,21
+    20,KOGASA,47,50
+    15,TOKIKO,48,50
+    10,SKOGASA,47,50
+    10,TKOGASA,47,50
+    10,ATOKIKO,48,50
+    10,TENSHI,49
+    10,CYUMEKO,30
+    5,ATENSHI,49
+    5,DTENSHI,49
+    5,CSHINKI,30
+Water,2
+    95,CKOMACHI,10,30
+    5,KOMACHI,35
+OldRod
+    70,CHINA,2,3
+    30,CNITORI,2,3
+GoodRod
+    55,CHINA,15,17
+    15,CNITORI,15,17
+    15,CKOMACHI,15,17
+    5,CHINA,20
+    5,CNITORI,20
+    5,CKOMACHI,20
+SuperRod
+    35,CHINA,25,30
+    35,CNITORI,25,30
+    10,CKOMACHI,25,30
+    5,CSUWAKO,25,30
+    5,HINA,35
+    5,NITORI,35
+    5,KOMACHI,35
+#-------------------------------
 [079] # Altering Cave
 Cave,5
     100,KEDAMA,10,50
@@ -85,6 +142,23 @@ Cave,5
 [079,2] # Altering Cave
 Cave,5
     100,AKYUU,50,55
+#-------------------------------
+[079,3] # Altering Cave
+Cave,5
+    100,CVIVIT,5
+#-------------------------------
+[079,4] # Altering Cave
+Cave,5
+    20,CKOAKUMA,15
+    20,CCHEN,15
+    20,CCIRNO,15
+    10,CAYA,20
+    10,CSAKUYA,20
+    10,CYOUMU,20
+    4,CRAN,30
+    4,CREMILIA,30
+    1,CFLANDRE,35
+    1,CYUKARI,35
 #-------------------------------
 [082] # Route 3
 Land,21
@@ -941,3 +1015,17 @@ SuperRod
     5,HINA,35
     5,NITORI,35
     5,MURASA,35
+#-------------------------------
+[154] # Victory Road
+Cave,5
+    30,RUMIA,47,50
+    20,KISUME,48
+    10,YAMAME,48
+    10,PARSEE,47
+    10,KOGASA,48
+    5,SUIKA,49
+    5,YUUGI,49
+    4,TKISUME,48
+    4,CMIKO,35
+    1,CTOYOHIME,35
+    1,CKASEN,25

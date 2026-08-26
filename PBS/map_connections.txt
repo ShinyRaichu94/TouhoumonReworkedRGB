@@ -28,90 +28,76 @@
 31,South,32,23,North,0
 # Route 3 (31) - Ingido Plateau outside (35)
 31,West,0,35,East,10
-# Route 1 (33) - Pallet Town (32)
-33,South,0,32,North,0
-# Route 21 (111) - Pallet Town (32)
-111,North,0,32,South,0
-# Viridian City (42) - Route 1 (33)
-42,South,6,33,North,0
-# Route 22 (76) - Route 1 (33)
-76,South,59,33,North,0
 # Ingido Plateau outside (35) - Route 4 (39)
 35,West,11,39,East,0
 # Route 5 (41) - Route 4 Cycling Road (40)
 41,North,0,40,South,0
 # Route 5 (41) - Route 6 Cycling Road (45)
 41,South,6,45,North,0
-# Route 2 (43) - Viridian City (42)
-43,South,0,42,North,0
-# Route 22 (76) - Viridian City (42)
-76,East,0,42,West,10
-# Route 23 (77) - Viridian City (42)
-77,East,150,42,West,0
-# Pewter City (81) - Route 2 (43)
-81,South,0,43,North,0
-# Route 22 (76) - Route 2 (43)
-76,East,0,43,West,90
-# Route 23 (77) - Route 2 (43)
-77,East,70,43,West,0
 # Route 7 (47) - Battle Frontier (52)
 47,East,8,52,West,0
 # Route 8 (69) - Safari Zone outside (66)
 69,North,0,66,South,10
-# Route 22 (76) - Pewter City (81)
-76,East,0,81,West,134
-# Route 23 (77) - Route 22 (76)
-77,South,1,76,North,0
-# Route 23 (77) - Pewter City (81)
-77,East,26,81,West,0
-# Route 3 (82) - Pewter City (81)
-82,West,0,81,East,15
-# Route 4 (83) - Route 3 (82)
-83,South,0,82,North,60
-# Route 9 (93) - Route 3 (82)
-93,South,0,82,North,216
+# Cape Brink (115) - Two Island (136)
+115,South,0,136,North,24
+# Marine Cove (141) - Cape Brink (115)
+141,West,0,115,East,40
+# Marine Cove (141) - Two Island (136)
+141,West,0,136,East,0
+# Vermilion City (91) - Route 6 (90)
+91,North,0,90,South,0
+# Route 4 (83) - Route 6 (90)
+83,East,110,90,West,0
+# Route 4 (83) - Vermilion City (91)
+83,East,150,91,West,0
+# Route 9 (93) - Vermilion City (91)
+93,West,150,91,East,0
+# Route 11 (92) - Vermilion City (91)
+92,West,0,91,East,10
+# Route 8 (96) - Vermilion City (91)
+96,West,70,91,East,0
+# Route 14 (102) - Vermilion City (91)
+102,West,0,91,East,70
+# Route 3 (82) - Route 4 (83)
+82,North,60,83,South,0
 # Cerulean City (86) - Route 4 (83)
 86,West,10,83,East,0
 # Route 5 (89) - Route 4 (83)
 89,West,0,83,East,30
-# Vermilion City (91) - Route 4 (83)
-91,West,0,83,East,150
-# Route 11 (92) - Cerulean City (86)
-92,West,0,86,East,170
-# Route 5 (89) - Cerulean City (86)
-89,North,0,86,South,0
-# Route 9 (93) - Cerulean City (86)
-93,West,0,86,East,10
-# Route 14 (102) - Cerulean City (86)
-102,West,0,86,East,230
-# Route 8 (96) - Cerulean City (86)
-96,West,0,86,East,90
-# Route 5 (89) - Route 11 (92)
-89,East,130,92,West,0
-# Route 9 (93) - Route 5 (89)
-93,West,30,89,East,0
-# Route 14 (102) - Route 5 (89)
-102,West,0,89,East,190
-# Route 8 (96) - Route 5 (89)
-96,West,0,89,East,50
-# Route 6 (90) - Vermilion City (91)
-90,South,0,91,North,12
-# Vermilion City (91) - Route 11 (92)
-91,East,10,92,West,0
-# Vermilion City (91) - Route 9 (93)
-91,East,0,93,West,150
-# Vermilion City (91) - Route 14 (102)
-91,East,70,102,West,0
-# Route 8 (96) - Vermilion City (91)
-96,West,70,91,East,0
-# Route 10 (94) - Route 11 (92)
-94,West,160,92,East,0
-# Lavender Town (95) - Route 11 (92)
-95,West,80,92,East,0
-# Route 12 (100) - Route 11 (92)
-100,West,60,92,East,0
-# Route 15 (103) - Route 11 (92)
-103,East,0,92,West,100
+# Pewter City (81) - Route 3 (82)
+81,East,15,82,West,0
+# Route 9 (93) - Route 3 (82)
+93,South,0,82,North,216
+# Route 2 (43) - Pewter City (81)
+43,North,0,81,South,0
+# Route 22 (76) - Pewter City (81)
+76,East,0,81,West,134
+# Route 23 (77) - Pewter City (81)
+77,East,26,81,West,0
+# Viridian City (42) - Route 2 (43)
+42,North,0,43,South,0
+# Route 22 (76) - Route 2 (43)
+76,East,0,43,West,90
+# Route 23 (77) - Route 2 (43)
+77,East,70,43,West,0
+# Route 1 (33) - Viridian City (42)
+33,North,0,42,South,6
+# Route 22 (76) - Viridian City (42)
+76,East,0,42,West,10
+# Route 23 (77) - Viridian City (42)
+77,East,150,42,West,0
+# Pallet Town (32) - Route 1 (33)
+32,North,0,33,South,0
+# Route 22 (76) - Route 1 (33)
+76,South,59,33,North,0
+# Route 21 (111) - Pallet Town (32)
+111,North,0,32,South,0
+# Route 23 (77) - Route 22 (76)
+77,South,1,76,North,0
+# Cerulean City (86) - Route 9 (93)
+86,East,10,93,West,0
+# Route 5 (89) - Route 9 (93)
+89,East,0,93,West,30
 # Route 10 (94) - Route 9 (93)
 94,West,0,93,East,0
 # Lavender Town (95) - Route 9 (93)
@@ -120,20 +106,42 @@
 100,West,0,93,East,100
 # Route 15 (103) - Route 9 (93)
 103,East,0,93,West,260
-# Route 10 (94) - Route 8 (96)
-94,West,80,96,East,0
+# Route 11 (92) - Cerulean City (86)
+92,West,0,86,East,170
+# Route 5 (89) - Cerulean City (86)
+89,North,0,86,South,0
+# Route 8 (96) - Cerulean City (86)
+96,West,0,86,East,90
+# Route 14 (102) - Cerulean City (86)
+102,West,0,86,East,230
+# Route 5 (89) - Route 11 (92)
+89,East,130,92,West,0
+# Route 10 (94) - Route 11 (92)
+94,West,160,92,East,0
+# Lavender Town (95) - Route 11 (92)
+95,West,80,92,East,0
+# Route 12 (100) - Route 11 (92)
+100,West,60,92,East,0
+# Route 15 (103) - Route 11 (92)
+103,East,0,92,West,100
+# Route 8 (96) - Route 5 (89)
+96,West,0,89,East,50
+# Route 14 (102) - Route 5 (89)
+102,West,0,89,East,190
+# Route 8 (96) - Route 10 (94)
+96,North,72,94,South,0
 # Lavender Town (95) - Route 10 (94)
 95,North,0,94,South,0
 # Lavender Town (95) - Route 8 (96)
 95,West,0,96,East,0
-# Route 12 (100) - Lavender Town (95)
-100,North,0,95,South,0
 # Route 12 (100) - Route 8 (96)
 100,West,0,96,East,20
 # Route 15 (103) - Route 8 (96)
 103,East,0,96,West,180
-# Route 12 (100) - Route 14 (102)
-100,South,0,102,North,72
+# Route 12 (100) - Lavender Town (95)
+100,North,0,95,South,0
+# Route 14 (102) - Route 12 (100)
+102,North,72,100,South,0
 # Route 13 (101) - Route 12 (100)
 101,North,48,100,South,0
 # Route 13 (101) - Route 14 (102)
@@ -144,9 +152,3 @@
 107,East,10,103,West,0
 # Route 18 (106) - Fuchsia City (107)
 106,East,0,107,West,10
-# Cape Brink (115) - Two Island (136)
-115,South,0,136,North,24
-# Marine Cove (141) - Two Island (136)
-141,West,0,136,East,0
-# Marine Cove (141) - Cape Brink (115)
-141,West,0,115,East,40
