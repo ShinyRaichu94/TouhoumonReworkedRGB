@@ -946,6 +946,42 @@ Pokemon = CCHIYURI,29
 Pokemon = CSUIKA,29
 Pokemon = CYOUMU,29
 #===============================
+# FUCHSIA GYM
+#===============================
+[LASS,Janine]
+LoseText = I think I still need some practice...
+Pokemon = CNUE,38
+Pokemon = AHINA,38
+Pokemon = TYAMAME,38
+Pokemon = ARUMIA,38
+#-------------------------------
+[JUGGLER,Kayden]
+LoseText = What? Extraordinary!
+Pokemon = YAMAME,40
+#-------------------------------
+[JUGGLER,Kirk]
+LoseText = I'm done for!
+Pokemon = CEIRIN,34
+Pokemon = CNUE,34
+Pokemon = DHINA,34
+Pokemon = LUNASA,34
+#-------------------------------
+[TAMER,Edgar]
+LoseText = Awoo!
+Pokemon = SYAMAME,35
+Pokemon = SYAMAME,35
+Pokemon = RUMIA,35
+#-------------------------------
+[TAMER,Phil]
+LoseText = Whoa! You've got it!
+Pokemon = TYAMAME,36
+Pokemon = ARUMIA,36
+#-------------------------------
+[JUGGLER,Shawn]
+LoseText = You're more skilled than I'd thought!
+Pokemon = AHINA,37
+Pokemon = HLUNASA,37
+#===============================
 # ROUTE 21
 #===============================
 [CUEBALL_SWIMMER,Chase]
@@ -1007,6 +1043,24 @@ Pokemon = TAYA,60
     Moves = FLY,EXTREMESPEED,HEATWAVE,SONICBOOM
 Pokemon = TNUE,60
     Moves = FLY,ICEBEAM,THUNDERBOLT,POISONJAB
+#-------------------------------
+[COOLTRAINER_M,Berke]
+LoseText = Well, that proves it. You really are strong.
+Pokemon = NITORI,58
+    Moves = SURF,THUNDER,ICEBEAM,RAINDANCE
+    IV = 12,12,12,12,12,12
+Pokemon = TKISUME,58
+    Moves = FLAMETHROWER,IRONDEFENSE,BOUNCE,HYDROPUMP
+    IV = 12,12,12,12,12,12
+Pokemon = LUNASA,58
+    Moves = POISONBOMB,TOXIC,SHADOWBALL,BARRIER
+    IV = 12,12,12,12,12,12
+Pokemon = SMEILING,58
+    Moves = FIREPUNCH,DRAINPUNCH,BULKUP,EARTHQUAKE
+    IV = 12,12,12,12,12,12
+Pokemon = SKOMACHI,58
+    Moves = SPLASHING,TEETERDANCE,SHADOWDANCE,DRAWNLINE
+    IV = 12,12,12,12,12,12
 #===============================
 # GYM LEADER/GIOVANNI/ELITE FOUR BATTLES
 #===============================

@@ -6012,3 +6012,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A pass for ferries between Vermilion and the Orange Islands. It features drawings of different shells.
+#-------------------------------
+[PARCEL]
+Name = Parcel
+NamePlural = Parcels
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A parcel to be delivered to Professor Oak from Viridian City's Puppet Mart.
