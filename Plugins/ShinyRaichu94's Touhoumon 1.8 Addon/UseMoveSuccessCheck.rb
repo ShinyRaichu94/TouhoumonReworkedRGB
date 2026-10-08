@@ -111,7 +111,10 @@ class Battle::Battler
     return true if !@battle.pbOwnedByPlayer?(@index)
     disobedient = false
     # Pokémon may be disobedient; calculate if it is
-    badge_level = 10 * (@battle.pbPlayer.badge_count + 1)
+    badge_level = 10 #* (@battle.pbPlayer.badge_count + 1)
+    badge_level = 30 if $player.badges[1] == true
+    badge_level = 50 if $player.badges[3] == true
+    badge_level = 70 if $player.badges[5] == true
     badge_level = GameData::GrowthRate.max_level if @battle.pbPlayer.badge_count >= 8
     if Settings::ANY_HIGH_LEVEL_POKEMON_CAN_DISOBEY ||
        (Settings::FOREIGN_HIGH_LEVEL_POKEMON_CAN_DISOBEY && @pokemon.foreign?(@battle.pbPlayer))
@@ -119,6 +122,10 @@ class Battle::Battler
         a = ((@level + badge_level) * @battle.pbRandom(256) / 256).floor
         disobedient |= (a >= badge_level)
       end
+    end
+    if $game_map.metadata&.has_flag?("KinkanIsland") && $game_switches[83] == false && !hasActiveAbility?(:INSOMNIA) && !hasActiveAbility?(:VITALSPIRIT)
+      badge_level = 0
+      disobedient = true
     end
     disobedient |= !pbHyperModeObedience(choice[2])
     return true if !disobedient
@@ -231,6 +238,15 @@ class Battle::Battler
           return false
         end
       end
+    end
+    if $game_map.metadata&.has_flag?("Ghost") && !$bag.has?(:SILPHSCOPE) && @battle.wildBattle?
+      if @battle.opposes?(@index)
+        @battle.pbDisplay(_INTL("Ghost: Get out... Get out...", pbThis))
+      else
+        @battle.pbDisplay(_INTL("{1} is too scared to move!", pbThis))
+      end
+      @lastMoveFailed = true
+      return false
     end
     # Obedience check
     return false if !pbObedienceCheck?(choice)

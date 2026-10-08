@@ -337,6 +337,22 @@ class PokemonSummary_Scene
     end
     # Show shininess star
     imagepos.push(["Graphics/UI/shiny", 2, 134]) if @pokemon.shiny?
+    # Show happiness heart
+    h = @pokemon.happiness
+    hstage = 0
+    hstage = 1 if h >= 1
+    hstage = 2 if h >= 50
+    hstage = 3 if h >= 100
+    hstage = 4 if h >= 150
+    hstage = 5 if h >= 200
+    hstage = 6 if h >= 255
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_0", 188, 268]) if hstage == 0
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_1", 188, 268]) if hstage == 1
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_2", 188, 268]) if hstage == 2
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_3", 188, 268]) if hstage == 3
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_4", 188, 268]) if hstage == 4
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_5", 188, 268]) if hstage == 5
+    imagepos.push(["Graphics/UI/Summary/icon_happiness_6", 188, 268]) if hstage == 6
     # Draw all images
     pbDrawImagePositions(overlay, imagepos)
     # Write various bits of text

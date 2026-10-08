@@ -383,16 +383,16 @@ class Battle::Move
     # Badge multipliers
     if @battle.internalBattle
       if user.pbOwnedByPlayer?
-        if physicalMove? && @battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_ATTACK
+        if physicalMove? && $player.badges[0] == true #@battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_ATTACK
           multipliers[:attack_multiplier] *= 1.1
-        elsif specialMove? && @battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPATK
+        elsif specialMove? && $player.badges[6] == true #@battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPATK
           multipliers[:attack_multiplier] *= 1.1
         end
       end
       if target.pbOwnedByPlayer?
-        if physicalMove? && @battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_DEFENSE
+        if physicalMove? && $player.badges[4] == true #@battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_DEFENSE
           multipliers[:defense_multiplier] *= 1.1
-        elsif specialMove? && @battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPDEF
+        elsif specialMove? && $player.badges[6] == true #@battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPDEF
           multipliers[:defense_multiplier] *= 1.1
         end
       end

@@ -29,6 +29,35 @@ class Battle::Move::HitOncePerUserTeamMember < Battle::Move
 end
 
 #===============================================================================
+# Leech Seed (Touhoumon Version)
+#===============================================================================
+class Battle::Move::StartLeechSeedTarget < Battle::Move
+  def canMagicCoat?; return true; end
+
+  def pbFailsAgainstTarget?(user, target, show_message)
+    if target.effects[PBEffects::LeechSeed] >= 0
+      @battle.pbDisplay(_INTL("{1} evaded the attack!", target.pbThis)) if show_message
+      return true
+    end
+    if target.pbHasType?(:NATURE)
+      @battle.pbDisplay(_INTL("It doesn't affect {1}...", target.pbThis(true))) if show_message
+      return true
+    end
+    return false
+  end
+
+  def pbMissMessage(user, target)
+    @battle.pbDisplay(_INTL("{1} evaded the attack!", target.pbThis))
+    return true
+  end
+
+  def pbEffectAgainstTarget(user, target)
+    target.effects[PBEffects::LeechSeed] = user.index
+    @battle.pbDisplay(_INTL("{1} was seeded!", target.pbThis))
+  end
+end
+
+#===============================================================================
 # Rage (Touhoumon Version)
 #===============================================================================
 class Battle::Move::BurnUser < Battle::Move

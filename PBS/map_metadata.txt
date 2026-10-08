@@ -656,6 +656,7 @@ BattleBack = field
 #-------------------------------
 [137] # Marine Cavern
 Name = Marine Cavern
+ShowArea = true
 MapPosition = 1,13,12
 DarkMap = true
 BattleBack = cave3
@@ -663,6 +664,7 @@ Environment = Cave
 #-------------------------------
 [138] # Marine Cavern
 Name = Marine Cavern
+ShowArea = true
 MapPosition = 1,13,12
 DarkMap = true
 BattleBack = cave3
@@ -670,6 +672,7 @@ Environment = Cave
 #-------------------------------
 [139] # Marine Cavern
 Name = Marine Cavern
+ShowArea = true
 MapPosition = 1,13,12
 DarkMap = true
 BattleBack = cave3
@@ -677,6 +680,7 @@ Environment = Cave
 #-------------------------------
 [140] # Marine Cavern
 Name = Marine Cavern
+ShowArea = true
 MapPosition = 1,13,12
 DarkMap = true
 BattleBack = cave3
@@ -701,3 +705,127 @@ Name = Rainfall Chamber
 MapPosition = 1,14,14
 BattleBack = cave3
 Environment = Cave
+#-------------------------------
+[176] # Mt. Moon
+Name = Mt. Moon
+ShowArea = true
+MapPosition = 0,10,5
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[177] # Mt. Moon
+Name = Mt. Moon
+ShowArea = true
+MapPosition = 0,10,5
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[178] # Mt. Moon
+Name = Mt. Moon
+ShowArea = true
+MapPosition = 0,10,5
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[181] # Rock Tunnel
+Name = Rock Tunnel
+ShowArea = true
+MapPosition = 0,19,5
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[182] # Rock Tunnel
+Name = Rock Tunnel
+ShowArea = true
+MapPosition = 0,19,5
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[183] # Rock Tunnel
+Name = Rock Tunnel
+ShowArea = true
+MapPosition = 0,19,5
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+#-------------------------------
+[184] # Mt. Moon
+Name = Mt. Moon
+ShowArea = true
+MapPosition = 0,10,5
+BattleBack = cave1
+Environment = Cave
+#-------------------------------
+[185] # Mt. Moon
+Name = Mt. Moon
+Outdoor = true
+ShowArea = true
+MapPosition = 0,10,5
+BattleBack = field
+#-------------------------------
+[187] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+#-------------------------------
+[188] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+#-------------------------------
+[189] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+Flags = Ghost
+Weather = Fog,100
+#-------------------------------
+[190] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+Flags = Ghost
+Weather = Fog,100
+#-------------------------------
+[191] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+Flags = Ghost
+Weather = Fog,100
+#-------------------------------
+[192] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+Flags = Ghost
+Weather = Fog,100
+#-------------------------------
+[193] # Puppet Tower
+Name = Puppet Tower
+ShowArea = true
+MapPosition = 0,19,8
+BattleBack = indoor3
+Environment = Graveyard
+Flags = Ghost
+Weather = Fog,100
+#-------------------------------
+[194] # Kinkan Power Plant
+Name = Kinkan Power Plant
+ShowArea = true
+MapPosition = 4,16,8
+Flags = KinkanIsland

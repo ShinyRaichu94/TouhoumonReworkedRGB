@@ -9,7 +9,7 @@ class PokemonPokedexInfo_Scene
     @index   = index
     @region  = region
     @page = 1
-    @show_battled_count = false
+    @show_battled_count = 0
     @typebitmap = AnimatedBitmap.new(_INTL("Graphics/UI/Pokedex/icon_types"))
     @sprites = {}
     @sprites["background"] = IconSprite.new(0, 0, @viewport)
@@ -267,11 +267,11 @@ class PokemonPokedexInfo_Scene
           end
         #end
       #end
-      if !@show_battled_count
+      if @show_battled_count == 0 || @brief
       # Draw the Pokédex entry text
         drawTextEx(overlay, 40, 246, Graphics.width - 80, 4,   # overlay, x, y, width, num lines
                  species_data.pokedex_entry, base, shadow)
-      else
+      elsif @show_battled_count == 1
         textpos.push([_INTL("Base Stats"), 40, 246, :left, base, shadow])
         textpos.push([_INTL("HP: {1}", species_data.base_stats[:HP]), 40, 278, :left, base, shadow])
         textpos.push([_INTL("Attack: {1}", species_data.base_stats[:ATTACK]), 178, 278, :left, base, shadow])
@@ -280,6 +280,55 @@ class PokemonPokedexInfo_Scene
         textpos.push([_INTL("Sp. Def: {1}", species_data.base_stats[:SPECIAL_DEFENSE]), 178, 310, :left, base, shadow])
         textpos.push([_INTL("Speed: {1}", species_data.base_stats[:SPEED]), 324, 310, :left, base, shadow])
         textpos.push([_INTL("Total: {1}", species_data.base_stats.values.sum), 324, 342, :left, base, shadow])
+      elsif @show_battled_count == 2
+        textpos.push([_INTL("Evolution Methods"), 40, 246, :left, base, shadow])
+        species_data.get_evolutions.each do |evo|
+          if evo[1] == :Level || evo[1] == :Ninjask || evo[1] == :LevelForceForm1
+            textpos.push([_INTL("Can Evolve on Level {1}.", evo[2]), 40, 278, :left, base, shadow])
+          end
+        end
+        power_shard = GameData::Item.try_get(:POWERSHARD)
+        if power_shard && species_data.family_item_evolutions_use_item?(power_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/POWERSHARD", 40, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 40, 310])
+        end
+        defense_shard = GameData::Item.try_get(:DEFENSESHARD)
+        if defense_shard && species_data.family_item_evolutions_use_item?(defense_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/DEFENSESHARD", 88, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 88, 310])
+        end
+        swift_shard = GameData::Item.try_get(:SWIFTSHARD)
+        if swift_shard && species_data.family_item_evolutions_use_item?(swift_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/SWIFTSHARD", 136, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 136, 310])
+        end
+        tech_shard = GameData::Item.try_get(:TECHSHARD)
+        if tech_shard && species_data.family_item_evolutions_use_item?(tech_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/TECHSHARD", 184, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 184, 310])
+        end
+        support_shard = GameData::Item.try_get(:SUPPORTSHARD)
+        if support_shard && species_data.family_item_evolutions_use_item?(support_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/SUPPORTSHARD", 232, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 232, 310])
+        end
+        solar_shard = GameData::Item.try_get(:SOLARSHARD)
+        if solar_shard && species_data.family_item_evolutions_use_item?(solar_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/SOLARSHARD", 280, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 280, 310])
+        end
+        chrome_shard = GameData::Item.try_get(:CHROMESHARD)
+        if chrome_shard && species_data.family_item_evolutions_use_item?(chrome_shard.id) && species_data.get_evolutions(true).length > 0
+          imagepos.push(["Graphics/UI/Pokedex/CHROMESHARD", 328, 310])
+        else
+          imagepos.push(["Graphics/UI/Pokedex/SHARD_null", 328, 310])
+        end
       end
       # Draw the footprint
       footprintfile = GameData::Species.footprint_filename(@species, @form)
@@ -517,7 +566,11 @@ class PokemonPokedexInfo_Scene
         case @page
         when 1   # Info
           pbPlayDecisionSE
-          @show_battled_count = !@show_battled_count
+          if @show_battled_count != 2
+            @show_battled_count += 1
+          else
+            @show_battled_count = 0
+          end
           dorefresh = true
         when 2   # Area
 #          dorefresh = true

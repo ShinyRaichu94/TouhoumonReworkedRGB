@@ -302,11 +302,13 @@ SkillLevel = 32
 Name = Team Rocket
 Gender = Male
 BaseMoney = 32
+BattleBGM = Touhou Judgment in the 60th Year - Fate of 60 Years.ogg
 #-------------------------------
 [TEAMROCKET_F]
 Name = Team Rocket
 Gender = Female
 BaseMoney = 32
+BattleBGM = Touhou Judgment in the 60th Year - Fate of 60 Years.ogg
 #-------------------------------
 [ROCKETBOSS]
 Name = Rocket Boss
@@ -428,3 +430,43 @@ BaseMoney = 100
 Name = Cue Ball
 Gender = Male
 BaseMoney = 24
+#-------------------------------
+[LEADER_Cissy]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = U.N.Owen was Her.ogg
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Danny]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = U.N.Owen was Her.ogg
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Rudy]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = U.N.Owen was Her.ogg
+VictoryBGM = Battle victory leader
+#-------------------------------
+[LEADER_Luana]
+Name = Gym Leader
+Gender = Female
+BaseMoney = 100
+BattleBGM = U.N.Owen was Her.ogg
+VictoryBGM = Battle victory leader
+#-------------------------------
+[ROCKETADMIN_Ariana]
+Name = Rocket Admin
+Gender = Female
+BaseMoney = 88
+BattleBGM = Invisible Full Moon.ogg
+#-------------------------------
+[ROCKETADMIN_Archer]
+Name = Rocket Admin
+Gender = Male
+BaseMoney = 88
+BattleBGM = Invisible Full Moon.ogg

@@ -1,2 +1,96 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
-
+[CRUMIA]
+BackSprite = 0,-5
+FrontSprite = -2,-6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[RUMIA]
+BackSprite = 0,-5
+FrontSprite = 5,-9
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ARUMIA]
+BackSprite = 0,-5
+FrontSprite = -3,-3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SRUMIA]
+BackSprite = 0,-5
+FrontSprite = 4,-1
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CCIRNO]
+BackSprite = 0,-5
+FrontSprite = -3,-3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CIRNO]
+BackSprite = 0,-5
+FrontSprite = 0,-6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SCIRNO]
+BackSprite = 0,-5
+FrontSprite = 0,-2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TCIRNO]
+BackSprite = 0,-5
+FrontSprite = -6,4
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[TCIRNO_1]
+BackSprite = 0,-5
+FrontSprite = 0,-3
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CKOAKUMA]
+BackSprite = 0,-5
+FrontSprite = -3,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[KOAKUMA]
+BackSprite = 0,-5
+FrontSprite = -6,-3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[HKOAKUMA]
+BackSprite = 0,-5
+FrontSprite = -3,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CCHIYURI]
+BackSprite = 0,-5
+FrontSprite = -1,5
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CHIYURI]
+BackSprite = 0,-5
+FrontSprite = -3,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CKURUMI]
+BackSprite = 0,-5
+FrontSprite = -4,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[KURUMI]
+BackSprite = 0,-5
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 3

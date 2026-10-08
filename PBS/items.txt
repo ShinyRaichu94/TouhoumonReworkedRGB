@@ -6020,3 +6020,36 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A parcel to be delivered to Professor Oak from Viridian City's Puppet Mart.
+#-------------------------------
+[YINYANGORB]
+Name = Yin-Yang Orb
+NamePlural = Yin-Yang Orbs
+Pocket = 8
+Price = 0
+Flags = KeyItem,Fossil
+Description = A round orb that was used by a shrine maiden. It appears to be connected to a certain Puppet.
+#-------------------------------
+[MINIHAKKERO]
+Name = Mini-Hakkero
+NamePlural = Mini-Hakkeros
+Pocket = 8
+Price = 0
+Flags = KeyItem,Fossil
+Description = A wooden device that contains magical energy. It appears to be connected to a certain Puppet.
+#-------------------------------
+[RAINBOWSCROLL]
+Name = Rainbow Scroll
+NamePlural = Rainbow Scrolls
+Pocket = 8
+Price = 0
+Flags = KeyItem,Fossil
+Description = A magical scroll that has multiple colors. It appears to be connected to a certain Puppet.
+#-------------------------------
+[PINKANBERRY]
+Name = Pinkan Berry
+NamePlural = Pinkan Berries
+Pocket = 5
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A special type of berry grown from Pinkan Island. If a Puppet eats one, they'll turn pink.

@@ -66,10 +66,10 @@ Pokemon = CMOMIJI,16
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,17
-    AbilityIndex = 0
+Pokemon = CSHIZUHA,17
+    AbilityIndex = 1
     Gender = male
-    Moves = TACKLE,QUICKATTACK,FEINTATTACK,AGILITY
+    Moves = VINEWHIP,MAGICALLEAF,LEECHSEED,SLEEPPOWDER
     IV = 5,5,5,5,5,5
 Pokemon = CALICE,19
     AbilityIndex = 1
@@ -89,10 +89,10 @@ Pokemon = CMOMIJI,16
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,17
-    AbilityIndex = 0
+Pokemon = CSHIZUHA,17
+    AbilityIndex = 1
     Gender = male
-    Moves = TACKLE,QUICKATTACK,FEINTATTACK,AGILITY
+    Moves = VINEWHIP,MAGICALLEAF,LEECHSEED,SLEEPPOWDER
     IV = 5,5,5,5,5,5
 Pokemon = CREISEN,19
     AbilityIndex = 1
@@ -112,10 +112,10 @@ Pokemon = CMOMIJI,16
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,SCRATCH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,17
-    AbilityIndex = 0
+Pokemon = CSHIZUHA,17
+    AbilityIndex = 1
     Gender = male
-    Moves = TACKLE,QUICKATTACK,FEINTATTACK,AGILITY
+    Moves = VINEWHIP,MAGICALLEAF,LEECHSEED,SLEEPPOWDER
     IV = 5,5,5,5,5,5
 Pokemon = CSANAE,19
     AbilityIndex = 0
@@ -130,10 +130,10 @@ Pokemon = CMOMIJI,20
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,22
-    AbilityIndex = 0
+Pokemon = CSHIZUHA,22
+    AbilityIndex = 1
     Gender = male
-    Moves = FAKEOUT,QUICKATTACK,FEINTATTACK,AGILITY
+    Moves = VINEWHIP,MAGICALLEAF,LEECHSEED,SLEEPPOWDER
     IV = 5,5,5,5,5,5
 Pokemon = CYAMAME,21
     AbilityIndex = 0
@@ -153,10 +153,10 @@ Pokemon = CMOMIJI,20
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,22
-    AbilityIndex = 0
+Pokemon = CSHIZUHA,22
+    AbilityIndex = 1
     Gender = male
-    Moves = FAKEOUT,QUICKATTACK,FEINTATTACK,AGILITY
+    Moves = VINEWHIP,MAGICALLEAF,LEECHSEED,SLEEPPOWDER
     IV = 5,5,5,5,5,5
 Pokemon = CYAMAME,21
     AbilityIndex = 0
@@ -176,10 +176,10 @@ Pokemon = CMOMIJI,20
     Gender = male
     Moves = BITE,HOWL,TAILWHIP,BLADEFLASH
     IV = 5,5,5,5,5,5
-Pokemon = CWRIGGLE,22
-    AbilityIndex = 0
+Pokemon = CSHIZUHA,22
+    AbilityIndex = 1
     Gender = male
-    Moves = FAKEOUT,QUICKATTACK,FEINTATTACK,AGILITY
+    Moves = VINEWHIP,MAGICALLEAF,LEECHSEED,SLEEPPOWDER
     IV = 5,5,5,5,5,5
 Pokemon = CYAMAME,21
     AbilityIndex = 0
@@ -617,6 +617,15 @@ LoseText = Okay! I'll share!
 Pokemon = CHINA,12
 Pokemon = CNITORI,12
 Pokemon = CRIKA,12
+#-------------------------------
+[ROCKETADMIN_Ariana,Ariana]
+LoseText = Hmph, you're stronger than I thought...
+Pokemon = CKURUMI,14
+    Moves = LEECHLIFE,DEFENSECURL,GUST,MEGADRAIN
+Pokemon = CPARSEE,14
+    Moves = FRUSTRATION,SMOKESCREEN,WANTING,POISONTEARS
+Pokemon = CYUUKA,15
+    Moves = VINEWHIP,LEER,STOMP,TAUNT
 #===============================
 # ROUTE 4
 #===============================
@@ -635,7 +644,7 @@ Pokemon = CMEILING,17
 #===============================
 # CERULEAN GYM
 #===============================
-[SWIMMER_M,Luis]
+[SWIMMER2_M,Luis]
 LoseText = Done like dinner!
 Pokemon = CMURASA,16
 Pokemon = CNITORI,16
@@ -826,8 +835,8 @@ Pokemon = CKOMACHI,18
 #-------------------------------
 [GENTLEMAN,Brooks]
 LoseText = This stinks... I couldn't beat your challenge...
-Pokemon = CSHIZUHA,22
-Pokemon = CMOMIJI,22
+Pokemon = CSHIZUHA,19
+Pokemon = CMOMIJI,19
 #-------------------------------
 [LASS,Dawn]
 LoseText = This stinks... I couldn't beat your challenge...
@@ -990,6 +999,21 @@ Pokemon = TEWI,42
     Moves = FEINTATTACK,NASTYPLOT,BITE,SURF
 Pokemon = AMURASA,42
 Pokemon = TENSHI,42
+#===============================
+# CINNABAR VOLCANO (1F)
+#===============================
+[SUPERNERD,Charles]
+LoseText = Shoot! I'm wrecked!
+Pokemon = RIKA,42
+Pokemon = ANITORI,42
+Pokemon = UTSUHO,42
+#===============================
+# CINNABAR VOLCANO (B1F)
+#===============================
+[SCIENTIST,Ren]
+LoseText = Too hot!
+Pokemon = YUKI,43
+Pokemon = ASUIKA,43
 #===============================
 # MARINE CAVERN
 #===============================
@@ -1410,7 +1434,7 @@ Pokemon = ARAN,55
 Pokemon = AREMILIA,55
     AbilityIndex = 1
     Gender = male
-    Moves = FIREPUNCH,PSYCHOCUT,HEARTBREAK,BRICKBREAK
+    Moves = FIREPUNCH,SLASH,HEARTBREAK,BRICKBREAK
     Item = LUMBERRY
     IV = 31,31,31,31,31,31
 #-------------------------------
@@ -1540,6 +1564,33 @@ Pokemon = SHINKI,62
     Gender = male
     Moves = FIREPUNCH,MANABURST,DARKPULSE,STEELWING
     Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+#-------------------------------
+[LEADER_Cissy,Cissy]
+LoseText = I have burned down to nothing! Not even ashes remain!
+Pokemon = CHIYURI,69
+    AbilityIndex = 0
+    Gender = female
+    Moves = HYDROPUMP,MANABURST,LOCKON,THUNDER
+    Item = BRIGHTPOWDER
+    IV = 31,31,31,31,31,31
+Pokemon = ANITORI,68
+    AbilityIndex = 0
+    Gender = female
+    Moves = VOLTTACKLE,WATERFALL,PSYCHOCUT,RAINDANCE
+    Item = SALACBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = MURASA,68
+    AbilityIndex = 1
+    Gender = female
+    Moves = ICEPUNCH,WATERFALL,SHADOWPUNCH,RAINDANCE
+    Item = LIECHIBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = MURASA,69
+    AbilityIndex = 1
+    Gender = female
+    Moves = ICEPUNCH,WATERFALL,SHADOWPUNCH,RAINDANCE
+    Item = LIECHIBERRY
     IV = 31,31,31,31,31,31
 #-------------------------------
 [PROFESSOR,Oak]

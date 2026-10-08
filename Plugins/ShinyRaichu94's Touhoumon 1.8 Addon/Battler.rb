@@ -267,7 +267,8 @@ class Battle::Battler
     end
     # Badge multiplier
     if @battle.internalBattle && pbOwnedByPlayer? &&
-       @battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPEED
+       $player.badges[2] == true
+       #@battle.pbPlayer.badge_count >= Settings::NUM_BADGES_BOOST_SPEED
       speedMult *= 1.1
     end
     # Calculation
@@ -314,7 +315,7 @@ class Battle::Battler
     # type.
     if @effects[PBEffects::Roost]
       ret.delete(:FLYING)
-      ret.push(:NORMAL) if ret.length == 0
+      ret.push(:ILLUSION) if ret.length == 0
     end
     # Add the third type specially.
     if withExtraType && @effects[PBEffects::ExtraType] && !ret.include?(@effects[PBEffects::ExtraType])

@@ -219,10 +219,13 @@ SuperRod
 #-------------------------------
 [087] # Route 24
 Land,21
-    50,CTOKIKO,12,13
-    20,CMOMIJI,12,13
-    15,CSHIZUHA,14,16
-    15,CMINORIKO,14,16
+    20,CTOKIKO,12,13
+    15,CMOMIJI,12,13
+    15,CSUNNY,14,16
+    15,CLUNA,14,16
+    15,CSTAR,14,16
+    10,CSHIZUHA,14,16
+    10,CMINORIKO,14,16
 Water,2
     95,CMURASA,10,30
     5,MURASA,35
@@ -246,11 +249,14 @@ SuperRod
 #-------------------------------
 [088] # Route 25
 Land,21
-    40,CTOKIKO,12,13
+    25,CTOKIKO,12,13
     20,CMOMIJI,12,13
-    15,CSHIZUHA,14,16
-    15,CMINORIKO,14,16
-    10,CKEINE,13,16
+    10,CSUNNY,14,16
+    10,CLUNA,14,16
+    10,CSTAR,14,16
+    10,CSHIZUHA,14,16
+    10,CMINORIKO,14,16
+    5,CKEINE,13,16
 Water,2
     95,CKOMACHI,10,30
     5,KOMACHI,35
@@ -589,7 +595,22 @@ SuperRod
 #-------------------------------
 [113] # Pattern Bush
 Land,21
-    100,GOLIATH,54
+    10,SUNNY,52,55
+    10,LUNA,52,55
+    10,STAR,52,55
+    10,DAIYOUSEI,52,55
+    9,WRIGGLE,52,55
+    5,ASUNNY,52,55
+    5,DSUNNY,52,55
+    5,ALUNA,52,55
+    5,TLUNA,52,55
+    5,ASTAR,52,55
+    5,HSTAR,52,55
+    5,GOLIATH,54
+    4,ADAIYOUSEI,52,55
+    4,DDAIYOUSEI,52,55
+    4,DWRIGGLE,52,55
+    4,SWRIGGLE,52,55
 #-------------------------------
 [114] # Kindle Road
 Land,21
@@ -1029,3 +1050,208 @@ Cave,5
     4,CMIKO,35
     1,CTOYOHIME,35
     1,CKASEN,25
+#-------------------------------
+[176] # Mt. Moon
+Cave,5
+    30,CRUMIA,8,9
+    25,CKISUME,10
+    20,CKURUMI,8,9
+    15,CKYOUKO,8,10
+    10,CKOAKUMA,8,11
+#-------------------------------
+[177] # Mt. Moon
+Cave,5
+    25,CRUMIA,8,11
+    20,CKISUME,10
+    20,CKURUMI,8,9
+    15,CKYOUKO,8,10
+    15,CKOAKUMA,8,12
+    5,CKOGASA,10,12
+#-------------------------------
+[178] # Mt. Moon
+Cave,5
+    25,CRUMIA,10,13
+    20,CKISUME,10,11
+    20,CKURUMI,10
+    15,CKYOUKO,10,12
+    15,CKOAKUMA,10,13
+    5,CKOGASA,12
+#-------------------------------
+[181] # Rock Tunnel
+Cave,5
+    25,CRUMIA,15,20
+    25,CKISUME,16,18
+    20,CKURUMI,15,20
+    15,CRIN,17,21
+    15,CLETTY,17,21
+#-------------------------------
+[182] # Rock Tunnel
+Cave,5
+    25,CRUMIA,18,20
+    20,CKISUME,17,18
+    20,CKURUMI,18,20
+    15,CRIN,18,20
+    15,CLETTY,18,20
+    5,CSUIKA,19,20
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+#-------------------------------
+[183] # Rock Tunnel
+Cave,5
+    25,CRUMIA,18,20
+    20,CKISUME,17,18
+    20,CKURUMI,18,20
+    15,CRIN,18,20
+    15,CLETTY,18,20
+    5,CSUIKA,19,20
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+#-------------------------------
+[184] # Mt. Moon
+Cave,5
+    30,CRUMIA,8,9
+    25,CKISUME,10
+    20,CKURUMI,8,9
+    15,CKYOUKO,8,10
+    10,CKOAKUMA,8,11
+#-------------------------------
+[185] # Mt. Moon
+Land,21
+    20,MOMIJI,38,42
+    20,TOKIKO,38,42
+    20,MYSTIA,38,42
+    15,KYOUKO,38,42
+    10,AYA,38,42
+    10,HATATE,38,42
+    4,CNUE,38,40
+    1,NUE,40,42
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+#-------------------------------
+[189] # Puppet Tower
+Cave,5
+    34,CLUNASA,20,25
+    33,CMERLIN,20,25
+    33,CLYRICA,20,25
+#-------------------------------
+[190] # Puppet Tower
+Cave,5
+    34,CLUNASA,20,25
+    33,CMERLIN,20,25
+    33,CLYRICA,20,25
+#-------------------------------
+[191] # Puppet Tower
+Cave,5
+    32,CLUNASA,22,25
+    32,CMERLIN,22,25
+    32,CLYRICA,22,25
+    4,CYOUMU,24
+#-------------------------------
+[192] # Puppet Tower
+Cave,5
+    30,CLUNASA,23,26
+    30,CMERLIN,23,26
+    30,CLYRICA,23,26
+    9,CYOUMU,24,28
+    1,CYUYUKO,30
+#-------------------------------
+[193] # Puppet Tower
+Cave,5
+    28,CLUNASA,24,27
+    28,CMERLIN,24,27
+    28,CLYRICA,24,27
+    10,CYOUMU,26,28
+    5,CYUYUKO,30,32
+    1,CLAYLA,32
+#-------------------------------
+[196] # Cinnabar Volcano
+Cave,5
+    29,KISUME,32,34
+    29,YAMAME,34,36
+    20,RIN,35
+    10,CSUIKA,32,34
+    10,CYUUGI,32,34
+    1,SUIKA,38
+    1,YUUGI,38
+#-------------------------------
+[197] # Cinnabar Volcano
+Cave,5
+    29,KISUME,32,34
+    29,YAMAME,34,36
+    20,RIN,35
+    10,CSUIKA,32,34
+    10,CYUUGI,32,34
+    1,SUIKA,38
+    1,YUUGI,38
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+#-------------------------------
+[198] # Cinnabar Volcano
+Cave,5
+    20,KISUME,32,34
+    20,YAMAME,34,36
+    14,RIN,35
+    14,CYUKI,32,34
+    10,CSUIKA,32,34
+    10,CYUUGI,32,34
+    5,CUTSUHO,32,35
+    5,YUKI,35,38
+    1,SUIKA,38
+    1,YUUGI,38
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+#-------------------------------
+[199] # Cinnabar Volcano
+Cave,5
+    20,KISUME,32,34
+    20,YAMAME,34,36
+    14,RIN,35
+    14,CYUKI,32,34
+    10,CSUIKA,32,34
+    10,CYUUGI,32,34
+    5,CUTSUHO,32,35
+    5,YUKI,35,38
+    1,SUIKA,38
+    1,YUUGI,38
+RockSmash,50
+    40,CTENSHI,35
+    20,KISUME,35,40
+    20,TKISUME,35,40
+    10,TENSHI,40
+    5,ATENSHI,40
+    5,DTENSHI,40
+#-------------------------------
+[200] # Power Plant
+Cave,5
+    30,NITORI,33,35
+    20,CNITORI,30
+    20,CRIKA,33,35
+    10,CIKU,33
+    10,TOJIKO,37,39
+    5,IKU,37
+    5,RIKA,36,37

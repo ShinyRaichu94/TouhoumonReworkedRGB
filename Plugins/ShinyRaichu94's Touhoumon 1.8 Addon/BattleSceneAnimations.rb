@@ -644,7 +644,7 @@ class Battle::Scene::Animation::BattlerFaint < Battle::Scene::Animation
       end
     end
     delay += 2
-    delay /= 2
+    delay /= 3 #2
     # Sprite drops down
     shadow.setVisible(delay, false)
     battler.setSE(delay, "Pkmn faint")

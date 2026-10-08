@@ -4,3 +4,4 @@
 FormName = Tan Cirno
 Types = ICE,NATURE
 Abilities = WALLOFICE,CHLOROPHYLL
+Pokedex = With the power from a certain incident, she now gains resistance to heat and is able to get a suntan.

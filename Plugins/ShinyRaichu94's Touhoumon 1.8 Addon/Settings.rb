@@ -137,7 +137,7 @@ module Settings
   HIGHER_SHINY_CHANCES_WITH_NUMBER_BATTLED = (MECHANICS_GENERATION >= 8)
   # Whether overworld weather can set the default terrain effect in battle.
   # Storm weather sets Electric Terrain, and fog weather sets Misty Terrain.
-  OVERWORLD_WEATHER_SETS_BATTLE_TERRAIN    = (MECHANICS_GENERATION >= 8)
+  OVERWORLD_WEATHER_SETS_BATTLE_TERRAIN    = false
   # The default setting for Phone.rematches_enabled, which determines whether
   # trainers registered in the Phone can become ready for a rematch. If false,
   # Phone.rematches_enabled = true will enable rematches at any point you want.
@@ -441,9 +441,13 @@ module Settings
       _INTL("Game created by:"),
       "ShinyRaichu94",
       "",
+      _INTL("In-Battle Sprites:"),
+      "SkidMarc25<s>Ariana and Archer sprites",
+      "",
       _INTL("Overworld Sprites:"),
       "Hemoglobin_A1C<s>Renko and Maribel sprites",
       "Avatar, Kalarie, MrDollSteak, and Spherical Ice<s>Various NPC sprites",
+      "",
       _INTL("Other Sprites:"),
       "BonFlanCake<s>Slot Machine sprites",
       _INTL("Also involved were:"),
