@@ -33,11 +33,23 @@ GameData::Evolution.register({
 #===============================================================================
 
 #-------------------------------------------------------------------------------
-# Goliath
+# Goliath and AkiSisters
 #-------------------------------------------------------------------------------
 
 MultipleForms.register(:GOLIATH, {
   "getFormOnCreation" => proc { |pkmn|
     next rand(2)
+  }
+})
+
+MultipleForms.copy(:GOLIATH, :AKISISTERS)
+
+#-------------------------------------------------------------------------------
+# Fairy
+#-------------------------------------------------------------------------------
+
+MultipleForms.register(:FAIRY, {
+  "getFormOnLeavingBattle" => proc { |pkmn, battle, usedInBattle, endBattle|
+    next 0
   }
 })

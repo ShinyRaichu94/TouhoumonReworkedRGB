@@ -470,3 +470,8 @@ Name = Rocket Admin
 Gender = Male
 BaseMoney = 88
 BattleBGM = Invisible Full Moon.ogg
+#-------------------------------
+[NURSE]
+Name = Nurse
+Gender = Female
+BaseMoney = 99

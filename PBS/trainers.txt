@@ -1593,6 +1593,45 @@ Pokemon = MURASA,69
     Item = LIECHIBERRY
     IV = 31,31,31,31,31,31
 #-------------------------------
+[NURSE,Joy]
+LoseText = That was amazing!
+Pokemon = HLILYWHITE,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = FAKEOUT,FAKETEARS,TRIATTACK,BATONPASS
+    Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+Pokemon = HLETTY,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = EARTHPOWER,BLIZZARD,HAIL,REFLECT
+    Item = SALACBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = ICHIRIN,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = FIREPUNCH,HEADBUTT,DYNAMICPUNCH,FORCEPALM
+    Item = SITRUSBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = AKAGUYA,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = BLASTBURN,EARTHPOWER,SOLARBEAM,SPIKES
+    Item = PETAYABERRY
+    IV = 31,31,31,31,31,31
+Pokemon = DYUYUKO,65
+    AbilityIndex = 0
+    Gender = female
+    Moves = ICEBEAM,ENERGYLIGHT,SHADOWBALL,AMNESIA
+    Item = FIGYBERRY
+    IV = 31,31,31,31,31,31
+Pokemon = EIRIN,65
+    AbilityIndex = 1
+    Gender = female
+    Moves = TRIATTACK,PSYCHOBOOST,POISONBOMB,OMINOUSWIND
+    Item = LEFTOVERS
+    IV = 31,31,31,31,31,31
+#-------------------------------
 [PROFESSOR,Oak]
 LoseText = Hmm... I still have a lot to learn!
 Pokemon = TYUKARI,69

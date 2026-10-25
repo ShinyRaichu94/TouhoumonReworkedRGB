@@ -443,6 +443,7 @@ module Settings
       "",
       _INTL("In-Battle Sprites:"),
       "SkidMarc25<s>Ariana and Archer sprites",
+      "SharkGuy01<s>Nurse Joy sprites",
       "",
       _INTL("Overworld Sprites:"),
       "Hemoglobin_A1C<s>Renko and Maribel sprites",

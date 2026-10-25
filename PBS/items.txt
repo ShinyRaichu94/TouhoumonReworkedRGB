@@ -6053,3 +6053,11 @@ Price = 100
 FieldUse = OnPokemon
 Flags = Berry
 Description = A special type of berry grown from Pinkan Island. If a Puppet eats one, they'll turn pink.
+#-------------------------------
+[SSTICKET]
+Name = S.S. Ticket
+NamePlural = S.S. Tickets
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it.

@@ -6,11 +6,11 @@ StartItemStorage = POTION
 Home = 133,7,5,8
 StorageCreator = Bill
 WildBattleBGM = Doll Judgment - The Girl who Played with People's Shapes.ogg
-TrainerBattleBGM = Battle trainer
+TrainerBattleBGM = Love-Colored Master Spark.ogg
 WildVictoryBGM = Battle victory wild
 TrainerVictoryBGM = Battle victory trainer
-SurfBGM = Surfing
-BicycleBGM = Bicycle
+SurfBGM = Akutagawa Ryuunosuke's Kappa - Candid Friend (Surfing).ogg
+BicycleBGM = Wind God Girl (Bicycle).ogg
 #-------------------------------
 [1]
 TrainerType = POKEMONTRAINER_Red

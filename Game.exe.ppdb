@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Author: shinyraichu94
+#Game.exe
+#Rating=1-5
+export PW_WINE_USE="PROTON_LG_10-28"
+export PW_PREFIX_NAME="DEFAULT"
+export PORTPROTON_NAME="mkxp-z"
+export FILE_DESCRIPTION=""
+export FILE_SHA256SUM="5c75e92fcbb6ec50b9f8fc61913d751a8945d6a1fc69c3017c7b8686b532bf04"
+export PW_VULKAN_USE="6"

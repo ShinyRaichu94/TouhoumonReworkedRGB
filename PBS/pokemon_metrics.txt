@@ -1,4 +1,40 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+[CMARISA]
+BackSprite = 0,-5
+FrontSprite = 1,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MARISA]
+BackSprite = 0,-5
+FrontSprite = -1,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[AMARISA]
+BackSprite = 0,-5
+FrontSprite = -5,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SMARISA]
+BackSprite = 0,-5
+FrontSprite = 0,-6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ADMARISA]
+BackSprite = 0,-5
+FrontSprite = 0,-5
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[EXMARISA]
+BackSprite = 0,-5
+FrontSprite = 0,-6
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
 [CRUMIA]
 BackSprite = 0,-5
 FrontSprite = -2,-6
@@ -25,7 +61,7 @@ ShadowSize = 2
 #-------------------------------
 [CCIRNO]
 BackSprite = 0,-5
-FrontSprite = -3,-3
+FrontSprite = -3,3
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
@@ -94,3 +130,9 @@ BackSprite = 0,-5
 FrontSprite = 0,7
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[FAIRY]
+BackSprite = 0,-5
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2

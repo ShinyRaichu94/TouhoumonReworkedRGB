@@ -164,3 +164,39 @@ class Battle::Move::HitsTargetInShadow < Battle::Move
     return baseDmg
   end
 end
+
+#===============================================================================
+# Weather Ball (Touhoumon Version)
+#===============================================================================
+class Battle::Move::TypeAndPowerDependOnWeather < Battle::Move
+  def pbBaseDamage(baseDmg, user, target)
+    baseDmg *= 2 if user.effectiveWeather != :None
+    return baseDmg
+  end
+
+  def pbBaseType(user)
+    ret = :ILLUSION
+    case user.effectiveWeather
+    when :Sun, :HarshSun
+      ret = :FIRE if GameData::Type.exists?(:FIRE)
+    when :Rain, :HeavyRain
+      ret = :WATER if GameData::Type.exists?(:WATER)
+    when :Sandstorm
+      ret = :EARTH if GameData::Type.exists?(:EARTH)
+    when :Hail
+      ret = :ICE if GameData::Type.exists?(:ICE)
+    when :ShadowSky
+      ret = :NONE
+    end
+    return ret
+  end
+
+  def pbShowAnimation(id, user, targets, hitNum = 0, showAnimation = true)
+    t = pbBaseType(user)
+    hitNum = 1 if t == :FIRE   # Type-specific anims
+    hitNum = 2 if t == :WATER
+    hitNum = 3 if t == :EARTH
+    hitNum = 4 if t == :ICE
+    super
+  end
+end
