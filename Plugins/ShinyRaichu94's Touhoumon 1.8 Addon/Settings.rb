@@ -164,7 +164,7 @@ module Settings
   # Whether you need at least a certain number of badges to use some hidden
   # moves in the field (true), or whether you need one specific badge to use
   # them (false). The amounts/specific badges are defined below.
-  FIELD_MOVES_COUNT_BADGES = true
+  FIELD_MOVES_COUNT_BADGES = false
   # Depending on FIELD_MOVES_COUNT_BADGES, either the number of badges required
   # to use each hidden move in the field, or the specific badge number required
   # to use each move. Remember that badge 0 is the first badge, badge 1 is the
@@ -172,13 +172,13 @@ module Settings
   #   e.g. To require the second badge, put false and 1.
   #        To require at least 2 badges, put true and 2.
   BADGE_FOR_CUT       = 1
-  BADGE_FOR_FLASH     = 2
-  BADGE_FOR_ROCKSMASH = 3
+  BADGE_FOR_FLASH     = 0
+  BADGE_FOR_ROCKSMASH = 5
   BADGE_FOR_SURF      = 4
-  BADGE_FOR_FLY       = 5
-  BADGE_FOR_STRENGTH  = 6
-  BADGE_FOR_DIVE      = 7
-  BADGE_FOR_WATERFALL = 8
+  BADGE_FOR_FLY       = 2
+  BADGE_FOR_STRENGTH  = 3
+  BADGE_FOR_DIVE      = 6
+  BADGE_FOR_WATERFALL = 6
 
   #=============================================================================
 
@@ -187,7 +187,7 @@ module Settings
     return [
       _INTL("Items"),
       _INTL("Medicine"),
-      _INTL("Poké Balls"),
+      _INTL("Miko Orbs"),
       _INTL("TMs & HMs"),
       _INTL("Berries"),
       _INTL("Mail"),
@@ -229,8 +229,8 @@ module Settings
   # that Dex list, no matter which region the player is currently in.
   def self.pokedex_names
     return [
-      [_INTL("Kanto Pokédex"), 0],
-      _INTL("National Pokédex")
+      [_INTL("Kanto iDollDex"), 0],
+      _INTL("National iDollDex")
     ]
   end
   # Whether all forms of a given species will be immediately available to view

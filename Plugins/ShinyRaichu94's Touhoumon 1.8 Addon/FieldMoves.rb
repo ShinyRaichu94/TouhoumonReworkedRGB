@@ -285,7 +285,7 @@ def pbDive
   move = :DIVE
   movefinder = $player.get_pokemon_with_move(move)
   if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_DIVE, false) || (!$DEBUG && !movefinder)
-    pbMessage(_INTL("The sea is deep here. A Pokémon may be able to go underwater."))
+    pbMessage(_INTL("The sea is deep here. A Puppet may be able to go underwater."))
     return false
   end
   if pbConfirmMessage(_INTL("The sea is deep here. Would you like to use Dive?"))
@@ -322,7 +322,7 @@ def pbSurfacing
   move = :DIVE
   movefinder = $player.get_pokemon_with_move(move)
   if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_DIVE, false) || (!$DEBUG && !movefinder)
-    pbMessage(_INTL("Light is filtering down from above. A Pokémon may be able to surface here."))
+    pbMessage(_INTL("Light is filtering down from above. A Puppet may be able to surface here."))
     return false
   end
   if pbConfirmMessage(_INTL("Light is filtering down from above. Would you like to use Dive?"))
@@ -551,10 +551,10 @@ def pbHeadbutt(event = nil)
   move = :HEADBUTT
   movefinder = $player.get_pokemon_with_move(move)
   if !$DEBUG && !movefinder
-    pbMessage(_INTL("A Pokémon could be in this tree. Maybe a Pokémon could shake it."))
+    pbMessage(_INTL("A Puppet could be in this tree. Maybe a Puppet could shake it."))
     return false
   end
-  if pbConfirmMessage(_INTL("A Pokémon could be in this tree. Would you like to use Headbutt?"))
+  if pbConfirmMessage(_INTL("A Puppet could be in this tree. Would you like to use Headbutt?"))
     $stats.headbutt_count += 1
     speciesname = (movefinder) ? movefinder.name : $player.name
     pbMessage(_INTL("{1} used {2}!", speciesname, GameData::Move.get(move).name))
@@ -597,7 +597,7 @@ def pbRockSmash
   move = :ROCKSMASH
   movefinder = $player.get_pokemon_with_move(move)
   if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_ROCKSMASH, false) || (!$DEBUG && !movefinder)
-    pbMessage(_INTL("It's a rugged rock, but a Pokémon may be able to smash it."))
+    pbMessage(_INTL("It's a rugged rock, but a Puppet may be able to smash it."))
     return false
   end
   if pbConfirmMessage(_INTL("This rock seems breakable with a hidden move.\nWould you like to use Rock Smash?"))
@@ -644,7 +644,7 @@ def pbStrength
   move = :STRENGTH
   movefinder = $player.get_pokemon_with_move(move)
   if !pbCheckHiddenMoveBadge(Settings::BADGE_FOR_STRENGTH, false) || (!$DEBUG && !movefinder)
-    pbMessage(_INTL("It's a big boulder, but a Pokémon may be able to push it aside."))
+    pbMessage(_INTL("It's a big boulder, but a Puppet may be able to push it aside."))
     return false
   end
   pbMessage(_INTL("It's a big boulder, but you may be able to push it aside with a hidden move.") + "\1")

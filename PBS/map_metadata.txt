@@ -829,3 +829,200 @@ Name = Kinkan Power Plant
 ShowArea = true
 MapPosition = 4,16,8
 Flags = KinkanIsland
+#-------------------------------
+[168] # Route 22
+Name = Route 22
+ShowArea = true
+MapPosition = 0,3,10
+#-------------------------------
+[133] # Pallet Town
+Name = Pallet Town
+ShowArea = true
+MapPosition = 0,5,13
+HealingSpot = 32,12,8
+#-------------------------------
+[134] # Pallet Town
+Name = Pallet Town
+ShowArea = true
+MapPosition = 0,5,13
+#-------------------------------
+[135] # Pallet Town
+Name = Pallet Town
+ShowArea = true
+MapPosition = 0,5,13
+#-------------------------------
+[145] # Viridian City
+Name = Viridian City
+ShowArea = true
+MapPosition = 0,5,10
+#-------------------------------
+[155] # Viridian City
+Name = Viridian City
+ShowArea = true
+MapPosition = 0,5,10
+HealingSpot = 42,26,27
+#-------------------------------
+[157] # Viridian City
+Name = Viridian City
+ShowArea = true
+MapPosition = 0,5,10
+#-------------------------------
+[169] # Viridian City
+Name = Viridian City
+ShowArea = true
+MapPosition = 0,5,10
+#-------------------------------
+[162] # Route 2
+Name = Route 2
+ShowArea = true
+MapPosition = 0,5,9
+Bicycle = true
+#-------------------------------
+[163] # Route 2
+Name = Route 2
+ShowArea = true
+MapPosition = 0,5,7
+Bicycle = true
+#-------------------------------
+[170] # Route 2
+Name = Route 2
+ShowArea = true
+MapPosition = 0,5,7
+#-------------------------------
+[171] # Route 2
+Name = Route 2
+ShowArea = true
+MapPosition = 0,5,8
+Bicycle = true
+#-------------------------------
+[080] # Route 23
+Name = Route 23
+ShowArea = true
+MapPosition = 0,3,7
+#-------------------------------
+[081] # Pewter City
+Name = Pewter City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,5,6
+BattleBack = field
+#-------------------------------
+[084] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+#-------------------------------
+[146] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+#-------------------------------
+[156] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+HealingSpot = 81,17,30
+#-------------------------------
+[172] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+#-------------------------------
+[173] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+#-------------------------------
+[174] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+#-------------------------------
+[175] # Pewter City
+Name = Pewter City
+ShowArea = true
+MapPosition = 0,5,6
+#-------------------------------
+[204] # Route 4
+Name = Route 4
+ShowArea = true
+MapPosition = 0,9,5
+HealingSpot = 83,12,6
+#-------------------------------
+[153] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[179] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[147] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[205] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+HealingSpot = 86,22,20
+#-------------------------------
+[210] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[211] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[212] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[213] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[214] # Cerulean City
+Name = Cerulean City
+ShowArea = true
+MapPosition = 0,15,5
+#-------------------------------
+[201] # Route 25
+Name = Route 25
+ShowArea = true
+MapPosition = 0,17,3
+#-------------------------------
+[180] # Route 5
+Name = Route 5
+ShowArea = true
+MapPosition = 0,15,7
+Bicycle = true
+#-------------------------------
+[206] # Route 5
+Name = Route 5
+ShowArea = true
+MapPosition = 0,15,7
+#-------------------------------
+[207] # Underground Path
+Name = Underground Path
+ShowArea = true
+MapPosition = 0,15,7
+#-------------------------------
+[208] # Route 5
+Name = Route 5
+ShowArea = true
+MapPosition = 0,15,9
+Bicycle = true
+#-------------------------------
+[209] # Route 5
+Name = Route 5
+ShowArea = true
+MapPosition = 0,15,9

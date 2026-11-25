@@ -2907,7 +2907,7 @@ Description = One of a variety of mysterious Mega Stones. Have Diancie hold it, 
 [REDORB]
 Name = Red Orb
 NamePlural = Red Orbs
-Pocket = 1
+Pocket = 8
 Price = 10000
 SellPrice = 0
 BPPrice = 50
@@ -2916,7 +2916,7 @@ Description = A shiny red orb that is said to have a legend tied to it. It's kno
 [BLUEORB]
 Name = Blue Orb
 NamePlural = Blue Orbs
-Pocket = 1
+Pocket = 8
 Price = 10000
 SellPrice = 0
 BPPrice = 50
@@ -6061,3 +6061,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = The ticket required for sailing on the ferry S.S. Anne. It has a drawing of a ship on it.
+#-------------------------------
+[BIKEVOUCHER]
+Name = Bike Voucher
+NamePlural = Bike Vouchers
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = Take this voucher to the Bike Shop in Cerulean City and exchange it for a bicycle.

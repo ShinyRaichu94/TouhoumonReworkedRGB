@@ -314,6 +314,8 @@ BattleBGM = Touhou Judgment in the 60th Year - Fate of 60 Years.ogg
 Name = Rocket Boss
 Gender = Male
 BaseMoney = 100
+BattleBGM = Sun Worship of Gnosis - Nuclear Fusion.ogg
+Flags = Giovanni
 #-------------------------------
 [LEADER_Brock]
 Name = Gym Leader

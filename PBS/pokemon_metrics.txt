@@ -107,6 +107,408 @@ FrontSprite = -3,2
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
+[CLILYWHITE]
+BackSprite = 0,-5
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[LILYWHITE]
+BackSprite = 0,-5
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ALILYWHITE]
+BackSprite = 0,-5
+FrontSprite = 0,-7
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[HLILYWHITE]
+BackSprite = 0,-5
+FrontSprite = 5,-3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CLILYBLACK]
+BackSprite = 0,-5
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[LILYBLACK]
+BackSprite = 0,-5
+FrontSprite = 0,-2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ALILYBLACK]
+BackSprite = 0,-5
+FrontSprite = 0,-4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SLILYBLACK]
+BackSprite = 0,-5
+FrontSprite = 0,-9
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CSUNNY]
+BackSprite = 0,-5
+FrontSprite = 1,7
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SUNNY]
+BackSprite = 0,-5
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ASUNNY]
+BackSprite = 0,-5
+FrontSprite = 0,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DSUNNY]
+BackSprite = 0,-5
+FrontSprite = 2,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CTEWI]
+BackSprite = 0,-5
+FrontSprite = -1,9
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[TEWI]
+BackSprite = 0,-5
+FrontSprite = 1,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ATEWI]
+BackSprite = 0,-5
+FrontSprite = 1,1
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[DTEWI]
+BackSprite = 0,-5
+FrontSprite = -1,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[ADTEWI]
+BackSprite = 0,-5
+FrontSprite = 2,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CYUUKA]
+BackSprite = 0,-5
+FrontSprite = -2,6
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[YUUKA]
+BackSprite = 0,-5
+FrontSprite = 4,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[AYUUKA]
+BackSprite = 0,-5
+FrontSprite = -2,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[TYUUKA]
+BackSprite = 0,-5
+FrontSprite = -5,5
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CSHIZUHA]
+BackSprite = 0,-5
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SHIZUHA]
+BackSprite = 0,-5
+FrontSprite = 0,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SSHIZUHA]
+BackSprite = 0,-5
+FrontSprite = 2,5
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[HSHIZUHA]
+BackSprite = 0,-5
+FrontSprite = 1,7
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CMINORIKO]
+BackSprite = 0,-5
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[MINORIKO]
+BackSprite = 0,-5
+FrontSprite = 0,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[AMINORIKO]
+BackSprite = 0,-5
+FrontSprite = -3,4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DMINORIKO]
+BackSprite = 0,-5
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[AKISISTERS]
+BackSprite = 0,-5
+FrontSprite = 1,5
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CHINA]
+BackSprite = 0,-5
+FrontSprite = 0,5
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[HINA]
+BackSprite = 0,-5
+FrontSprite = -3,1
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[AHINA]
+BackSprite = 0,-5
+FrontSprite = -5,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DHINA]
+BackSprite = 0,-5
+FrontSprite = 5,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CNITORI]
+BackSprite = 0,-5
+FrontSprite = -1,8
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[NITORI]
+BackSprite = 0,-5
+FrontSprite = 0,3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ANITORI]
+BackSprite = 0,-5
+FrontSprite = 0,-3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TNITORI]
+BackSprite = 0,-5
+FrontSprite = 0,5
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CSUWAKO]
+BackSprite = 0,-5
+FrontSprite = -1,9
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SUWAKO]
+BackSprite = 0,-5
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[ASUWAKO]
+BackSprite = 0,-5
+FrontSprite = 2,4
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[DSUWAKO]
+BackSprite = 0,-5
+FrontSprite = 1,8
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CKISUME]
+BackSprite = 0,-5
+FrontSprite = 0,23
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[KISUME]
+BackSprite = 0,-5
+FrontSprite = -1,1
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[TKISUME]
+BackSprite = 0,-5
+FrontSprite = -2,1
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CYAMAME]
+BackSprite = 0,-5
+FrontSprite = 0,11
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[YAMAME]
+BackSprite = 0,-5
+FrontSprite = -2,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SYAMAME]
+BackSprite = 0,-5
+FrontSprite = -3,9
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[TYAMAME]
+BackSprite = 0,-5
+FrontSprite = 0,-24
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CPARSEE]
+BackSprite = 0,-5
+FrontSprite = 0,5
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[PARSEE]
+BackSprite = 0,-5
+FrontSprite = 2,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[DPARSEE]
+BackSprite = 0,-5
+FrontSprite = 0,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[TPARSEE]
+BackSprite = 0,-5
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CKOGASA]
+BackSprite = 0,-5
+FrontSprite = -3,6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[KOGASA]
+BackSprite = 0,-5
+FrontSprite = 3,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[SKOGASA]
+BackSprite = 0,-5
+FrontSprite = 0,2
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[TKOGASA]
+BackSprite = 0,-5
+FrontSprite = 0,-3
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CKYOUKO]
+BackSprite = 0,-5
+FrontSprite = 0,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[KYOUKO]
+BackSprite = 0,-5
+FrontSprite = -2,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CYOSHIKA]
+BackSprite = 0,-5
+FrontSprite = 0,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[YOSHIKA]
+BackSprite = 0,-5
+FrontSprite = 1,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[CTOJIKO]
+BackSprite = 0,-5
+FrontSprite = 0,-6
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[TOJIKO]
+BackSprite = 0,-5
+FrontSprite = 5,-4
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CMAMIZOU]
+BackSprite = 0,-5
+FrontSprite = 0,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[MAMIZOU]
+BackSprite = 0,-5
+FrontSprite = -1,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CRIKA]
+BackSprite = 0,-5
+FrontSprite = -2,8
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[RIKA]
+BackSprite = 0,-5
+FrontSprite = 2,-7
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
 [CCHIYURI]
 BackSprite = 0,-5
 FrontSprite = -1,5
@@ -131,8 +533,68 @@ FrontSprite = 0,7
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
+[CSARA]
+BackSprite = 0,-5
+FrontSprite = -3,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SARA]
+BackSprite = 0,-5
+FrontSprite = -4,0
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CYUKI]
+BackSprite = 0,-5
+FrontSprite = -4,2
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[YUKI]
+BackSprite = 0,-5
+FrontSprite = -3,3
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[CYUMEKO]
+BackSprite = 0,-5
+FrontSprite = -2,3
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[YUMEKO]
+BackSprite = 0,-5
+FrontSprite = -5,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CSHINKI]
+BackSprite = 0,-5
+FrontSprite = -2,-10
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[SHINKI]
+BackSprite = 0,-5
+FrontSprite = 4,1
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
 [FAIRY]
 BackSprite = 0,-5
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[XSUWAKO]
+BackSprite = 0,-5
+FrontSprite = -4,4
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[XUTSUHO]
+BackSprite = 0,-5
+FrontSprite = -4,3
+ShadowX = 0
+ShadowSize = 3
